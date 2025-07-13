@@ -29,8 +29,8 @@
 	const DEBUGCOLORMAIN_UPDATESCREEN   ; 1
 	const DEBUGCOLORMAIN_UPDATEPALETTES ; 2
 	const DEBUGCOLORMAIN_JOYPAD         ; 3
-	const DEBUGCOLORMAIN_INITTMHM       ; 4
-	const DEBUGCOLORMAIN_TMHMJOYPAD     ; 5
+	const DEBUGCOLORMAIN_INITTM
+	const DEBUGCOLORMAIN_TMJOYPAD
 
 DebugColorPicker: ; unreferenced
 ; A debug menu to test monster and trainer palettes at runtime.
@@ -236,7 +236,7 @@ INCLUDE "gfx/debug/ob.pal"
 DebugColorMain:
 	call JoyTextDelay
 	ld a, [wJumptableIndex]
-	cp DEBUGCOLORMAIN_INITTMHM
+	cp DEBUGCOLORMAIN_INITTM
 	jr nc, .no_start_select
 	ld hl, hJoyLast
 	ld a, [hl]
@@ -293,8 +293,8 @@ DebugColorMain:
 	dw DebugColor_UpdateScreen
 	dw DebugColor_UpdatePalettes
 	dw DebugColor_Joypad
-	dw DebugColor_InitTMHM
-	dw DebugColor_TMHMJoypad
+	dw DebugColor_InitTM
+	dw DebugColor_TMJoypad
 
 DebugColor_InitScreen:
 	xor a
@@ -547,7 +547,7 @@ DebugColor_PrintHexColor:
 DebugColor_Joypad:
 	ldh a, [hJoyLast]
 	and PAD_B
-	jr nz, .tmhm
+	jr nz, .tm
 	ldh a, [hJoyLast]
 	and PAD_A
 	jr nz, .toggle_shiny
@@ -564,9 +564,9 @@ DebugColor_Joypad:
 	ld l, a
 	jp hl
 
-.tmhm
-; Enter the TM/HM checker.
-	ld a, DEBUGCOLORMAIN_INITTMHM
+.tm
+; Enter the TM checker.
+	ld a, DEBUGCOLORMAIN_INITTM
 	ld [wJumptableIndex], a
 	ret
 
@@ -690,7 +690,7 @@ DebugColor_NextRGBColor:
 	inc [hl]
 	ret
 
-DebugColor_InitTMHM:
+DebugColor_InitTM:
 	hlcoord 0, 10
 	ld bc, SCREEN_WIDTH * 8
 	ld a, DEBUGTEST_BLACK
@@ -699,13 +699,13 @@ DebugColor_InitTMHM:
 	ld de, DebugColor_AreYouFinishedString
 	call PlaceString
 	xor a
-	ld [wDebugColorCurTMHM], a
-	call DebugColor_PrintTMHMMove
-	ld a, DEBUGCOLORMAIN_TMHMJOYPAD
+	ld [wDebugColorCurTM], a
+	call DebugColor_PrintTMMove
+	ld a, DEBUGCOLORMAIN_TMJOYPAD
 	ld [wJumptableIndex], a
 	ret
 
-DebugColor_TMHMJoypad:
+DebugColor_TMJoypad:
 	ld hl, hJoyPressed
 	ld a, [hl]
 	and PAD_B
@@ -734,8 +734,8 @@ DebugColor_TMHMJoypad:
 	ret
 
 .up
-	ld a, [wDebugColorCurTMHM]
-	cp NUM_TM_HM_TUTOR - 1
+	ld a, [wDebugColorCurTM]
+	cp NUM_TM_TUTOR - 1
 	jr z, .wrap_down
 	inc a
 	jr .done
@@ -745,21 +745,21 @@ DebugColor_TMHMJoypad:
 	jr .done
 
 .down
-	ld a, [wDebugColorCurTMHM]
+	ld a, [wDebugColorCurTM]
 	and a
 	jr z, .wrap_up
 	dec a
 	jr .done
 
 .wrap_up
-	ld a, NUM_TM_HM_TUTOR - 1
+	ld a, NUM_TM_TUTOR - 1
 
 .done
-	ld [wDebugColorCurTMHM], a
-	call DebugColor_PrintTMHMMove
+	ld [wDebugColorCurTM], a
+	call DebugColor_PrintTMMove
 	ret
 
-DebugColor_PrintTMHMMove:
+DebugColor_PrintTMMove:
 	hlcoord 10, 11
 	call .ClearRow
 	hlcoord 10, 12
@@ -769,20 +769,20 @@ DebugColor_PrintTMHMMove:
 	hlcoord 10, 14
 	call .ClearRow
 
-	ld a, [wDebugColorCurTMHM]
+	ld a, [wDebugColorCurTM]
 	inc a
-	ld [wTempTMHM], a
-	predef GetTMHMMove
-	ld a, [wTempTMHM]
-	ld [wPutativeTMHMMove], a
+	ld [wTempTM], a
+	predef GetTMMove
+	ld a, [wTempTM]
+	ld [wPutativeTMMove], a
 	call GetMoveName
 	hlcoord 10, 12
 	call PlaceString
 
-	ld a, [wDebugColorCurTMHM]
-	call .GetNumberedTMHM
+	ld a, [wDebugColorCurTM]
+	call .GetNumberedTM
 	ld [wCurItem], a
-	predef CanLearnTMHMMove
+	predef CanLearnTMMove
 	ld a, c
 	and a
 	ld de, .AbleText
@@ -799,7 +799,7 @@ DebugColor_PrintTMHMMove:
 .NotAbleText:
 	db "おぼえられない@" ; Not learnable
 
-.GetNumberedTMHM:
+.GetNumberedTM:
 	cp NUM_TMS
 	jr c, .tm
 ; hm - skip two gap items

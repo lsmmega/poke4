@@ -64,7 +64,7 @@ SproutTower3FRivalScene:
 SageLiScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_HM05_FLASH
+	checkevent EVENT_GOT_TM55_FLASH
 	iftrue .GotFlash
 	writetext SageLiSeenText
 	waitbutton
@@ -76,8 +76,8 @@ SageLiScript:
 	opentext
 	writetext SageLiTakeThisFlashText
 	promptbutton
-	verbosegiveitem HM_FLASH
-	setevent EVENT_GOT_HM05_FLASH
+	verbosegiveitem TM_FLASH
+	setevent EVENT_GOT_TM55_FLASH
 	setevent EVENT_BEAT_SAGE_LI
 	writetext SageLiFlashExplanationText
 	waitbutton
@@ -157,7 +157,7 @@ SproutTowerElderLecturesRivalText:
 	cont "trainer."
 
 	para "As promised, here"
-	line "is your HM."
+	line "is your TM."
 
 	para "But let me say"
 	line "this: You should"
@@ -238,7 +238,7 @@ SageLiTakeThisFlashText:
 	line "this move."
 
 	para "Take this FLASH"
-	line "HM."
+	line "TM."
 	done
 
 SageLiFlashExplanationText:
@@ -299,7 +299,7 @@ SageTroyAfterBattleText:
 	done
 
 SageNealSeenText:
-	text "The ELDER's HM"
+	text "The ELDER's TM"
 	line "lights even pitch-"
 	cont "black darkness."
 	done
@@ -345,10 +345,10 @@ SproutTower3F_MapEvents:
 	bg_event 14, 15, BGEVENT_READ, SproutTower3FStatue
 
 	def_object_events
-	object_event  8, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSageJin, -1
-	object_event  8,  8, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerSageTroy, -1
+	object_event  8, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerSageJin, -1
+	object_event  8,  8, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerSageTroy, -1
 	object_event 10,  2, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SageLiScript, -1
-	object_event 11, 11, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSageNeal, -1
+	object_event 11, 11, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerSageNeal, -1
 	object_event  6, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SproutTower3FPotion, EVENT_SPROUT_TOWER_3F_POTION
 	object_event 14,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SproutTower3FEscapeRope, EVENT_SPROUT_TOWER_3F_ESCAPE_ROPE
 	object_event 10,  4, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_SPROUT_TOWER

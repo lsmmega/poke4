@@ -164,15 +164,15 @@ GetItemName::
 	call GetName
 	jr .Copied
 .TM:
-	call GetTMHMName
+	call GetTMName
 .Copied:
 	ld de, wStringBuffer1
 	pop bc
 	pop hl
 	ret
 
-GetTMHMName::
-; Get TM/HM name for item wNamedObjectIndex.
+GetTMName::
+; Get TM name for item wNamedObjectIndex.
 
 	push hl
 	push de
@@ -180,16 +180,7 @@ GetTMHMName::
 	ld a, [wNamedObjectIndex]
 	push af
 
-; TM/HM prefix
-	cp HM01
-	push af
-	jr c, .TM
-
-	ld hl, .HMText
-	ld bc, .HMTextEnd - .HMText
-	jr .copy
-
-.TM:
+; TM prefix
 	ld hl, .TMText
 	ld bc, .TMTextEnd - .TMText
 
@@ -197,19 +188,14 @@ GetTMHMName::
 	ld de, wStringBuffer1
 	call CopyBytes
 
-; TM/HM number
+; TM number
 	push de
 	ld a, [wNamedObjectIndex]
 	ld c, a
-	callfar GetTMHMNumber
+	callfar GetTMNumber
 	pop de
 
-; HM numbers start from 51, not 1
-	pop af
 	ld a, c
-	jr c, .not_hm
-	sub NUM_TMS
-.not_hm
 
 ; Divide and mod by 10 to get the top and bottom digits respectively
 	ld b, "0"
@@ -247,13 +233,6 @@ GetTMHMName::
 	db "TM"
 .TMTextEnd:
 	db "@"
-
-.HMText:
-	db "HM"
-.HMTextEnd:
-	db "@"
-
-INCLUDE "home/hm_moves.asm"
 
 GetMoveName::
 	push hl

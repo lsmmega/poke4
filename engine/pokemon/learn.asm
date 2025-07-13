@@ -57,7 +57,7 @@ LearnMove:
 	pop hl
 
 .learn
-	ld a, [wPutativeTMHMMove]
+	ld a, [wPutativeTMMove]
 	ld [hl], a
 	ld bc, MON_PP - MON_MOVES
 	add hl, bc
@@ -169,7 +169,7 @@ ForgetMove:
 	call SafeLoadTempTilemapToTilemap
 	pop af
 	pop hl
-	bit B_PAD_B, a
+	bit B_BUTTON_F, a
 	jr nz, .cancel
 	push hl
 	ld a, [wMenuCursorY]
@@ -179,22 +179,12 @@ ForgetMove:
 	add hl, bc
 	ld a, [hl]
 	push af
-	push bc
-	call IsHMMove
-	pop bc
 	pop de
 	ld a, d
-	jr c, .hmmove
 	pop hl
 	add hl, bc
 	and a
 	ret
-
-.hmmove
-	ld hl, MoveCantForgetHMText
-	call PrintText
-	pop hl
-	jr .loop
 
 .cancel
 	scf
@@ -232,8 +222,4 @@ Text_1_2_and_Poof:
 
 .MoveForgotText:
 	text_far _MoveForgotText
-	text_end
-
-MoveCantForgetHMText:
-	text_far _MoveCantForgetHMText
 	text_end

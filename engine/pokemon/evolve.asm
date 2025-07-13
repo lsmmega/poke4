@@ -461,7 +461,7 @@ LearnLevelMoves:
 
 .learn
 	ld a, d
-	ld [wPutativeTMHMMove], a
+	ld [wPutativeTMMove], a
 	ld [wNamedObjectIndex], a
 	call GetMoveName
 	call CopyName1
