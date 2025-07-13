@@ -457,7 +457,7 @@ SpecialMapMusic::
 	jr nz, .no
 
 .ranking
-	ld de, MUSIC_BUG_CATCHING_CONTEST_RANKING
+	ld de, MUSIC_NONE
 	scf
 	ret
 

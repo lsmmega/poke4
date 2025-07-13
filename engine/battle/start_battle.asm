@@ -60,7 +60,7 @@ PlayBattleMusic:
 
 	ld a, [wBattleType]
 	cp BATTLETYPE_SUICUNE
-	ld de, MUSIC_SUICUNE_BATTLE
+	ld de, MUSIC_MESPRIT_BATTLE
 	jp z, .done
 	cp BATTLETYPE_ROAMING
 	jp z, .done
@@ -70,20 +70,7 @@ PlayBattleMusic:
 	and a
 	jr nz, .trainermusic
 
-	farcall RegionCheck
-	ld a, e
-	and a
-	jr nz, .kantowild
-
-	ld de, MUSIC_JOHTO_WILD_BATTLE
-	ld a, [wTimeOfDay]
-	cp NITE_F
-	jr nz, .done
-	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
-	jr .done
-
-.kantowild
-	ld de, MUSIC_KANTO_WILD_BATTLE
+	ld de, MUSIC_WILD_BATTLE
 	jr .done
 
 .trainermusic
@@ -94,19 +81,15 @@ PlayBattleMusic:
 	jr z, .done
 
 ; BUG: Team Rocket battle music is not used for Executives or Scientists (see docs/bugs_and_glitches.md)
-	ld de, MUSIC_ROCKET_BATTLE
+	ld de, MUSIC_GALACTIC_BATTLE
 	cp GRUNTM
 	jr z, .done
 	cp GRUNTF
 	jr z, .done
 
-	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
-	farcall IsKantoGymLeader
-	jr c, .done
-
 	; IsGymLeader also counts CHAMPION, RED, and the Kanto gym leaders
 	; but they have been taken care of before this
-	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_GYM_LEADER_BATTLE
 	farcall IsGymLeader
 	jr c, .done
 
@@ -124,21 +107,7 @@ PlayBattleMusic:
 	jr .done
 
 .othertrainer
-	ld a, [wLinkMode]
-	and a
-	jr nz, .johtotrainer
-
-	farcall RegionCheck
-	ld a, e
-	and a
-	jr nz, .kantotrainer
-
-.johtotrainer
-	ld de, MUSIC_JOHTO_TRAINER_BATTLE
-	jr .done
-
-.kantotrainer
-	ld de, MUSIC_KANTO_TRAINER_BATTLE
+	ld de, MUSIC_TRAINER_BATTLE
 
 .done
 	call PlayMusic

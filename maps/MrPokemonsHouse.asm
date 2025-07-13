@@ -82,7 +82,7 @@ MrPokemonsHouse_MrPokemonScript:
 	end
 
 MrPokemonsHouse_OakScript:
-	playmusic MUSIC_PROF_OAK
+	playmusic MUSIC_NONE
 	applymovement MRPOKEMONSHOUSE_OAK, MrPokemonsHouse_OakWalksToPlayer
 	turnobject PLAYER, RIGHT
 	opentext
