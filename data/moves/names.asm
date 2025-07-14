@@ -1,5 +1,6 @@
 MoveNames::
 	list_start
+;1
 	li "POUND"
 	li "KARATE CHOP"
 	li "DOUBLESLAP"
@@ -165,6 +166,7 @@ MoveNames::
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "STRUGGLE"
+;2
 	li "SKETCH"
 	li "TRIPLE KICK"
 	li "THIEF"
@@ -251,4 +253,6 @@ MoveNames::
 	li "ROCK SMASH"
 	li "WHIRLPOOL"
 	li "BEAT UP"
+;3
+	li "Dragon Claw"
 	assert_list_length NUM_ATTACKS
