@@ -250,7 +250,7 @@ MoveNames::
 	li "ANCIENTPOWER"
 	li "SHADOW BALL"
 	li "FUTURE SIGHT"
-	li "ROCK SMASH"
+	li "Rock Smash"
 	li "WHIRLPOOL"
 	li "BEAT UP"
 ;3
