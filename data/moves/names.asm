@@ -92,7 +92,7 @@ MoveNames::
 	li "EARTHQUAKE"
 	li "FISSURE"
 	li "DIG"
-	li "TOXIC"
+	li "Toxic"
 	li "CONFUSION"
 	li "PSYCHIC"
 	li "HYPNOSIS"
