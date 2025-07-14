@@ -225,7 +225,6 @@ DEF TM01 EQU const_value
 	add_tm ROAR         ; c4
 	add_tm TOXIC        ; c5
 	add_tm ZAP_CANNON   ; c6
-	add_tm PSYCH_UP     ; c8
 	add_tm HIDDEN_POWER ; c9
 	add_tm SUNNY_DAY    ; ca
 	add_tm SWEET_SCENT  ; cb
@@ -268,6 +267,7 @@ DEF TM01 EQU const_value
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2
+	add_tm PSYCH_UP
 	add_tm CUT          ; f3
 	add_tm FLY          ; f4
 	add_tm SURF         ; f5

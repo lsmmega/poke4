@@ -245,7 +245,7 @@ MoveNames::
 	li "SUNNY DAY"
 	li "CRUNCH"
 	li "MIRROR COAT"
-	li "PSYCH UP"
+	li "Psych Up"
 	li "EXTREMESPEED"
 	li "ANCIENTPOWER"
 	li "SHADOW BALL"
