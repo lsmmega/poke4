@@ -1249,7 +1249,7 @@ GastlyEvosAttacks:
 	db 1, LICK
 	db 8, SPITE
 	db 13, MEAN_LOOK
-	db 16, CURSE
+	db 20, CURSE
 	db 21, NIGHT_SHADE
 	db 28, CONFUSE_RAY
 	db 33, DREAM_EATER
@@ -1264,7 +1264,7 @@ HaunterEvosAttacks:
 	db 1, SPITE
 	db 8, SPITE
 	db 13, MEAN_LOOK
-	db 16, CURSE
+	db 20, CURSE
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
@@ -1278,7 +1278,7 @@ GengarEvosAttacks:
 	db 1, SPITE
 	db 8, SPITE
 	db 13, MEAN_LOOK
-	db 16, CURSE
+	db 20, CURSE
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
@@ -1292,6 +1292,7 @@ OnixEvosAttacks:
 	db 1, SCREECH
 	db 10, BIND
 	db 14, ROCK_THROW
+	db 16, CURSE
 	db 23, HARDEN
 	db 27, RAGE
 	db 36, SANDSTORM
@@ -2802,6 +2803,7 @@ SteelixEvosAttacks:
 	db 1, SCREECH
 	db 10, BIND
 	db 14, ROCK_THROW
+	db 16, CURSE
 	db 23, HARDEN
 	db 27, RAGE
 	db 36, SANDSTORM
