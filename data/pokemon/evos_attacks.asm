@@ -408,6 +408,7 @@ NidoranFEvosAttacks:
 	db 23, TAIL_WHIP
 	db 30, BITE
 	db 38, FURY_SWIPES
+	db 40, TOXIC
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
@@ -421,13 +422,15 @@ NidorinaEvosAttacks:
 	db 27, TAIL_WHIP
 	db 36, BITE
 	db 46, FURY_SWIPES
+	db 50, TOXIC
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SCRATCH
 	db 1, DOUBLE_KICK
+	db 1, TOXIC
+	db 1, SCRATCH
 	db 1, TAIL_WHIP
 	db 23, BODY_SLAM
 	db 0 ; no more level-up moves
@@ -443,6 +446,7 @@ NidoranMEvosAttacks:
 	db 23, FOCUS_ENERGY
 	db 30, FURY_ATTACK
 	db 38, HORN_DRILL
+	db 40, TOXIC
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
@@ -456,13 +460,15 @@ NidorinoEvosAttacks:
 	db 27, FOCUS_ENERGY
 	db 36, FURY_ATTACK
 	db 46, HORN_DRILL
+	db 50, TOXIC
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, HORN_ATTACK
 	db 1, DOUBLE_KICK
+	db 1, HORN_ATTACK
+	db 1, TOXIC
 	db 1, POISON_STING
 	db 23, THRASH
 	db 0 ; no more level-up moves
@@ -568,6 +574,7 @@ OddishEvosAttacks:
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
 	db 23, ACID
+	db 24, TOXIC
 	db 32, MOONLIGHT
 	db 39, PETAL_DANCE
 	db 0 ; no more level-up moves
@@ -584,16 +591,18 @@ GloomEvosAttacks:
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
 	db 24, ACID
+	db 26, TOXIC
 	db 35, MOONLIGHT
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, STUN_SPORE
+	db 1, TOXIC
+	db 1, PETAL_DANCE
 	db 1, ABSORB
 	db 1, SWEET_SCENT
-	db 1, STUN_SPORE
-	db 1, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -1493,6 +1502,7 @@ KoffingEvosAttacks:
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
 	db 33, HAZE
+	db 36, TOXIC
 	db 41, EXPLOSION
 	db 45, DESTINY_BOND
 	db 0 ; no more level-up moves
@@ -1508,6 +1518,7 @@ WeezingEvosAttacks:
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
 	db 33, HAZE
+	db 38, TOXIC
 	db 44, EXPLOSION
 	db 51, DESTINY_BOND
 	db 0 ; no more level-up moves
@@ -2320,9 +2331,10 @@ AriadosEvosAttacks:
 
 CrobatEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TOXIC
 	db 1, SCREECH
-	db 1, LEECH_LIFE
 	db 1, SUPERSONIC
+	db 1, LEECH_LIFE
 	db 6, SUPERSONIC
 	db 12, BITE
 	db 19, CONFUSE_RAY
@@ -2477,10 +2489,11 @@ AmpharosEvosAttacks:
 
 BellossomEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, STUN_SPORE
+	db 1, TOXIC
+	db 1, PETAL_DANCE
 	db 1, ABSORB
 	db 1, SWEET_SCENT
-	db 1, STUN_SPORE
-	db 1, PETAL_DANCE
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -2638,6 +2651,7 @@ WooperEvosAttacks:
 	db 11, SLAM
 	db 21, AMNESIA
 	db 31, EARTHQUAKE
+	db 36, TOXIC
 	db 41, RAIN_DANCE
 	db 51, MIST
 	db 51, HAZE
@@ -2650,6 +2664,7 @@ QuagsireEvosAttacks:
 	db 11, SLAM
 	db 23, AMNESIA
 	db 35, EARTHQUAKE
+	db 46, TOXIC
 	db 47, RAIN_DANCE
 	db 59, MIST
 	db 59, HAZE
@@ -2851,6 +2866,7 @@ QwilfishEvosAttacks:
 	db 28, PIN_MISSILE
 	db 37, TAKE_DOWN
 	db 46, HYDRO_PUMP
+	db 52, TOXIC
 	db 0 ; no more level-up moves
 
 ScizorEvosAttacks:
