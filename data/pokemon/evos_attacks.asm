@@ -124,6 +124,7 @@ SquirtleEvosAttacks:
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
+	db 15, WATER_PULSE
 	db 18, BITE
 	db 23, RAPID_SPIN
 	db 28, PROTECT
@@ -142,6 +143,7 @@ WartortleEvosAttacks:
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
+	db 15, WATER_PULSE
 	db 19, BITE
 	db 25, RAPID_SPIN
 	db 31, PROTECT
@@ -160,6 +162,7 @@ BlastoiseEvosAttacks:
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
+	db 15, WATER_PULSE
 	db 19, BITE
 	db 25, RAPID_SPIN
 	db 31, PROTECT
@@ -714,6 +717,7 @@ PsyduckEvosAttacks:
 	db 1, SCRATCH
 	db 5, TAIL_WHIP
 	db 10, DISABLE
+	db 12, WATER_PULSE
 	db 16, CONFUSION
 	db 23, SCREECH
 	db 31, PSYCH_UP
@@ -729,6 +733,7 @@ GolduckEvosAttacks:
 	db 1, CONFUSION
 	db 5, TAIL_WHIP
 	db 10, DISABLE
+	db 12, WATER_PULSE
 	db 16, CONFUSION
 	db 23, SCREECH
 	db 31, PSYCH_UP
@@ -956,6 +961,7 @@ TentacoolEvosAttacks:
 	db 1, POISON_STING
 	db 6, SUPERSONIC
 	db 12, CONSTRICT
+	db 16, WATER_PULSE
 	db 19, ACID
 	db 25, BUBBLEBEAM
 	db 30, WRAP
@@ -971,6 +977,7 @@ TentacruelEvosAttacks:
 	db 1, CONSTRICT
 	db 6, SUPERSONIC
 	db 12, CONSTRICT
+	db 16, WATER_PULSE
 	db 19, ACID
 	db 25, BUBBLEBEAM
 	db 30, WRAP
@@ -1064,6 +1071,7 @@ SlowpokeEvosAttacks:
 	db 1, TACKLE
 	db 6, GROWL
 	db 15, WATER_GUN
+	db 18, WATER_PULSE
 	db 20, CONFUSION
 	db 29, DISABLE
 	db 34, HEADBUTT
@@ -1079,6 +1087,7 @@ SlowbroEvosAttacks:
 	db 1, WATER_GUN
 	db 6, GROWL
 	db 15, WATER_GUN
+	db 18, WATER_PULSE
 	db 20, CONFUSION
 	db 29, DISABLE
 	db 34, HEADBUTT
@@ -1607,6 +1616,7 @@ GoldeenEvosAttacks:
 	db 1, PECK
 	db 1, TAIL_WHIP
 	db 10, SUPERSONIC
+	db 10, WATER_PULSE
 	db 15, HORN_ATTACK
 	db 24, FLAIL
 	db 29, FURY_ATTACK
@@ -1620,6 +1630,7 @@ SeakingEvosAttacks:
 	db 1, PECK
 	db 1, TAIL_WHIP
 	db 1, TAIL_WHIP
+	db 1, WATER_PULSE
 	db 10, SUPERSONIC
 	db 15, HORN_ATTACK
 	db 24, FLAIL
@@ -1782,6 +1793,7 @@ LaprasEvosAttacks:
 	db 15, BODY_SLAM
 	db 22, CONFUSE_RAY
 	db 29, PERISH_SONG
+	db 30, WATER_PULSE
 	db 36, ICE_BEAM
 	db 43, RAIN_DANCE
 	db 50, SAFEGUARD
@@ -1817,6 +1829,7 @@ VaporeonEvosAttacks:
 	db 8, SAND_ATTACK
 	db 16, WATER_GUN
 	db 23, QUICK_ATTACK
+	db 25, WATER_PULSE
 	db 30, BITE
 	db 36, AURORA_BEAM
 	db 42, HAZE
@@ -2686,6 +2699,7 @@ SlowkingEvosAttacks:
 	db 1, TACKLE
 	db 6, GROWL
 	db 15, WATER_GUN
+	db 18, WATER_PULSE
 	db 20, CONFUSION
 	db 29, DISABLE
 	db 34, HEADBUTT
@@ -2986,6 +3000,7 @@ RemoraidEvosAttacks:
 	db EVOLVE_LEVEL, 25, OCTILLERY
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
+	db 4, WATER_PULSE
 	db 11, LOCK_ON
 	db 22, PSYBEAM
 	db 22, AURORA_BEAM
@@ -2998,6 +3013,7 @@ RemoraidEvosAttacks:
 OctilleryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
+	db 1, WATER_PULSE
 	db 11, CONSTRICT
 	db 22, PSYBEAM
 	db 22, AURORA_BEAM
@@ -3018,6 +3034,7 @@ MantineEvosAttacks:
 	db 1, TACKLE
 	db 1, BUBBLE
 	db 10, SUPERSONIC
+	db 12, WATER_PULSE
 	db 18, BUBBLEBEAM
 	db 25, TAKE_DOWN
 	db 32, AGILITY
@@ -3260,6 +3277,7 @@ SuicuneEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER
+	db 6, WATER_PULSE
 	db 11, BUBBLEBEAM
 	db 21, RAIN_DANCE
 	db 31, GUST

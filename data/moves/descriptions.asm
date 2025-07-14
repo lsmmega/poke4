@@ -256,14 +256,15 @@ MoveDescriptions::
 	dw BeatUpDescription
 ;3
 	dw DragonClawDescription
+	dw WaterPulseDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
 DragonClawDescription:
+WaterPulseDescription:
 MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:

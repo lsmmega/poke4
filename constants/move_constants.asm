@@ -261,6 +261,7 @@
 	const BEAT_UP      ; fb
 ;3
 	const DRAGON_CLAW
+	const WATER_PULSE
 DEF NUM_ATTACKS EQU const_value - 1
 
 DEF CANNOT_MOVE EQU $ff

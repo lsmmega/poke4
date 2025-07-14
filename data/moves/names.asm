@@ -255,4 +255,5 @@ MoveNames::
 	li "BEAT UP"
 ;3
 	li "Dragon Claw"
+	li "Water Pulse"
 	assert_list_length NUM_ATTACKS

@@ -219,7 +219,7 @@ ENDM
 DEF TM01 EQU const_value
 	add_tm DYNAMICPUNCH ; bf
 	add_tm DRAGON_CLAW
-	add_tm CURSE        ; c1
+	add_tm WATER_PULSE
 	add_tm ROLLOUT      ; c2
 	const ITEM_C3       ; c3
 	add_tm ROAR         ; c4

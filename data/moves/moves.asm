@@ -269,4 +269,5 @@ Moves:
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0
 ;3
 	move DRAGON_CLAW,  EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
+	move WATER_PULSE,  EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20
 	assert_table_length NUM_ATTACKS

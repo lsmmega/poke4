@@ -257,8 +257,8 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 ;3
 	dw BattleAnim_DragonClaw
+	dw BattleAnim_WaterPulse
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
@@ -288,6 +288,7 @@ BattleAnimations::
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
 BattleAnim_DragonClaw:
+BattleAnim_WaterPulse:
 BattleAnim_Dummy:
 BattleAnim_MirrorMove:
 	anim_ret
