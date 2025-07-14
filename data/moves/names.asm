@@ -242,7 +242,7 @@ MoveNames::
 	li "CROSS CHOP"
 	li "TWISTER"
 	li "RAIN DANCE"
-	li "SUNNY DAY"
+	li "Sunny Day"
 	li "CRUNCH"
 	li "MIRROR COAT"
 	li "Psych Up"

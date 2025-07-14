@@ -1748,9 +1748,9 @@ MagmarEvosAttacks:
 	db 13, SMOG
 	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
-	db 33, SUNNY_DAY
 	db 41, FLAMETHROWER
 	db 49, CONFUSE_RAY
+	db 52, SUNNY_DAY
 	db 57, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -2007,6 +2007,7 @@ MoltresEvosAttacks:
 	db 25, AGILITY
 	db 37, ENDURE
 	db 49, FLAMETHROWER
+	db 50, SUNNY_DAY
 	db 61, SAFEGUARD
 	db 73, SKY_ATTACK
 	db 0 ; no more level-up moves
@@ -2620,8 +2621,8 @@ SunkernEvosAttacks:
 	db 1, ABSORB
 	db 4, GROWTH
 	db 10, MEGA_DRAIN
-	db 19, SUNNY_DAY
 	db 31, SYNTHESIS
+	db 40, SUNNY_DAY
 	db 46, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
@@ -2631,9 +2632,9 @@ SunfloraEvosAttacks:
 	db 1, POUND
 	db 4, GROWTH
 	db 10, RAZOR_LEAF
-	db 19, SUNNY_DAY
 	db 25, BULLET_SEED
 	db 31, PETAL_DANCE
+	db 40, SUNNY_DAY
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -3244,9 +3245,9 @@ MagbyEvosAttacks:
 	db 13, SMOG
 	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
-	db 31, SUNNY_DAY
 	db 37, FLAMETHROWER
 	db 43, CONFUSE_RAY
+	db 44, SUNNY_DAY
 	db 49, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3302,6 +3303,7 @@ EnteiEvosAttacks:
 	db 41, STOMP
 	db 51, FLAMETHROWER
 	db 61, SWAGGER
+	db 66, SUNNY_DAY
 	db 71, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3389,7 +3391,7 @@ HoOhEvosAttacks:
 	db 22, GUST
 	db 33, RECOVER
 	db 44, FIRE_BLAST
-	db 55, SUNNY_DAY
+	db 63, SUNNY_DAY
 	db 66, SWIFT
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER
