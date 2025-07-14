@@ -2,7 +2,6 @@ DEF ROUTE39FARMHOUSE_MILK_PRICE EQU 500
 
 	object_const_def
 	const ROUTE39FARMHOUSE_POKEFAN_M
-	const ROUTE39FARMHOUSE_POKEFAN_F
 
 Route39Farmhouse_MapScripts:
 	def_scene_scripts
@@ -62,31 +61,6 @@ FarmerMScript_NoSale:
 FarmerMScript_Milking:
 	writetext FarmerMText_Milking
 	waitbutton
-	closetext
-	end
-
-PokefanF_SnoreFarmer:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
-	iftrue FarmerFScript_GotSnore
-	checkevent EVENT_HEALED_MOOMOO
-	iftrue FarmerFScript_GiveSnore
-	writetext FarmerFText_InTrouble
-	waitbutton
-	closetext
-	end
-
-FarmerFScript_GiveSnore:
-	writetext FarmerFText_HealedMiltank
-	promptbutton
-	verbosegiveitem TM_SNORE
-	iffalse FarmerFScript_NoRoomForSnore
-	setevent EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
-FarmerFScript_GotSnore:
-	writetext FarmerFText_SnoreSpeech
-	waitbutton
-FarmerFScript_NoRoomForSnore:
 	closetext
 	end
 
@@ -172,26 +146,6 @@ FarmerFText_HealedMiltank:
 	line "fer your trouble."
 	done
 
-Text_ReceivedTM13: ; unreferenced
-	text "<PLAYER> received"
-	line "TM13."
-	done
-
-FarmerFText_SnoreSpeech:
-	text "That there's"
-	line "SNORE."
-
-	para "It's a rare move"
-	line "that only works"
-
-	para "while the #MON"
-	line "is asleep."
-
-	para "You best think how"
-	line "you ought to use"
-	cont "it, hon."
-	done
-
 Route39Farmhouse_MapEvents:
 	db 0, 0 ; filler
 
@@ -207,4 +161,3 @@ Route39Farmhouse_MapEvents:
 
 	def_object_events
 	object_event  3,  2, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PokefanM_DairyFarmer, -1
-	object_event  5,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PokefanF_SnoreFarmer, -1

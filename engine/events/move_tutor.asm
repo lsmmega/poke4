@@ -39,8 +39,6 @@ MoveTutor:
 	jr z, .flamethrower
 	cp MOVETUTOR_THUNDERBOLT
 	jr z, .thunderbolt
-	; MOVETUTOR_ICE_BEAM
-	ld a, MT03_MOVE ; ICE_BEAM
 	ret
 
 .flamethrower

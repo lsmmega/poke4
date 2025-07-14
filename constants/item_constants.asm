@@ -228,7 +228,7 @@ DEF TM01 EQU const_value
 	add_tm BULLET_SEED
 	add_tm SUNNY_DAY    ; ca
 	add_tm SWEET_SCENT  ; cb
-	add_tm SNORE        ; cc
+	add_tm ICE_BEAM
 	add_tm BLIZZARD     ; cd
 	add_tm HYPER_BEAM   ; ce
 	add_tm ICY_WIND     ; cf
@@ -290,7 +290,6 @@ ENDM
 DEF MT01 EQU const_value
 	add_mt FLAMETHROWER
 	add_mt THUNDERBOLT
-	add_mt ICE_BEAM
 DEF NUM_TUTORS = __tm_value__ - NUM_TMS - 1
 
 DEF NUM_TM_TUTOR EQU NUM_TMS + NUM_TUTORS

@@ -174,7 +174,7 @@ MoveNames::
 	li "MIND READER"
 	li "NIGHTMARE"
 	li "FLAME WHEEL"
-	li "SNORE"
+	li "Snore"
 	li "Curse"
 	li "FLAIL"
 	li "CONVERSION2"

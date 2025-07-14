@@ -1967,8 +1967,8 @@ SnorlaxEvosAttacks:
 	db 1, TACKLE
 	db 8, AMNESIA
 	db 15, DEFENSE_CURL
+	db 20, SNORE
 	db 22, BELLY_DRUM
-	db 36, SNORE
 	db 36, REST
 	db 43, BODY_SLAM
 	db 50, ROLLOUT
