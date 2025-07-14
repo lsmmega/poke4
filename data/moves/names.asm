@@ -58,7 +58,7 @@ MoveNames::
 	li "WATER GUN"
 	li "HYDRO PUMP"
 	li "SURF"
-	li "ICE BEAM"
+	li "Ice Beam"
 	li "BLIZZARD"
 	li "PSYBEAM"
 	li "BUBBLEBEAM"

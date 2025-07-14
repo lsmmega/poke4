@@ -1183,7 +1183,7 @@ SeelEvosAttacks:
 	db 16, AURORA_BEAM
 	db 21, REST
 	db 32, TAKE_DOWN
-	db 37, ICE_BEAM
+	db 47, ICE_BEAM
 	db 48, SAFEGUARD
 	db 0 ; no more level-up moves
 
@@ -1196,7 +1196,7 @@ DewgongEvosAttacks:
 	db 16, AURORA_BEAM
 	db 21, REST
 	db 32, TAKE_DOWN
-	db 43, ICE_BEAM
+	db 55, ICE_BEAM
 	db 60, SAFEGUARD
 	db 0 ; no more level-up moves
 
@@ -1238,16 +1238,17 @@ ShellderEvosAttacks:
 	db 17, AURORA_BEAM
 	db 25, PROTECT
 	db 33, LEER
+	db 40, ICE_BEAM
 	db 41, CLAMP
-	db 49, ICE_BEAM
 	db 0 ; no more level-up moves
 
 CloysterEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WITHDRAW
 	db 1, SUPERSONIC
 	db 1, AURORA_BEAM
 	db 1, PROTECT
+	db 1, ICE_BEAM
+	db 1, WITHDRAW
 	db 33, SPIKES
 	db 41, SPIKE_CANNON
 	db 0 ; no more level-up moves
@@ -1809,8 +1810,8 @@ LaprasEvosAttacks:
 	db 22, CONFUSE_RAY
 	db 29, PERISH_SONG
 	db 30, WATER_PULSE
-	db 36, ICE_BEAM
 	db 43, RAIN_DANCE
+	db 45, ICE_BEAM
 	db 50, SAFEGUARD
 	db 57, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1982,7 +1983,7 @@ ArticunoEvosAttacks:
 	db 13, MIST
 	db 25, AGILITY
 	db 37, MIND_READER
-	db 49, ICE_BEAM
+	db 45, ICE_BEAM
 	db 61, REFLECT
 	db 73, BLIZZARD
 	db 0 ; no more level-up moves
@@ -3034,8 +3035,8 @@ RemoraidEvosAttacks:
 	db 22, AURORA_BEAM
 	db 22, BUBBLEBEAM
 	db 28, BULLET_SEED
+	db 32, ICE_BEAM
 	db 33, FOCUS_ENERGY
-	db 44, ICE_BEAM
 	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -3049,8 +3050,8 @@ OctilleryEvosAttacks:
 	db 22, BUBBLEBEAM
 	db 25, OCTAZOOKA
 	db 30, BULLET_SEED
+	db 36, ICE_BEAM
 	db 38, FOCUS_ENERGY
-	db 54, ICE_BEAM
 	db 70, HYPER_BEAM
 	db 0 ; no more level-up moves
 
