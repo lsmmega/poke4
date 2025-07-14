@@ -260,6 +260,7 @@
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
 ;3
+	const BULLET_SEED
 	const DRAGON_CLAW
 	const WATER_PULSE
 DEF NUM_ATTACKS EQU const_value - 1

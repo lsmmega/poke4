@@ -254,6 +254,7 @@ MoveNames::
 	li "WHIRLPOOL"
 	li "BEAT UP"
 ;3
+	li "Bullet Seed"
 	li "Dragon Claw"
 	li "Water Pulse"
 	assert_list_length NUM_ATTACKS

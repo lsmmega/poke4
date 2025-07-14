@@ -1406,6 +1406,7 @@ ExeggcuteEvosAttacks:
 	db 13, LEECH_SEED
 	db 19, CONFUSION
 	db 25, STUN_SPORE
+	db 30, BULLET_SEED
 	db 31, POISONPOWDER
 	db 37, SLEEP_POWDER
 	db 43, SOLARBEAM
@@ -1414,8 +1415,9 @@ ExeggcuteEvosAttacks:
 ExeggutorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BARRAGE
-	db 1, HYPNOSIS
+	db 1, BULLET_SEED
 	db 1, CONFUSION
+	db 1, HYPNOSIS
 	db 19, STOMP
 	db 31, EGG_BOMB
 	db 0 ; no more level-up moves
@@ -2557,6 +2559,7 @@ HoppipEvosAttacks:
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
+	db 19, BULLET_SEED
 	db 20, LEECH_SEED
 	db 25, COTTON_SPORE
 	db 30, MEGA_DRAIN
@@ -2575,6 +2578,7 @@ SkiploomEvosAttacks:
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
+	db 20, BULLET_SEED
 	db 22, LEECH_SEED
 	db 29, COTTON_SPORE
 	db 36, MEGA_DRAIN
@@ -2592,6 +2596,7 @@ JumpluffEvosAttacks:
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
+	db 20, BULLET_SEED
 	db 22, LEECH_SEED
 	db 33, COTTON_SPORE
 	db 44, MEGA_DRAIN
@@ -2627,6 +2632,7 @@ SunfloraEvosAttacks:
 	db 4, GROWTH
 	db 10, RAZOR_LEAF
 	db 19, SUNNY_DAY
+	db 25, BULLET_SEED
 	db 31, PETAL_DANCE
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -3026,6 +3032,7 @@ RemoraidEvosAttacks:
 	db 22, PSYBEAM
 	db 22, AURORA_BEAM
 	db 22, BUBBLEBEAM
+	db 28, BULLET_SEED
 	db 33, FOCUS_ENERGY
 	db 44, ICE_BEAM
 	db 55, HYPER_BEAM
@@ -3040,6 +3047,7 @@ OctilleryEvosAttacks:
 	db 22, AURORA_BEAM
 	db 22, BUBBLEBEAM
 	db 25, OCTAZOOKA
+	db 30, BULLET_SEED
 	db 38, FOCUS_ENERGY
 	db 54, ICE_BEAM
 	db 70, HYPER_BEAM
@@ -3052,6 +3060,7 @@ DelibirdEvosAttacks:
 
 MantineEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, BULLET_SEED
 	db 1, TACKLE
 	db 1, BUBBLE
 	db 10, SUPERSONIC

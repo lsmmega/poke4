@@ -255,14 +255,15 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 ;3
+	dw BulletSeedDescription
 	dw DragonClawDescription
 	dw WaterPulseDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
+BulletSeedDescription:
 DragonClawDescription:
 WaterPulseDescription:
 MoveFDDescription:

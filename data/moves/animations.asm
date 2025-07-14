@@ -256,10 +256,10 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 ;3
+	dw BattleAnim_BulletSeed
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_WaterPulse
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -287,6 +287,7 @@ BattleAnimations::
 	dw BattleAnim_HitConfusion
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
+BattleAnim_BulletSeed:
 BattleAnim_DragonClaw:
 BattleAnim_WaterPulse:
 BattleAnim_Dummy:

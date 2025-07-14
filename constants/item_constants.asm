@@ -221,11 +221,11 @@ DEF TM01 EQU const_value
 	add_tm DRAGON_CLAW
 	add_tm WATER_PULSE
 	add_tm ROLLOUT      ; c2
-	const ITEM_C3       ; c3
 	add_tm ROAR         ; c4
 	add_tm TOXIC        ; c5
 	add_tm ZAP_CANNON   ; c6
 	add_tm HIDDEN_POWER ; c9
+	add_tm BULLET_SEED
 	add_tm SUNNY_DAY    ; ca
 	add_tm SWEET_SCENT  ; cb
 	add_tm SNORE        ; cc
