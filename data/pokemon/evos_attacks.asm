@@ -496,7 +496,6 @@ VulpixEvosAttacks:
 	db 1, EMBER
 	db 1, TAIL_WHIP
 	db 7, QUICK_ATTACK
-	db 13, ROAR
 	db 19, CONFUSE_RAY
 	db 25, SAFEGUARD
 	db 31, FLAMETHROWER
@@ -777,12 +776,12 @@ GrowlitheEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
 	db 0 ; no more evolutions
 	db 1, BITE
-	db 1, ROAR
 	db 9, EMBER
 	db 18, LEER
 	db 26, TAKE_DOWN
 	db 34, FLAME_WHEEL
 	db 42, AGILITY
+	db 44, ROAR
 	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
@@ -1941,6 +1940,7 @@ AerodactylEvosAttacks:
 	db 8, AGILITY
 	db 15, BITE
 	db 22, SUPERSONIC
+	db 25, ROAR
 	db 29, ANCIENTPOWER
 	db 36, SCARY_FACE
 	db 43, TAKE_DOWN
@@ -2821,7 +2821,7 @@ SnubbullEvosAttacks:
 	db 13, BITE
 	db 19, LICK
 	db 19, HEADBUTT
-	db 26, ROAR
+	db 25, ROAR
 	db 34, RAGE
 	db 43, TAKE_DOWN
 	db 0 ; no more level-up moves
@@ -2835,7 +2835,7 @@ GranbullEvosAttacks:
 	db 13, BITE
 	db 19, LICK
 	db 19, HEADBUTT
-	db 28, ROAR
+	db 27, ROAR
 	db 38, RAGE
 	db 51, TAKE_DOWN
 	db 0 ; no more level-up moves
@@ -3062,7 +3062,7 @@ HoundourEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, EMBER
-	db 7, ROAR
+	db 13, ROAR
 	db 13, SMOG
 	db 20, BITE
 	db 27, FAINT_ATTACK
@@ -3074,7 +3074,7 @@ HoundoomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, EMBER
-	db 7, ROAR
+	db 13, ROAR
 	db 13, SMOG
 	db 20, BITE
 	db 30, FAINT_ATTACK
@@ -3257,7 +3257,7 @@ RaikouEvosAttacks:
 	db 1, BITE
 	db 1, LEER
 	db 11, THUNDERSHOCK
-	db 21, ROAR
+	db 24, ROAR
 	db 31, QUICK_ATTACK
 	db 41, SPARK
 	db 51, REFLECT
@@ -3270,7 +3270,7 @@ EnteiEvosAttacks:
 	db 1, BITE
 	db 1, LEER
 	db 11, EMBER
-	db 21, ROAR
+	db 24, ROAR
 	db 31, FIRE_SPIN
 	db 41, STOMP
 	db 51, FLAMETHROWER
@@ -3285,6 +3285,7 @@ SuicuneEvosAttacks:
 	db 6, WATER_PULSE
 	db 11, BUBBLEBEAM
 	db 21, RAIN_DANCE
+	db 24, ROAR
 	db 31, GUST
 	db 41, AURORA_BEAM
 	db 51, MIST
