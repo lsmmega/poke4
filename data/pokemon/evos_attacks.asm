@@ -1073,8 +1073,8 @@ SlowpokeEvosAttacks:
 	db 15, WATER_GUN
 	db 18, WATER_PULSE
 	db 20, CONFUSION
+	db 21, HEADBUTT
 	db 29, DISABLE
-	db 34, HEADBUTT
 	db 43, AMNESIA
 	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -1089,8 +1089,8 @@ SlowbroEvosAttacks:
 	db 15, WATER_GUN
 	db 18, WATER_PULSE
 	db 20, CONFUSION
+	db 21, HEADBUTT
 	db 29, DISABLE
-	db 34, HEADBUTT
 	db 37, WITHDRAW
 	db 46, AMNESIA
 	db 54, PSYCHIC_M
@@ -1304,8 +1304,8 @@ DrowzeeEvosAttacks:
 	db 1, POUND
 	db 1, HYPNOSIS
 	db 10, DISABLE
+	db 13, HEADBUTT
 	db 18, CONFUSION
-	db 25, HEADBUTT
 	db 31, POISON_GAS
 	db 36, MEDITATE
 	db 40, PSYCHIC_M
@@ -1320,8 +1320,8 @@ HypnoEvosAttacks:
 	db 1, DISABLE
 	db 1, CONFUSION
 	db 10, DISABLE
+	db 13, HEADBUTT
 	db 18, CONFUSION
-	db 25, HEADBUTT
 	db 33, POISON_GAS
 	db 40, MEDITATE
 	db 49, PSYCHIC_M
@@ -1415,7 +1415,7 @@ CuboneEvosAttacks:
 	db 1, GROWL
 	db 5, TAIL_WHIP
 	db 9, BONE_CLUB
-	db 13, HEADBUTT
+	db 12, HEADBUTT
 	db 17, LEER
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
@@ -1430,10 +1430,9 @@ MarowakEvosAttacks:
 	db 1, GROWL
 	db 1, TAIL_WHIP
 	db 1, BONE_CLUB
-	db 1, HEADBUTT
 	db 5, TAIL_WHIP
 	db 9, BONE_CLUB
-	db 13, HEADBUTT
+	db 12, HEADBUTT
 	db 17, LEER
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
@@ -1576,6 +1575,7 @@ KangaskhanEvosAttacks:
 	db 7, LEER
 	db 13, BITE
 	db 19, TAIL_WHIP
+	db 24, HEADBUTT
 	db 25, MEGA_PUNCH
 	db 31, RAGE
 	db 37, ENDURE
@@ -1952,7 +1952,6 @@ SnorlaxEvosAttacks:
 	db 8, AMNESIA
 	db 15, DEFENSE_CURL
 	db 22, BELLY_DRUM
-	db 29, HEADBUTT
 	db 36, SNORE
 	db 36, REST
 	db 43, BODY_SLAM
@@ -2701,8 +2700,8 @@ SlowkingEvosAttacks:
 	db 15, WATER_GUN
 	db 18, WATER_PULSE
 	db 20, CONFUSION
+	db 21, HEADBUTT
 	db 29, DISABLE
-	db 34, HEADBUTT
 	db 43, SWAGGER
 	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -2819,6 +2818,7 @@ SnubbullEvosAttacks:
 	db 8, CHARM
 	db 13, BITE
 	db 19, LICK
+	db 19, HEADBUTT
 	db 26, ROAR
 	db 34, RAGE
 	db 43, TAKE_DOWN
@@ -2832,6 +2832,7 @@ GranbullEvosAttacks:
 	db 8, CHARM
 	db 13, BITE
 	db 19, LICK
+	db 19, HEADBUTT
 	db 28, ROAR
 	db 38, RAGE
 	db 51, TAKE_DOWN
@@ -3037,6 +3038,7 @@ MantineEvosAttacks:
 	db 12, WATER_PULSE
 	db 18, BUBBLEBEAM
 	db 25, TAKE_DOWN
+	db 28, HEADBUTT
 	db 32, AGILITY
 	db 40, WING_ATTACK
 	db 49, CONFUSE_RAY
@@ -3226,6 +3228,7 @@ MiltankEvosAttacks:
 	db 8, DEFENSE_CURL
 	db 13, STOMP
 	db 19, MILK_DRINK
+	db 25, HEADBUTT
 	db 26, BIDE
 	db 34, ROLLOUT
 	db 43, BODY_SLAM
