@@ -68,7 +68,6 @@ MoveTutorScript:
 	closewindow
 	ifequal MOVETUTOR_FLAMETHROWER, .Flamethrower
 	ifequal MOVETUTOR_THUNDERBOLT, .Thunderbolt
-	ifequal MOVETUTOR_ICE_BEAM, .IceBeam
 	sjump .Incompatible
 
 .Flamethrower:
@@ -80,13 +79,6 @@ MoveTutorScript:
 
 .Thunderbolt:
 	setval MOVETUTOR_THUNDERBOLT
-	writetext GoldenrodCityMoveTutorMoveText
-	special MoveTutor
-	ifequal FALSE, .TeachMove
-	sjump .Incompatible
-
-.IceBeam:
-	setval MOVETUTOR_ICE_BEAM
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
