@@ -231,7 +231,7 @@ MoveNames::
 	li "PURSUIT"
 	li "RAPID SPIN"
 	li "SWEET SCENT"
-	li "IRON TAIL"
+	li "Iron Tail"
 	li "METAL CLAW"
 	li "VITAL THROW"
 	li "MORNING SUN"

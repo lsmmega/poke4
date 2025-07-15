@@ -1316,6 +1316,7 @@ OnixEvosAttacks:
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
+	db 48, IRON_TAIL
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -2857,6 +2858,7 @@ SteelixEvosAttacks:
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
+	db 48, IRON_TAIL
 	db 49, CRUNCH
 	db 0 ; no more level-up moves
 
