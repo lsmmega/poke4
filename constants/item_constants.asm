@@ -231,7 +231,7 @@ DEF TM01 EQU const_value
 	add_tm ICE_BEAM
 	add_tm BLIZZARD     ; cd
 	add_tm HYPER_BEAM   ; ce
-	add_tm ICY_WIND     ; cf
+	add_tm LIGHT_SCREEN
 	add_tm PROTECT      ; d0
 	add_tm RAIN_DANCE   ; d1
 	add_tm GIGA_DRAIN   ; d2

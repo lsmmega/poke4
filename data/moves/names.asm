@@ -113,7 +113,7 @@ MoveNames::
 	li "WITHDRAW"
 	li "DEFENSE CURL"
 	li "BARRIER"
-	li "LIGHT SCREEN"
+	li "Light Screen"
 	li "HAZE"
 	li "REFLECT"
 	li "FOCUS ENERGY"
