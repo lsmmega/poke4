@@ -41,7 +41,8 @@ GoldenrodDeptStore5FReceptionistScript:
 	promptbutton
 	ifgreater 150 - 1, .VeryHappy
 	ifgreater 50 - 1, .SomewhatHappy
-	sjump .NotVeryHappy
+	closetext
+	end
 
 .VeryHappy:
 	writetext GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText
@@ -56,16 +57,6 @@ GoldenrodDeptStore5FReceptionistScript:
 .SomewhatHappy:
 	writetext GoldenrodDeptStore5FReceptionistItsAdorableText
 	waitbutton
-	closetext
-	end
-
-.NotVeryHappy:
-	writetext GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText
-	promptbutton
-	checkitem TM_FRUSTRATION
-	iftrue .AlreadyGotTM
-	verbosegiveitem TM_FRUSTRATION
-	setflag ENGINE_GOLDENROD_DEPT_STORE_TM27_RETURN
 	closetext
 	end
 
@@ -138,12 +129,6 @@ GoldenrodDeptStore5FReceptionistItsAdorableText:
 
 	para "You should teach"
 	line "it good TM moves."
-	done
-
-GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
 	done
 
 GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:

@@ -220,7 +220,6 @@ MoveDescriptions::
 	dw HealBellDescription
 	dw ReturnDescription
 	dw PresentDescription
-	dw FrustrationDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
 	dw SacredFireDescription
@@ -259,6 +258,7 @@ MoveDescriptions::
 	dw DragonClawDescription
 	dw WaterPulseDescription
 	assert_table_length NUM_ATTACKS
+	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
@@ -266,7 +266,6 @@ MoveDescriptions::
 BulletSeedDescription:
 DragonClawDescription:
 WaterPulseDescription:
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1139,10 +1138,6 @@ ReturnDescription:
 PresentDescription:
 	db   "A bomb that may"
 	next "restore HP.@"
-
-FrustrationDescription:
-	db   "An attack based on"
-	next "lack of loyalty.@"
 
 SafeguardDescription:
 	db   "Prevents all"

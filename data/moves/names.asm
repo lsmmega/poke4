@@ -219,7 +219,6 @@ MoveNames::
 	li "HEAL BELL"
 	li "RETURN"
 	li "PRESENT"
-	li "FRUSTRATION"
 	li "Safeguard"
 	li "PAIN SPLIT"
 	li "SACRED FIRE"
