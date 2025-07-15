@@ -257,8 +257,9 @@ MoveDescriptions::
 	dw BulletSeedDescription
 	dw DragonClawDescription
 	dw WaterPulseDescription
+;6
+	dw DazzlingGleamDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
@@ -266,7 +267,7 @@ MoveDescriptions::
 BulletSeedDescription:
 DragonClawDescription:
 WaterPulseDescription:
-MoveFEDescription:
+DazzlingGleamDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"

@@ -256,4 +256,6 @@ MoveNames::
 	li "Bullet Seed"
 	li "Dragon Claw"
 	li "Water Pulse"
+;6
+	li "DazzlinGleam"
 	assert_list_length NUM_ATTACKS

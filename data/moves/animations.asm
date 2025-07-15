@@ -258,9 +258,11 @@ BattleAnimations::
 	dw BattleAnim_BulletSeed
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_WaterPulse
+;6
+	dw BattleAnim_DazzlingGleam
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $ff
+	assert_table_length $100
 ; $100
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -289,6 +291,7 @@ BattleAnimations::
 BattleAnim_BulletSeed:
 BattleAnim_DragonClaw:
 BattleAnim_WaterPulse:
+BattleAnim_DazzlingGleam:
 BattleAnim_Dummy:
 BattleAnim_MirrorMove:
 	anim_ret

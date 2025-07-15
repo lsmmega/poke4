@@ -262,12 +262,14 @@
 	const BULLET_SEED
 	const DRAGON_CLAW
 	const WATER_PULSE
+;6
+	const DAZZLING_GLEAM
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $fe
+DEF CANNOT_MOVE EQU $ff
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $fe
+	const_next $ff
 	const ANIM_SWEET_SCENT_2     ; ff
 	const ANIM_THROW_POKE_BALL   ; 100
 	const ANIM_SEND_OUT_MON      ; 101

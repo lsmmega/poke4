@@ -1707,6 +1707,7 @@ MrMimeEvosAttacks:
 	db 36, LIGHT_SCREEN
 	db 36, SAFEGUARD
 	db 41, BATON_PASS
+	db 44, DAZZLING_GLEAM
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
