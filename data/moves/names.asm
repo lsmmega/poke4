@@ -63,7 +63,7 @@ MoveNames::
 	li "PSYBEAM"
 	li "BUBBLEBEAM"
 	li "AURORA BEAM"
-	li "HYPER BEAM"
+	li "Hyper Beam"
 	li "PECK"
 	li "DRILL PECK"
 	li "SUBMISSION"

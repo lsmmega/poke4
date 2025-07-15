@@ -1753,6 +1753,7 @@ MagmarEvosAttacks:
 	db 49, CONFUSE_RAY
 	db 52, SUNNY_DAY
 	db 57, FIRE_BLAST
+	db 64, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:
@@ -1797,7 +1798,7 @@ GyaradosEvosAttacks:
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
 	db 45, RAIN_DANCE
-	db 50, HYPER_BEAM
+	db 52, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LaprasEvosAttacks:
@@ -1960,7 +1961,7 @@ AerodactylEvosAttacks:
 	db 29, ANCIENTPOWER
 	db 36, SCARY_FACE
 	db 43, TAKE_DOWN
-	db 50, HYPER_BEAM
+	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 SnorlaxEvosAttacks:
@@ -1973,7 +1974,6 @@ SnorlaxEvosAttacks:
 	db 36, REST
 	db 43, BODY_SLAM
 	db 50, ROLLOUT
-	db 57, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 ArticunoEvosAttacks:
@@ -2025,7 +2025,7 @@ DratiniEvosAttacks:
 	db 36, AGILITY
 	db 43, SAFEGUARD
 	db 50, OUTRAGE
-	db 57, HYPER_BEAM
+	db 60, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DragonairEvosAttacks:
@@ -2042,7 +2042,7 @@ DragonairEvosAttacks:
 	db 38, AGILITY
 	db 47, SAFEGUARD
 	db 56, OUTRAGE
-	db 65, HYPER_BEAM
+	db 74, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DragoniteEvosAttacks:
@@ -2059,7 +2059,7 @@ DragoniteEvosAttacks:
 	db 47, SAFEGUARD
 	db 55, WING_ATTACK
 	db 61, OUTRAGE
-	db 75, HYPER_BEAM
+	db 80, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 MewtwoEvosAttacks:
@@ -3037,7 +3037,7 @@ RemoraidEvosAttacks:
 	db 28, BULLET_SEED
 	db 32, ICE_BEAM
 	db 33, FOCUS_ENERGY
-	db 55, HYPER_BEAM
+	db 44, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 OctilleryEvosAttacks:
@@ -3052,7 +3052,7 @@ OctilleryEvosAttacks:
 	db 30, BULLET_SEED
 	db 36, ICE_BEAM
 	db 38, FOCUS_ENERGY
-	db 70, HYPER_BEAM
+	db 54, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DelibirdEvosAttacks:
@@ -3162,6 +3162,7 @@ Porygon2EvosAttacks:
 	db 32, LOCK_ON
 	db 36, TRI_ATTACK
 	db 44, ZAP_CANNON
+	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 StantlerEvosAttacks:
@@ -3333,9 +3334,9 @@ LarvitarEvosAttacks:
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 36, SCARY_FACE
+	db 42, HYPER_BEAM
 	db 43, CRUNCH
 	db 50, EARTHQUAKE
-	db 57, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 PupitarEvosAttacks:
@@ -3351,8 +3352,8 @@ PupitarEvosAttacks:
 	db 29, THRASH
 	db 38, SCARY_FACE
 	db 47, CRUNCH
+	db 52, HYPER_BEAM
 	db 56, EARTHQUAKE
-	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 TyranitarEvosAttacks:
@@ -3367,8 +3368,8 @@ TyranitarEvosAttacks:
 	db 29, THRASH
 	db 38, SCARY_FACE
 	db 47, CRUNCH
+	db 52, HYPER_BEAM
 	db 61, EARTHQUAKE
-	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:
