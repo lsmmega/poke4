@@ -27,8 +27,8 @@ BulbasaurEvosAttacks:
 	db 20, RAZOR_LEAF
 	db 25, SWEET_SCENT
 	db 32, GROWTH
+	db 36, SOLARBEAM
 	db 39, SYNTHESIS
-	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
 IvysaurEvosAttacks:
@@ -46,7 +46,7 @@ IvysaurEvosAttacks:
 	db 29, SWEET_SCENT
 	db 38, GROWTH
 	db 47, SYNTHESIS
-	db 56, SOLARBEAM
+	db 50, SOLARBEAM
 	db 0 ; no more level-up moves
 
 VenusaurEvosAttacks:
@@ -64,7 +64,7 @@ VenusaurEvosAttacks:
 	db 29, SWEET_SCENT
 	db 41, GROWTH
 	db 53, SYNTHESIS
-	db 65, SOLARBEAM
+	db 58, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:
@@ -1419,7 +1419,7 @@ ExeggcuteEvosAttacks:
 	db 31, POISONPOWDER
 	db 35, GIGA_DRAIN
 	db 37, SLEEP_POWDER
-	db 43, SOLARBEAM
+	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
 ExeggutorEvosAttacks:
@@ -1428,6 +1428,7 @@ ExeggutorEvosAttacks:
 	db 1, CONFUSION
 	db 1, BULLET_SEED
 	db 1, GIGA_DRAIN
+	db 1, SOLARBEAM
 	db 1, HYPNOSIS
 	db 19, STOMP
 	db 31, EGG_BOMB
@@ -2114,7 +2115,7 @@ ChikoritaEvosAttacks:
 	db 29, BODY_SLAM
 	db 31, LIGHT_SCREEN
 	db 39, SAFEGUARD
-	db 50, SOLARBEAM
+	db 45, SOLARBEAM
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -2131,7 +2132,7 @@ BayleefEvosAttacks:
 	db 31, BODY_SLAM
 	db 36, LIGHT_SCREEN
 	db 46, SAFEGUARD
-	db 55, SOLARBEAM
+	db 54, SOLARBEAM
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -2147,7 +2148,7 @@ MeganiumEvosAttacks:
 	db 31, BODY_SLAM
 	db 40, LIGHT_SCREEN
 	db 54, SAFEGUARD
-	db 61, SOLARBEAM
+	db 66, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
@@ -2516,7 +2517,6 @@ BellossomEvosAttacks:
 	db 1, PETAL_DANCE
 	db 1, ABSORB
 	db 1, SWEET_SCENT
-	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
@@ -2645,6 +2645,7 @@ SunkernEvosAttacks:
 	db 10, MEGA_DRAIN
 	db 22, GIGA_DRAIN
 	db 31, SYNTHESIS
+	db 34, SOLARBEAM
 	db 40, SUNNY_DAY
 	db 0 ; no more level-up moves
 
@@ -2657,8 +2658,8 @@ SunfloraEvosAttacks:
 	db 22, GIGA_DRAIN
 	db 25, BULLET_SEED
 	db 31, PETAL_DANCE
+	db 34, SOLARBEAM
 	db 40, SUNNY_DAY
-	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
