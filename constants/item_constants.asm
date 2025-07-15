@@ -235,7 +235,7 @@ DEF TM01 EQU const_value
 	add_tm PROTECT      ; d0
 	add_tm RAIN_DANCE   ; d1
 	add_tm GIGA_DRAIN   ; d2
-	add_tm ENDURE       ; d3
+	add_tm SAFEGUARD
 	add_tm FRUSTRATION  ; d4
 	add_tm SOLARBEAM    ; d5
 	add_tm IRON_TAIL    ; d6
@@ -244,7 +244,6 @@ DEF TM01 EQU const_value
 	add_tm EARTHQUAKE   ; d9
 	add_tm RETURN       ; da
 	add_tm DIG          ; db
-	const ITEM_DC       ; dc
 	add_tm PSYCHIC_M    ; dd
 	add_tm SHADOW_BALL  ; de
 	add_tm MUD_SLAP     ; df
@@ -267,6 +266,7 @@ DEF TM01 EQU const_value
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2
+	add_tm ENDURE
 	add_tm PSYCH_UP
 	add_tm CUT          ; f3
 	add_tm FLY          ; f4

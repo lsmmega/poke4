@@ -219,7 +219,6 @@ ItemNames::
 	li "TM26"
 	li "TM27"
 	li "TM28"
-	li "TERU-SAMA"
 	li "TM29"
 	li "TM30"
 	li "TM31"
@@ -250,7 +249,8 @@ ItemNames::
 	li "TM56"
 	li "TM57"
 	li "TM58"
-	assert_list_length NUM_ITEMS + NUM_TMS + 1 ; count ITEM_DC
+	li "TM59"
+	assert_list_length NUM_ITEMS + NUM_TMS
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

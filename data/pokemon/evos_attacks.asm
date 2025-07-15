@@ -1471,12 +1471,12 @@ HitmonleeEvosAttacks:
 	db 1, DOUBLE_KICK
 	db 6, MEDITATE
 	db 11, ROLLING_KICK
+	db 12, ENDURE
 	db 16, JUMP_KICK
 	db 21, FOCUS_ENERGY
 	db 26, HI_JUMP_KICK
 	db 31, MIND_READER
 	db 36, FORESIGHT
-	db 41, ENDURE
 	db 46, MEGA_KICK
 	db 51, REVERSAL
 	db 0 ; no more level-up moves
@@ -1605,7 +1605,7 @@ KangaskhanEvosAttacks:
 	db 24, HEADBUTT
 	db 25, MEGA_PUNCH
 	db 31, RAGE
-	db 37, ENDURE
+	db 40, ENDURE
 	db 43, DIZZY_PUNCH
 	db 49, REVERSAL
 	db 0 ; no more level-up moves
@@ -1946,7 +1946,6 @@ KabutoEvosAttacks:
 	db 10, ABSORB
 	db 19, LEER
 	db 28, SAND_ATTACK
-	db 37, ENDURE
 	db 46, MEGA_DRAIN
 	db 55, ANCIENTPOWER
 	db 0 ; no more level-up moves
@@ -1959,7 +1958,6 @@ KabutopsEvosAttacks:
 	db 10, ABSORB
 	db 19, LEER
 	db 28, SAND_ATTACK
-	db 37, ENDURE
 	db 40, SLASH
 	db 51, MEGA_DRAIN
 	db 65, ANCIENTPOWER
@@ -2021,9 +2019,9 @@ MoltresEvosAttacks:
 	db 1, EMBER
 	db 13, FIRE_SPIN
 	db 25, AGILITY
-	db 37, ENDURE
 	db 49, FLAMETHROWER
 	db 50, SUNNY_DAY
+	db 60, ENDURE
 	db 61, SAFEGUARD
 	db 73, SKY_ATTACK
 	db 0 ; no more level-up moves
@@ -2934,7 +2932,7 @@ HeracrossEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER
 	db 6, HORN_ATTACK
-	db 12, ENDURE
+	db 10, ENDURE
 	db 19, FURY_ATTACK
 	db 27, COUNTER
 	db 35, TAKE_DOWN
@@ -3017,7 +3015,7 @@ SwinubEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 10, POWDER_SNOW
-	db 19, ENDURE
+	db 25, ENDURE
 	db 28, TAKE_DOWN
 	db 37, MIST
 	db 46, BLIZZARD
@@ -3028,9 +3026,8 @@ PiloswineEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HORN_ATTACK
 	db 1, POWDER_SNOW
-	db 1, ENDURE
 	db 10, POWDER_SNOW
-	db 19, ENDURE
+	db 25, ENDURE
 	db 28, TAKE_DOWN
 	db 33, FURY_ATTACK
 	db 42, MIST
@@ -3043,6 +3040,7 @@ CorsolaEvosAttacks:
 	db 1, TACKLE
 	db 7, HARDEN
 	db 13, BUBBLE
+	db 15, ENDURE
 	db 19, RECOVER
 	db 25, BUBBLEBEAM
 	db 31, SPIKE_CANNON
@@ -3158,14 +3156,15 @@ PhanpyEvosAttacks:
 	db 1, GROWL
 	db 9, DEFENSE_CURL
 	db 17, FLAIL
+	db 19, ENDURE
 	db 25, TAKE_DOWN
 	db 33, ROLLOUT
-	db 41, ENDURE
 	db 49, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 DonphanEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, ENDURE
 	db 1, HORN_ATTACK
 	db 1, GROWL
 	db 9, DEFENSE_CURL

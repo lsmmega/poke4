@@ -459,13 +459,6 @@ CheckTM:
 GetTMNumber::
 ; Return the number of a TM/HM by item id c.
 	ld a, c
-; Skip any dummy items.
-	cp ITEM_DC ; TM28-29
-	jr c, .skip
-	dec a
-.skip
-	dec a
-.done
 	sub TM01
 	inc a
 	ld c, a
@@ -474,14 +467,6 @@ GetTMNumber::
 GetNumberedTM:
 ; Return the item id of a TM/HM by number c.
 	ld a, c
-; Skip any gaps.
-	cp ITEM_DC - (TM01 - 1) - 1
-	jr c, .skip_one
-; skip two
-	inc a
-.skip_one
-	inc a
-.done
 	add TM01
 	dec a
 	ld c, a
