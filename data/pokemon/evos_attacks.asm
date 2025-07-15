@@ -358,16 +358,17 @@ PikachuEvosAttacks:
 	db 20, SLAM
 	db 26, THUNDERBOLT
 	db 33, AGILITY
+	db 40, LIGHT_SCREEN
 	db 41, THUNDER
-	db 50, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, THUNDERBOLT
+	db 1, LIGHT_SCREEN
 	db 1, THUNDERSHOCK
 	db 1, TAIL_WHIP
 	db 1, QUICK_ATTACK
-	db 1, THUNDERBOLT
 	db 0 ; no more level-up moves
 
 SandshrewEvosAttacks:
@@ -485,7 +486,6 @@ ClefairyEvosAttacks:
 	db 26, DEFENSE_CURL
 	db 34, METRONOME
 	db 43, MOONLIGHT
-	db 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 ClefableEvosAttacks:
@@ -1117,6 +1117,7 @@ MagnemiteEvosAttacks:
 	db 27, LOCK_ON
 	db 33, SWIFT
 	db 39, SCREECH
+	db 44, LIGHT_SCREEN
 	db 45, ZAP_CANNON
 	db 0 ; no more level-up moves
 
@@ -1133,6 +1134,7 @@ MagnetonEvosAttacks:
 	db 27, LOCK_ON
 	db 35, TRI_ATTACK
 	db 43, SCREECH
+	db 52, LIGHT_SCREEN
 	db 53, ZAP_CANNON
 	db 0 ; no more level-up moves
 
@@ -1376,7 +1378,7 @@ VoltorbEvosAttacks:
 	db 17, SONICBOOM
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
-	db 33, LIGHT_SCREEN
+	db 29, LIGHT_SCREEN
 	db 37, SWIFT
 	db 39, EXPLOSION
 	db 41, MIRROR_COAT
@@ -1392,7 +1394,7 @@ ElectrodeEvosAttacks:
 	db 17, SONICBOOM
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
-	db 34, LIGHT_SCREEN
+	db 29, LIGHT_SCREEN
 	db 40, SWIFT
 	db 44, EXPLOSION
 	db 48, MIRROR_COAT
@@ -1566,8 +1568,8 @@ ChanseyEvosAttacks:
 	db 23, MINIMIZE
 	db 29, SING
 	db 35, EGG_BOMB
+	db 36, LIGHT_SCREEN
 	db 41, DEFENSE_CURL
-	db 49, LIGHT_SCREEN
 	db 57, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1666,16 +1668,17 @@ StaryuEvosAttacks:
 	db 19, RECOVER
 	db 25, SWIFT
 	db 31, BUBBLEBEAM
+	db 32, LIGHT_SCREEN
 	db 37, MINIMIZE
-	db 43, LIGHT_SCREEN
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 StarmieEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
 	db 1, RAPID_SPIN
+	db 1, LIGHT_SCREEN
 	db 1, RECOVER
+	db 1, TACKLE
 	db 1, BUBBLEBEAM
 	db 37, CONFUSE_RAY
 	db 0 ; no more level-up moves
@@ -1687,10 +1690,10 @@ MrMimeEvosAttacks:
 	db 11, SUBSTITUTE
 	db 16, MEDITATE
 	db 21, DOUBLESLAP
-	db 26, LIGHT_SCREEN
 	db 26, REFLECT
 	db 31, ENCORE
 	db 36, PSYBEAM
+	db 36, LIGHT_SCREEN
 	db 41, BATON_PASS
 	db 46, SAFEGUARD
 	db 0 ; no more level-up moves
@@ -1732,10 +1735,10 @@ ElectabuzzEvosAttacks:
 	db 1, LEER
 	db 1, THUNDERPUNCH
 	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
 	db 25, SWIFT
 	db 36, SCREECH
 	db 47, THUNDERBOLT
+	db 52, LIGHT_SCREEN
 	db 58, THUNDER
 	db 0 ; no more level-up moves
 
@@ -1992,11 +1995,11 @@ ZapdosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, THUNDERSHOCK
+	db 10, LIGHT_SCREEN
 	db 13, THUNDER_WAVE
 	db 25, AGILITY
 	db 37, DETECT
 	db 49, DRILL_PECK
-	db 61, LIGHT_SCREEN
 	db 73, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2096,7 +2099,7 @@ ChikoritaEvosAttacks:
 	db 15, POISONPOWDER
 	db 22, SYNTHESIS
 	db 29, BODY_SLAM
-	db 36, LIGHT_SCREEN
+	db 31, LIGHT_SCREEN
 	db 43, SAFEGUARD
 	db 50, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -2113,7 +2116,7 @@ BayleefEvosAttacks:
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
-	db 39, LIGHT_SCREEN
+	db 36, LIGHT_SCREEN
 	db 47, SAFEGUARD
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -2129,7 +2132,7 @@ MeganiumEvosAttacks:
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
-	db 41, LIGHT_SCREEN
+	db 40, LIGHT_SCREEN
 	db 51, SAFEGUARD
 	db 61, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -2278,8 +2281,8 @@ LedybaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 8, SUPERSONIC
+	db 12, LIGHT_SCREEN
 	db 15, COMET_PUNCH
-	db 22, LIGHT_SCREEN
 	db 22, REFLECT
 	db 22, SAFEGUARD
 	db 29, BATON_PASS
@@ -2293,8 +2296,8 @@ LedianEvosAttacks:
 	db 1, TACKLE
 	db 1, SUPERSONIC
 	db 8, SUPERSONIC
+	db 12, LIGHT_SCREEN
 	db 15, COMET_PUNCH
-	db 24, LIGHT_SCREEN
 	db 24, REFLECT
 	db 24, SAFEGUARD
 	db 33, BATON_PASS
@@ -2461,8 +2464,8 @@ MareepEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 16, THUNDER_WAVE
 	db 23, COTTON_SPORE
-	db 30, LIGHT_SCREEN
 	db 37, THUNDER
+	db 43, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
@@ -2474,8 +2477,8 @@ FlaaffyEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
-	db 36, LIGHT_SCREEN
 	db 45, THUNDER
+	db 52, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
@@ -2488,8 +2491,8 @@ AmpharosEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
-	db 42, LIGHT_SCREEN
 	db 57, THUNDER
+	db 57, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
@@ -3232,10 +3235,10 @@ ElekidEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
 	db 25, SWIFT
 	db 33, SCREECH
 	db 41, THUNDERBOLT
+	db 44, LIGHT_SCREEN
 	db 49, THUNDER
 	db 0 ; no more level-up moves
 
@@ -3278,7 +3281,7 @@ BlisseyEvosAttacks:
 	db 23, SING
 	db 28, EGG_BOMB
 	db 33, DEFENSE_CURL
-	db 40, LIGHT_SCREEN
+	db 36, LIGHT_SCREEN
 	db 47, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 

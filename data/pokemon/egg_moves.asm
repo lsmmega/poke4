@@ -11,7 +11,6 @@ SECTION "Egg Moves", ROMX
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
-	db LIGHT_SCREEN
 	db SKULL_BASH
 	db SAFEGUARD
 	db RAZOR_WIND
@@ -124,7 +123,6 @@ ParasEggMoves:
 	db COUNTER
 	db PSYBEAM
 	db FLAIL
-	db LIGHT_SCREEN
 	db PURSUIT
 	db -1 ; end
 
@@ -153,7 +151,6 @@ PsyduckEggMoves:
 	db HYPNOSIS
 	db PSYBEAM
 	db FORESIGHT
-	db LIGHT_SCREEN
 	db FUTURE_SIGHT
 	db PSYCHIC_M
 	db CROSS_CHOP
@@ -185,13 +182,11 @@ PoliwagEggMoves:
 	db -1 ; end
 
 AbraEggMoves:
-	db LIGHT_SCREEN
 	db ENCORE
 	db BARRIER
 	db -1 ; end
 
 MachopEggMoves:
-	db LIGHT_SCREEN
 	db MEDITATE
 	db ROLLING_KICK
 	db ENCORE
@@ -285,7 +280,6 @@ OnixEggMoves:
 	db -1 ; end
 
 DrowzeeEggMoves:
-	db LIGHT_SCREEN
 	db BARRIER
 	db -1 ; end
 
@@ -388,7 +382,6 @@ ScytherEggMoves:
 	db BATON_PASS
 	db RAZOR_WIND
 	db REVERSAL
-	db LIGHT_SCREEN
 	db -1 ; end
 
 PinsirEggMoves:
@@ -433,7 +426,6 @@ SnorlaxEggMoves:
 	db -1 ; end
 
 DratiniEggMoves:
-	db LIGHT_SCREEN
 	db MIST
 	db HAZE
 	db SUPERSONIC
@@ -486,7 +478,6 @@ HoothootEggMoves:
 LedybaEggMoves:
 	db PSYBEAM
 	db BIDE
-	db LIGHT_SCREEN
 	db -1 ; end
 
 SpinarakEggMoves:
@@ -552,7 +543,6 @@ MareepEggMoves:
 	db -1 ; end
 
 MarillEggMoves:
-	db LIGHT_SCREEN
 	db PRESENT
 	db AMNESIA
 	db FUTURE_SIGHT
@@ -759,7 +749,6 @@ StantlerEggMoves:
 	db REFLECT
 	db SPITE
 	db DISABLE
-	db LIGHT_SCREEN
 	db BITE
 	db -1 ; end
 
