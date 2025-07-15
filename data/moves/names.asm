@@ -183,7 +183,7 @@ MoveNames::
 	li "REVERSAL"
 	li "SPITE"
 	li "POWDER SNOW"
-	li "PROTECT"
+	li "Protect"
 	li "MACH PUNCH"
 	li "SCARY FACE"
 	li "FAINT ATTACK"

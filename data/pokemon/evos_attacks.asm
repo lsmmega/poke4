@@ -126,8 +126,8 @@ SquirtleEvosAttacks:
 	db 13, WATER_GUN
 	db 15, WATER_PULSE
 	db 18, BITE
+	db 18, PROTECT
 	db 23, RAPID_SPIN
-	db 28, PROTECT
 	db 33, RAIN_DANCE
 	db 40, SKULL_BASH
 	db 47, HYDRO_PUMP
@@ -145,8 +145,8 @@ WartortleEvosAttacks:
 	db 13, WATER_GUN
 	db 15, WATER_PULSE
 	db 19, BITE
+	db 20, PROTECT
 	db 25, RAPID_SPIN
-	db 31, PROTECT
 	db 37, RAIN_DANCE
 	db 45, SKULL_BASH
 	db 53, HYDRO_PUMP
@@ -164,8 +164,8 @@ BlastoiseEvosAttacks:
 	db 13, WATER_GUN
 	db 15, WATER_PULSE
 	db 19, BITE
+	db 20, PROTECT
 	db 25, RAPID_SPIN
-	db 31, PROTECT
 	db 42, RAIN_DANCE
 	db 55, SKULL_BASH
 	db 68, HYDRO_PUMP
@@ -1238,7 +1238,7 @@ ShellderEvosAttacks:
 	db 1, WITHDRAW
 	db 9, SUPERSONIC
 	db 17, AURORA_BEAM
-	db 25, PROTECT
+	db 28, PROTECT
 	db 33, LEER
 	db 40, ICE_BEAM
 	db 41, CLAMP
@@ -1350,9 +1350,9 @@ KrabbyEvosAttacks:
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
+	db 16, PROTECT
 	db 23, STOMP
 	db 27, GUILLOTINE
-	db 34, PROTECT
 	db 41, CRABHAMMER
 	db 0 ; no more level-up moves
 
@@ -1364,9 +1364,9 @@ KinglerEvosAttacks:
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
+	db 16, PROTECT
 	db 23, STOMP
 	db 27, GUILLOTINE
-	db 38, PROTECT
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
@@ -1908,7 +1908,7 @@ OmanyteEvosAttacks:
 	db 13, BITE
 	db 19, WATER_GUN
 	db 31, LEER
-	db 37, PROTECT
+	db 41, PROTECT
 	db 49, ANCIENTPOWER
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1921,8 +1921,8 @@ OmastarEvosAttacks:
 	db 13, BITE
 	db 19, WATER_GUN
 	db 31, LEER
-	db 37, PROTECT
 	db 40, SPIKE_CANNON
+	db 43, PROTECT
 	db 54, ANCIENTPOWER
 	db 65, HYDRO_PUMP
 	db 0 ; no more level-up moves
