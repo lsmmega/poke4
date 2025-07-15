@@ -127,8 +127,8 @@ SquirtleEvosAttacks:
 	db 15, WATER_PULSE
 	db 18, BITE
 	db 18, PROTECT
+	db 21, RAIN_DANCE
 	db 23, RAPID_SPIN
-	db 33, RAIN_DANCE
 	db 40, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -147,7 +147,7 @@ WartortleEvosAttacks:
 	db 19, BITE
 	db 20, PROTECT
 	db 25, RAPID_SPIN
-	db 37, RAIN_DANCE
+	db 25, RAIN_DANCE
 	db 45, SKULL_BASH
 	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -166,7 +166,7 @@ BlastoiseEvosAttacks:
 	db 19, BITE
 	db 20, PROTECT
 	db 25, RAPID_SPIN
-	db 42, RAIN_DANCE
+	db 25, RAIN_DANCE
 	db 55, SKULL_BASH
 	db 68, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -810,7 +810,7 @@ PoliwagEvosAttacks:
 	db 7, HYPNOSIS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
-	db 25, RAIN_DANCE
+	db 24, RAIN_DANCE
 	db 31, BODY_SLAM
 	db 37, BELLY_DRUM
 	db 43, HYDRO_PUMP
@@ -826,7 +826,7 @@ PoliwhirlEvosAttacks:
 	db 7, HYPNOSIS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
-	db 27, RAIN_DANCE
+	db 24, RAIN_DANCE
 	db 35, BODY_SLAM
 	db 43, BELLY_DRUM
 	db 51, HYDRO_PUMP
@@ -834,10 +834,11 @@ PoliwhirlEvosAttacks:
 
 PoliwrathEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SUBMISSION
+	db 1, RAIN_DANCE
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
-	db 1, SUBMISSION
 	db 35, SUBMISSION
 	db 51, MIND_READER
 	db 0 ; no more level-up moves
@@ -1084,6 +1085,7 @@ SlowpokeEvosAttacks:
 	db 21, HEADBUTT
 	db 29, DISABLE
 	db 39, PSYCH_UP
+	db 42, RAIN_DANCE
 	db 43, AMNESIA
 	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -1102,6 +1104,7 @@ SlowbroEvosAttacks:
 	db 29, DISABLE
 	db 37, WITHDRAW
 	db 41, PSYCH_UP
+	db 42, RAIN_DANCE
 	db 46, AMNESIA
 	db 54, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -1611,6 +1614,7 @@ HorseaEvosAttacks:
 	db 29, TWISTER
 	db 36, AGILITY
 	db 43, HYDRO_PUMP
+	db 55, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
@@ -1626,6 +1630,7 @@ SeadraEvosAttacks:
 	db 29, TWISTER
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
+	db 65, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 GoldeenEvosAttacks:
@@ -1797,10 +1802,10 @@ GyaradosEvosAttacks:
 	db 1, THRASH
 	db 20, BITE
 	db 25, DRAGON_RAGE
+	db 28, RAIN_DANCE
 	db 30, LEER
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
-	db 45, RAIN_DANCE
 	db 52, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -1814,9 +1819,9 @@ LaprasEvosAttacks:
 	db 22, CONFUSE_RAY
 	db 29, PERISH_SONG
 	db 30, WATER_PULSE
-	db 43, RAIN_DANCE
 	db 45, ICE_BEAM
 	db 50, SAFEGUARD
+	db 50, RAIN_DANCE
 	db 57, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2000,6 +2005,7 @@ ZapdosEvosAttacks:
 	db 25, AGILITY
 	db 37, DETECT
 	db 49, DRILL_PECK
+	db 50, RAIN_DANCE
 	db 73, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2027,6 +2033,7 @@ DratiniEvosAttacks:
 	db 29, SLAM
 	db 36, AGILITY
 	db 43, SAFEGUARD
+	db 45, RAIN_DANCE
 	db 50, OUTRAGE
 	db 60, HYPER_BEAM
 	db 0 ; no more level-up moves
@@ -2044,6 +2051,7 @@ DragonairEvosAttacks:
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
+	db 53, RAIN_DANCE
 	db 56, OUTRAGE
 	db 74, HYPER_BEAM
 	db 0 ; no more level-up moves
@@ -2060,6 +2068,7 @@ DragoniteEvosAttacks:
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
+	db 53, RAIN_DANCE
 	db 55, WING_ATTACK
 	db 61, OUTRAGE
 	db 80, HYPER_BEAM
@@ -2514,8 +2523,8 @@ MarillEvosAttacks:
 	db 10, WATER_GUN
 	db 15, ROLLOUT
 	db 21, BUBBLEBEAM
+	db 27, RAIN_DANCE
 	db 28, DOUBLE_EDGE
-	db 36, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 AzumarillEvosAttacks:
@@ -2529,8 +2538,8 @@ AzumarillEvosAttacks:
 	db 10, WATER_GUN
 	db 15, ROLLOUT
 	db 25, BUBBLEBEAM
+	db 35, RAIN_DANCE
 	db 36, DOUBLE_EDGE
-	db 48, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 SudowoodoEvosAttacks:
@@ -2546,10 +2555,11 @@ SudowoodoEvosAttacks:
 
 PolitoedEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, PERISH_SONG
+	db 1, RAIN_DANCE
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
-	db 1, PERISH_SONG
 	db 35, PERISH_SONG
 	db 51, SWAGGER
 	db 0 ; no more level-up moves
@@ -2660,11 +2670,11 @@ WooperEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TAIL_WHIP
+	db 4, RAIN_DANCE
 	db 11, SLAM
 	db 21, AMNESIA
 	db 31, EARTHQUAKE
 	db 36, TOXIC
-	db 41, RAIN_DANCE
 	db 51, MIST
 	db 51, HAZE
 	db 0 ; no more level-up moves
@@ -2673,11 +2683,11 @@ QuagsireEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TAIL_WHIP
+	db 1, RAIN_DANCE
 	db 11, SLAM
 	db 23, AMNESIA
 	db 35, EARTHQUAKE
 	db 46, TOXIC
-	db 47, RAIN_DANCE
 	db 59, MIST
 	db 59, HAZE
 	db 0 ; no more level-up moves
@@ -2731,6 +2741,7 @@ SlowkingEvosAttacks:
 	db 21, HEADBUTT
 	db 29, DISABLE
 	db 39, PSYCH_UP
+	db 42, RAIN_DANCE
 	db 43, SWAGGER
 	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -3126,6 +3137,7 @@ KingdraEvosAttacks:
 	db 29, TWISTER
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
+	db 65, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 PhanpyEvosAttacks:
@@ -3295,6 +3307,7 @@ RaikouEvosAttacks:
 	db 41, SPARK
 	db 51, REFLECT
 	db 61, CRUNCH
+	db 66, RAIN_DANCE
 	db 71, THUNDER
 	db 0 ; no more level-up moves
 
@@ -3318,12 +3331,12 @@ SuicuneEvosAttacks:
 	db 1, LEER
 	db 6, WATER_PULSE
 	db 11, BUBBLEBEAM
-	db 21, RAIN_DANCE
 	db 24, ROAR
 	db 31, GUST
 	db 41, AURORA_BEAM
 	db 51, MIST
 	db 61, MIRROR_COAT
+	db 66, RAIN_DANCE
 	db 71, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -3382,7 +3395,7 @@ LugiaEvosAttacks:
 	db 22, GUST
 	db 33, RECOVER
 	db 44, HYDRO_PUMP
-	db 55, RAIN_DANCE
+	db 63, RAIN_DANCE
 	db 66, SWIFT
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER

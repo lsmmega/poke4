@@ -241,7 +241,7 @@ MoveNames::
 	li "HIDDEN POWER"
 	li "CROSS CHOP"
 	li "TWISTER"
-	li "RAIN DANCE"
+	li "Rain Dance"
 	li "Sunny Day"
 	li "CRUNCH"
 	li "MIRROR COAT"
