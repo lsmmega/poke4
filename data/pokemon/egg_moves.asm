@@ -150,7 +150,6 @@ MeowthEggMoves:
 	db -1 ; end
 
 PsyduckEggMoves:
-	db ICE_BEAM
 	db HYPNOSIS
 	db PSYBEAM
 	db FORESIGHT
