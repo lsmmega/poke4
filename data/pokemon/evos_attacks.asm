@@ -573,6 +573,7 @@ OddishEvosAttacks:
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
+	db 20, GIGA_DRAIN
 	db 23, ACID
 	db 24, TOXIC
 	db 32, MOONLIGHT
@@ -590,6 +591,7 @@ GloomEvosAttacks:
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
+	db 20, GIGA_DRAIN
 	db 24, ACID
 	db 26, TOXIC
 	db 35, MOONLIGHT
@@ -599,6 +601,7 @@ GloomEvosAttacks:
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, STUN_SPORE
+	db 1, GIGA_DRAIN
 	db 1, TOXIC
 	db 1, PETAL_DANCE
 	db 1, ABSORB
@@ -615,7 +618,7 @@ ParasEvosAttacks:
 	db 25, SPORE
 	db 31, SLASH
 	db 37, GROWTH
-	db 43, GIGA_DRAIN
+	db 38, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
@@ -628,8 +631,8 @@ ParasectEvosAttacks:
 	db 19, LEECH_LIFE
 	db 28, SPORE
 	db 37, SLASH
+	db 44, GIGA_DRAIN
 	db 46, GROWTH
-	db 55, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
@@ -1414,6 +1417,7 @@ ExeggcuteEvosAttacks:
 	db 25, STUN_SPORE
 	db 30, BULLET_SEED
 	db 31, POISONPOWDER
+	db 35, GIGA_DRAIN
 	db 37, SLEEP_POWDER
 	db 43, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -1421,8 +1425,9 @@ ExeggcuteEvosAttacks:
 ExeggutorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BARRAGE
-	db 1, BULLET_SEED
 	db 1, CONFUSION
+	db 1, BULLET_SEED
+	db 1, GIGA_DRAIN
 	db 1, HYPNOSIS
 	db 19, STOMP
 	db 31, EGG_BOMB
@@ -1585,6 +1590,7 @@ TangelaEvosAttacks:
 	db 19, VINE_WHIP
 	db 25, BIND
 	db 31, MEGA_DRAIN
+	db 32, GIGA_DRAIN
 	db 34, STUN_SPORE
 	db 40, SLAM
 	db 46, GROWTH
@@ -2507,6 +2513,7 @@ AmpharosEvosAttacks:
 BellossomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, STUN_SPORE
+	db 1, GIGA_DRAIN
 	db 1, TOXIC
 	db 1, PETAL_DANCE
 	db 1, ABSORB
@@ -2578,6 +2585,7 @@ HoppipEvosAttacks:
 	db 20, LEECH_SEED
 	db 25, COTTON_SPORE
 	db 30, MEGA_DRAIN
+	db 43, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 SkiploomEvosAttacks:
@@ -2597,6 +2605,7 @@ SkiploomEvosAttacks:
 	db 22, LEECH_SEED
 	db 29, COTTON_SPORE
 	db 36, MEGA_DRAIN
+	db 52, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 JumpluffEvosAttacks:
@@ -2615,6 +2624,7 @@ JumpluffEvosAttacks:
 	db 22, LEECH_SEED
 	db 33, COTTON_SPORE
 	db 44, MEGA_DRAIN
+	db 59, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 AipomEvosAttacks:
@@ -2635,9 +2645,9 @@ SunkernEvosAttacks:
 	db 1, ABSORB
 	db 4, GROWTH
 	db 10, MEGA_DRAIN
+	db 22, GIGA_DRAIN
 	db 31, SYNTHESIS
 	db 40, SUNNY_DAY
-	db 46, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 SunfloraEvosAttacks:
@@ -2646,6 +2656,7 @@ SunfloraEvosAttacks:
 	db 1, POUND
 	db 4, GROWTH
 	db 10, RAZOR_LEAF
+	db 22, GIGA_DRAIN
 	db 25, BULLET_SEED
 	db 31, PETAL_DANCE
 	db 40, SUNNY_DAY

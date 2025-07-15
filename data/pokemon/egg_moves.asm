@@ -129,7 +129,6 @@ ParasEggMoves:
 VenonatEggMoves:
 	db BATON_PASS
 	db SCREECH
-	db GIGA_DRAIN
 	db -1 ; end
 
 DiglettEggMoves:

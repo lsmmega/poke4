@@ -203,7 +203,7 @@ MoveNames::
 	li "LOCK-ON"
 	li "OUTRAGE"
 	li "SANDSTORM"
-	li "GIGA DRAIN"
+	li "Giga Drain"
 	li "ENDURE"
 	li "CHARM"
 	li "ROLLOUT"
