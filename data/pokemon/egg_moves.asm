@@ -12,7 +12,6 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
 	db SKULL_BASH
-	db SAFEGUARD
 	db RAZOR_WIND
 	db PETAL_DANCE
 	db -1 ; end
@@ -68,7 +67,6 @@ EkansEggMoves:
 
 SandshrewEggMoves:
 	db FLAIL
-	db SAFEGUARD
 	db COUNTER
 	db RAPID_SPIN
 	db METAL_CLAW
@@ -166,7 +164,6 @@ MankeyEggMoves:
 
 GrowlitheEggMoves:
 	db BODY_SLAM
-	db SAFEGUARD
 	db CRUNCH
 	db THRASH
 	db FIRE_SPIN
@@ -204,7 +201,6 @@ TentacoolEggMoves:
 	db MIRROR_COAT
 	db RAPID_SPIN
 	db HAZE
-	db SAFEGUARD
 	db -1 ; end
 
 GeodudeEggMoves:
@@ -222,7 +218,6 @@ PonytaEggMoves:
 	db -1 ; end
 
 SlowpokeEggMoves:
-	db SAFEGUARD
 	db BELLY_DRUM
 	db FUTURE_SIGHT
 	db STOMP
@@ -350,7 +345,6 @@ KangaskhanEggMoves:
 	db STOMP
 	db FORESIGHT
 	db FOCUS_ENERGY
-	db SAFEGUARD
 	db DISABLE
 	db -1 ; end
 
@@ -377,7 +371,6 @@ MrMimeEggMoves:
 
 ScytherEggMoves:
 	db COUNTER
-	db SAFEGUARD
 	db BATON_PASS
 	db RAZOR_WIND
 	db REVERSAL
@@ -536,7 +529,6 @@ MareepEggMoves:
 	db THUNDERBOLT
 	db TAKE_DOWN
 	db BODY_SLAM
-	db SAFEGUARD
 	db SCREECH
 	db REFLECT
 	db -1 ; end
@@ -585,7 +577,6 @@ YanmaEggMoves:
 WooperEggMoves:
 	db BODY_SLAM
 	db ANCIENTPOWER
-	db SAFEGUARD
 	db -1 ; end
 
 MurkrowEggMoves:
@@ -691,7 +682,6 @@ SwinubEggMoves:
 
 CorsolaEggMoves:
 	db ROCK_SLIDE
-	db SAFEGUARD
 	db SCREECH
 	db MIST
 	db AMNESIA

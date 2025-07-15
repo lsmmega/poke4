@@ -220,7 +220,7 @@ MoveNames::
 	li "RETURN"
 	li "PRESENT"
 	li "FRUSTRATION"
-	li "SAFEGUARD"
+	li "Safeguard"
 	li "PAIN SPLIT"
 	li "SACRED FIRE"
 	li "MAGNITUDE"

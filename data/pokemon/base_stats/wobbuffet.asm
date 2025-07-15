@@ -17,5 +17,5 @@
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm learnset
-	tm
+	tm SAFEGUARD
 	; end
