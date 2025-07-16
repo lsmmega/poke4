@@ -386,6 +386,7 @@ SandshrewEvosAttacks:
 	db 30, SWIFT
 	db 37, FURY_SWIPES
 	db 45, SANDSTORM
+	db 45, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
@@ -400,6 +401,7 @@ SandslashEvosAttacks:
 	db 33, SWIFT
 	db 42, FURY_SWIPES
 	db 52, SANDSTORM
+	db 61, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
@@ -681,7 +683,7 @@ DiglettEvosAttacks:
 	db 17, DIG
 	db 25, SAND_ATTACK
 	db 33, SLASH
-	db 41, EARTHQUAKE
+	db 40, EARTHQUAKE
 	db 49, FISSURE
 	db 0 ; no more level-up moves
 
@@ -696,7 +698,7 @@ DugtrioEvosAttacks:
 	db 17, DIG
 	db 25, SAND_ATTACK
 	db 37, SLASH
-	db 49, EARTHQUAKE
+	db 48, EARTHQUAKE
 	db 61, FISSURE
 	db 0 ; no more level-up moves
 
@@ -1012,7 +1014,7 @@ GeodudeEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 26, HARDEN
 	db 31, ROLLOUT
-	db 36, EARTHQUAKE
+	db 34, EARTHQUAKE
 	db 41, EXPLOSION
 	db 0 ; no more level-up moves
 
@@ -1028,7 +1030,7 @@ GravelerEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 27, HARDEN
 	db 34, ROLLOUT
-	db 41, EARTHQUAKE
+	db 40, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
 
@@ -1044,7 +1046,7 @@ GolemEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 27, HARDEN
 	db 34, ROLLOUT
-	db 41, EARTHQUAKE
+	db 40, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
 
@@ -1554,8 +1556,8 @@ RhyhornEvosAttacks:
 	db 19, FURY_ATTACK
 	db 31, SCARY_FACE
 	db 37, HORN_DRILL
+	db 45, EARTHQUAKE
 	db 49, TAKE_DOWN
-	db 55, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
@@ -1568,8 +1570,8 @@ RhydonEvosAttacks:
 	db 19, FURY_ATTACK
 	db 31, SCARY_FACE
 	db 37, HORN_DRILL
+	db 47, EARTHQUAKE
 	db 54, TAKE_DOWN
-	db 65, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 ChanseyEvosAttacks:
@@ -2691,8 +2693,8 @@ WooperEvosAttacks:
 	db 4, RAIN_DANCE
 	db 11, SLAM
 	db 21, AMNESIA
-	db 31, EARTHQUAKE
 	db 36, TOXIC
+	db 40, EARTHQUAKE
 	db 51, MIST
 	db 51, HAZE
 	db 0 ; no more level-up moves
@@ -2704,8 +2706,8 @@ QuagsireEvosAttacks:
 	db 1, RAIN_DANCE
 	db 11, SLAM
 	db 23, AMNESIA
-	db 35, EARTHQUAKE
 	db 46, TOXIC
+	db 52, EARTHQUAKE
 	db 59, MIST
 	db 59, HAZE
 	db 0 ; no more level-up moves
@@ -3029,6 +3031,7 @@ SwinubEvosAttacks:
 	db 25, ENDURE
 	db 28, TAKE_DOWN
 	db 37, MIST
+	db 45, EARTHQUAKE
 	db 46, BLIZZARD
 	db 55, AMNESIA
 	db 0 ; no more level-up moves
@@ -3042,6 +3045,7 @@ PiloswineEvosAttacks:
 	db 28, TAKE_DOWN
 	db 33, FURY_ATTACK
 	db 42, MIST
+	db 51, EARTHQUAKE
 	db 56, BLIZZARD
 	db 70, AMNESIA
 	db 0 ; no more level-up moves
@@ -3184,7 +3188,7 @@ DonphanEvosAttacks:
 	db 25, FURY_ATTACK
 	db 33, ROLLOUT
 	db 41, RAPID_SPIN
-	db 49, EARTHQUAKE
+	db 43, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
@@ -3371,10 +3375,10 @@ LarvitarEvosAttacks:
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
+	db 31, EARTHQUAKE
 	db 36, SCARY_FACE
 	db 42, HYPER_BEAM
 	db 43, CRUNCH
-	db 50, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 PupitarEvosAttacks:
@@ -3388,10 +3392,10 @@ PupitarEvosAttacks:
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
+	db 33, EARTHQUAKE
 	db 38, SCARY_FACE
 	db 47, CRUNCH
 	db 52, HYPER_BEAM
-	db 56, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 TyranitarEvosAttacks:
@@ -3404,10 +3408,10 @@ TyranitarEvosAttacks:
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
+	db 33, EARTHQUAKE
 	db 38, SCARY_FACE
 	db 47, CRUNCH
 	db 52, HYPER_BEAM
-	db 61, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:
