@@ -87,7 +87,7 @@ MoveNames::
 	li "THUNDERSHOCK"
 	li "Thunderbolt"
 	li "THUNDER WAVE"
-	li "THUNDER"
+	li "Thunder"
 	li "ROCK THROW"
 	li "EARTHQUAKE"
 	li "FISSURE"

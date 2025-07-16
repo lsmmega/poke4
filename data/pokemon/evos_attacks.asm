@@ -362,13 +362,14 @@ PikachuEvosAttacks:
 	db 33, AGILITY
 	db 36, THUNDERBOLT
 	db 40, LIGHT_SCREEN
-	db 41, THUNDER
+	db 44, THUNDER
 	db 0 ; no more level-up moves
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERBOLT
 	db 1, LIGHT_SCREEN
+	db 1, THUNDER
 	db 1, THUNDERSHOCK
 	db 1, TAIL_WHIP
 	db 1, QUICK_ATTACK
@@ -1887,7 +1888,7 @@ JolteonEvosAttacks:
 	db 36, PIN_MISSILE
 	db 42, THUNDER_WAVE
 	db 47, AGILITY
-	db 52, THUNDER
+	db 50, THUNDER
 	db 0 ; no more level-up moves
 
 FlareonEvosAttacks:
@@ -2018,7 +2019,7 @@ ZapdosEvosAttacks:
 	db 37, DETECT
 	db 49, DRILL_PECK
 	db 50, RAIN_DANCE
-	db 73, THUNDER
+	db 55, THUNDER
 	db 0 ; no more level-up moves
 
 MoltresEvosAttacks:
@@ -2485,8 +2486,8 @@ MareepEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 16, THUNDER_WAVE
 	db 23, COTTON_SPORE
-	db 37, THUNDER
 	db 43, LIGHT_SCREEN
+	db 46, THUNDER
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
@@ -2498,8 +2499,8 @@ FlaaffyEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
-	db 45, THUNDER
 	db 52, LIGHT_SCREEN
+	db 56, THUNDER
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
@@ -2512,8 +2513,8 @@ AmpharosEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
-	db 57, THUNDER
 	db 57, LIGHT_SCREEN
+	db 62, THUNDER
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
@@ -3272,7 +3273,7 @@ ElekidEvosAttacks:
 	db 33, SCREECH
 	db 40, THUNDERBOLT
 	db 44, LIGHT_SCREEN
-	db 49, THUNDER
+	db 48, THUNDER
 	db 0 ; no more level-up moves
 
 MagbyEvosAttacks:
@@ -3329,7 +3330,7 @@ RaikouEvosAttacks:
 	db 51, REFLECT
 	db 61, CRUNCH
 	db 66, RAIN_DANCE
-	db 71, THUNDER
+	db 72, THUNDER
 	db 0 ; no more level-up moves
 
 EnteiEvosAttacks:
