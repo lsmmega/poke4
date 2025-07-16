@@ -166,7 +166,6 @@ MoveDescriptions::
 	dw SuperFangDescription
 	dw SlashDescription
 	dw SubstituteDescription
-	dw StruggleDescription
 ;2
 	dw SketchDescription
 	dw TripleKickDescription
@@ -254,18 +253,21 @@ MoveDescriptions::
 	dw BeatUpDescription
 ;3
 	dw BulletSeedDescription
+	dw AerialAceDescription
 	dw DragonClawDescription
 	dw WaterPulseDescription
 ;5
 	dw LowSweepDescription
 ;6
 	dw DazzlingGleamDescription
+;
+	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
 BulletSeedDescription:
+AerialAceDescription:
 DragonClawDescription:
 WaterPulseDescription:
 LowSweepDescription:

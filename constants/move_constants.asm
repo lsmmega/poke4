@@ -171,7 +171,6 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STRUGGLE     ; a5
 ;2
 	const SKETCH       ; a6
 	const TRIPLE_KICK  ; a7
@@ -259,42 +258,45 @@
 	const BEAT_UP      ; fb
 ;3
 	const BULLET_SEED
+	const AERIAL_ACE
 	const DRAGON_CLAW
 	const WATER_PULSE
 ;5
 	const LOW_SWEEP
 ;6
 	const DAZZLING_GLEAM
+;
+	const STRUGGLE
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $ff
+DEF CANNOT_MOVE EQU $100
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $ff
-	const ANIM_SWEET_SCENT_2     ; ff
-	const ANIM_THROW_POKE_BALL   ; 100
-	const ANIM_SEND_OUT_MON      ; 101
-	const ANIM_RETURN_MON        ; 102
-	const ANIM_CONFUSED          ; 103
-	const ANIM_SLP               ; 104
-	const ANIM_BRN               ; 105
-	const ANIM_PSN               ; 106
-	const ANIM_SAP               ; 107
-	const ANIM_FRZ               ; 108
-	const ANIM_PAR               ; 109
-	const ANIM_IN_LOVE           ; 10a
-	const ANIM_IN_SANDSTORM      ; 10b
-	const ANIM_IN_NIGHTMARE      ; 10c
-	const ANIM_IN_WHIRLPOOL      ; 10d
+	const_next $100
+	const ANIM_SWEET_SCENT_2     ; 100
+	const ANIM_THROW_POKE_BALL   ; 101
+	const ANIM_SEND_OUT_MON      ; 102
+	const ANIM_RETURN_MON        ; 103
+	const ANIM_CONFUSED          ; 104
+	const ANIM_SLP               ; 105
+	const ANIM_BRN               ; 106
+	const ANIM_PSN               ; 107
+	const ANIM_SAP               ; 108
+	const ANIM_FRZ               ; 109
+	const ANIM_PAR               ; 10a
+	const ANIM_IN_LOVE           ; 10b
+	const ANIM_IN_SANDSTORM      ; 10c
+	const ANIM_IN_NIGHTMARE      ; 10d
+	const ANIM_IN_WHIRLPOOL      ; 10e
 
 ; wBattleAfterAnim uses offsets from BATTLE_AFTERANIMS
 DEF BATTLE_AFTERANIMS EQU const_value
-	const ANIM_MISS              ; 10e
-	const ANIM_ENEMY_DAMAGE      ; 10f
-	const ANIM_ENEMY_STAT_DOWN   ; 110
-	const ANIM_PLAYER_STAT_DOWN  ; 111
-	const ANIM_PLAYER_DAMAGE     ; 112
-	const ANIM_WOBBLE            ; 113
-	const ANIM_SHAKE             ; 114
-	const ANIM_HIT_CONFUSION     ; 115
+	const ANIM_MISS              ; 10f
+	const ANIM_ENEMY_DAMAGE      ; 110
+	const ANIM_ENEMY_STAT_DOWN   ; 111
+	const ANIM_PLAYER_STAT_DOWN  ; 112
+	const ANIM_PLAYER_DAMAGE     ; 113
+	const ANIM_WOBBLE            ; 114
+	const ANIM_SHAKE             ; 115
+	const ANIM_HIT_CONFUSION     ; 116
 DEF NUM_BATTLE_ANIMS EQU const_value - 1

@@ -167,7 +167,6 @@ BattleAnimations::
 	dw BattleAnim_SuperFang
 	dw BattleAnim_Slash
 	dw BattleAnim_Substitute
-	dw BattleAnim_Struggle
 ;2
 	dw BattleAnim_Sketch
 	dw BattleAnim_TripleKick
@@ -255,16 +254,19 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 ;3
 	dw BattleAnim_BulletSeed
+	dw BattleAnim_AerialAce
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_WaterPulse
 ;5
 	dw BattleAnim_LowSweep
 ;6
 	dw BattleAnim_DazzlingGleam
+;
+	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $100
-;$100
+	assert_table_length $101
+
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
 	dw BattleAnim_ReturnMon
@@ -290,6 +292,7 @@ BattleAnimations::
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
 BattleAnim_BulletSeed:
+BattleAnim_AerialAce:
 BattleAnim_DragonClaw:
 BattleAnim_WaterPulse:
 BattleAnim_LowSweep:

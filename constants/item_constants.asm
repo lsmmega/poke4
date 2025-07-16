@@ -246,7 +246,6 @@ DEF TM01 EQU const_value
 	add_tm DIG          ; db
 	add_tm PSYCHIC_M    ; dd
 	add_tm SHADOW_BALL  ; de
-	add_tm MUD_SLAP
 	add_tm DOUBLE_TEAM  ; e0
 	add_tm ICE_PUNCH    ; e1
 	add_tm SWAGGER      ; e2
@@ -254,6 +253,7 @@ DEF TM01 EQU const_value
 	add_tm SLUDGE_BOMB  ; e4
 	add_tm SANDSTORM    ; e5
 	add_tm FIRE_BLAST   ; e6
+	add_tm AERIAL_ACE
 	add_tm SWIFT        ; e7
 	add_tm DEFENSE_CURL ; e8
 	add_tm THUNDERPUNCH ; e9

@@ -165,7 +165,6 @@ MoveNames::
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
-	li "STRUGGLE"
 ;2
 	li "SKETCH"
 	li "TRIPLE KICK"
@@ -253,10 +252,13 @@ MoveNames::
 	li "BEAT UP"
 ;3
 	li "Bullet Seed"
+	li "Aerial Ace"
 	li "Dragon Claw"
 	li "Water Pulse"
 ;5
 	li "Low Sweep"
 ;6
 	li "DazzlinGleam"
+;
+	li "Struggle"
 	assert_list_length NUM_ATTACKS

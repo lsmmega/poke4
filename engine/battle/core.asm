@@ -4170,7 +4170,7 @@ PursuitSwitch:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVarAddr
-	ld a, CANNOT_MOVE
+	xor a ; NO_MOVE
 	ld [hl], a
 
 	pop af

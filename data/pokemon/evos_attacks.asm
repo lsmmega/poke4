@@ -238,6 +238,7 @@ PidgeyEvosAttacks:
 	db 21, WHIRLWIND
 	db 29, WING_ATTACK
 	db 37, AGILITY
+	db 45, AERIAL_ACE
 	db 47, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
@@ -253,6 +254,7 @@ PidgeottoEvosAttacks:
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
 	db 43, AGILITY
+	db 52, AERIAL_ACE
 	db 55, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
@@ -268,6 +270,7 @@ PidgeotEvosAttacks:
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
 	db 46, AGILITY
+	db 56, AERIAL_ACE
 	db 61, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
@@ -302,6 +305,7 @@ SpearowEvosAttacks:
 	db 1, GROWL
 	db 7, LEER
 	db 13, FURY_ATTACK
+	db 15, AERIAL_ACE
 	db 25, PURSUIT
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
@@ -315,6 +319,7 @@ FearowEvosAttacks:
 	db 1, LEER
 	db 1, FURY_ATTACK
 	db 7, LEER
+	db 15, AERIAL_ACE
 	db 13, FURY_ATTACK
 	db 26, PURSUIT
 	db 32, MIRROR_MOVE
@@ -1165,6 +1170,7 @@ FarfetchDEvosAttacks:
 	db 7, SAND_ATTACK
 	db 13, LEER
 	db 19, FURY_ATTACK
+	db 20, AERIAL_ACE
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
 	db 37, SLASH
@@ -2704,6 +2710,7 @@ YanmaEvosAttacks:
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
+	db 14, AERIAL_ACE
 	db 19, SONICBOOM
 	db 25, DETECT
 	db 31, SUPERSONIC
@@ -2977,6 +2984,7 @@ HeracrossEvosAttacks:
 	db 1, LEER
 	db 6, HORN_ATTACK
 	db 10, ENDURE
+	db 15, AERIAL_ACE
 	db 19, FURY_ATTACK
 	db 27, COUNTER
 	db 35, TAKE_DOWN

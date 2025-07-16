@@ -30,7 +30,7 @@ VioletGymFalknerScript:
 	readvar VAR_BADGES
 	scall VioletGymActivateRockets
 .FightDone:
-	checkevent EVENT_GOT_TM31_MUD_SLAP
+	checkevent EVENT_GOT_TM40_AERIAL_ACE
 	iftrue .SpeechAfterTM
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
@@ -38,10 +38,10 @@ VioletGymFalknerScript:
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
-	verbosegiveitem TM_MUD_SLAP
-	iffalse .NoRoomForMudSlap
-	setevent EVENT_GOT_TM31_MUD_SLAP
-	writetext FalknerTMMudSlapText
+	verbosegiveitem TM_AERIAL_ACE
+	iffalse .NoRoomForAerialAce
+	setevent EVENT_GOT_TM40_AERIAL_ACE
+	writetext FalknerTMAerialAceText
 	waitbutton
 	closetext
 	end
@@ -49,7 +49,7 @@ VioletGymFalknerScript:
 .SpeechAfterTM:
 	writetext FalknerFightDoneText
 	waitbutton
-.NoRoomForMudSlap:
+.NoRoomForAerialAce:
 	closetext
 	end
 
@@ -166,7 +166,7 @@ FalknerZephyrBadgeText:
 	line "too."
 	done
 
-FalknerTMMudSlapText:
+FalknerTMAerialAceText:
 	text "By using a TM, a"
 	line "#MON will"
 
@@ -177,18 +177,11 @@ FalknerTMMudSlapText:
 	line "as many times as"
 	cont "you like."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "TM40 contains"
+	line "Aerial Ace."
 
-	para "It reduces the"
-	line "enemy's accuracy"
-
-	para "while it causes"
-	line "damage."
-
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "It always hit"
+	line "never misses."
 	done
 
 FalknerFightDoneText:

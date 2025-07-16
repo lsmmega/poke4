@@ -179,7 +179,6 @@ Moves:
 	move SUPER_FANG,     EFFECT_SUPER_FANG,          1, NORMAL,        PHYSICAL,  90, 10,   0
 	move SLASH,          EFFECT_NORMAL_HIT,         70, NORMAL,        PHYSICAL, 100, 20,   0
 	move SUBSTITUTE,     EFFECT_SUBSTITUTE,          0, NORMAL,        STATUS,   100, 10,   0
-	move STRUGGLE,       EFFECT_RECOIL_HIT,         50, NORMAL,        PHYSICAL, 100,  1,   0
 ;2
 	move SKETCH,         EFFECT_SKETCH,              0, NORMAL,        STATUS,   100,  1,   0
 	move TRIPLE_KICK,    EFFECT_TRIPLE_KICK,        10, FIGHTING,      PHYSICAL,  90, 10,   0
@@ -267,10 +266,13 @@ Moves:
 	move BEAT_UP,        EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0
 ;3
 	move BULLET_SEED,    EFFECT_MULTI_HIT,          25, GRASS,         PHYSICAL, 100, 30,   0
+	move AERIAL_ACE,     EFFECT_ALWAYS_HIT,         60, FLYING,        PHYSICAL, 100, 20,   0
 	move DRAGON_CLAW,    EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
 	move WATER_PULSE,    EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20
 ;5
 	move LOW_SWEEP,      EFFECT_SPEED_DOWN_HIT,     65, FIGHTING,      PHYSICAL, 100, 20, 100
 ;6
 	move DAZZLING_GLEAM, EFFECT_NORMAL_HIT,         80, FAIRY,         SPECIAL,  100, 10,   0
+;
+	move STRUGGLE,       EFFECT_RECOIL_HIT,         50, NORMAL,        PHYSICAL, 100,  1,   0
 	assert_table_length NUM_ATTACKS
