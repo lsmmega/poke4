@@ -239,6 +239,7 @@ DEF TM01 EQU const_value
 	add_tm DAZZLING_GLEAM
 	add_tm SOLARBEAM    ; d5
 	add_tm IRON_TAIL    ; d6
+	add_tm THUNDERBOLT
 	add_tm THUNDER      ; d8
 	add_tm EARTHQUAKE   ; d9
 	add_tm RETURN       ; da
@@ -288,7 +289,6 @@ ENDM
 
 DEF MT01 EQU const_value
 	add_mt FLAMETHROWER
-	add_mt THUNDERBOLT
 DEF NUM_TUTORS = __tm_value__ - NUM_TMS - 1
 
 DEF NUM_TM_TUTOR EQU NUM_TMS + NUM_TUTORS

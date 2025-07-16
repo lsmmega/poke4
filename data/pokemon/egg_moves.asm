@@ -528,7 +528,6 @@ NatuEggMoves:
 	db -1 ; end
 
 MareepEggMoves:
-	db THUNDERBOLT
 	db TAKE_DOWN
 	db BODY_SLAM
 	db SCREECH

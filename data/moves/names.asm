@@ -85,7 +85,7 @@ MoveNames::
 	li "DRAGON RAGE"
 	li "FIRE SPIN"
 	li "THUNDERSHOCK"
-	li "THUNDERBOLT"
+	li "Thunderbolt"
 	li "THUNDER WAVE"
 	li "THUNDER"
 	li "ROCK THROW"

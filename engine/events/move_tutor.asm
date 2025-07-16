@@ -37,16 +37,10 @@ MoveTutor:
 	ld a, [wScriptVar]
 	cp MOVETUTOR_FLAMETHROWER
 	jr z, .flamethrower
-	cp MOVETUTOR_THUNDERBOLT
-	jr z, .thunderbolt
 	ret
 
 .flamethrower
 	ld a, MT01_MOVE ; FLAMETHROWER
-	ret
-
-.thunderbolt
-	ld a, MT02_MOVE ; THUNDERBOLT
 	ret
 
 CheckCanLearnMoveTutorMove:

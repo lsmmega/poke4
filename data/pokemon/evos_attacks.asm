@@ -359,8 +359,8 @@ PikachuEvosAttacks:
 	db 11, QUICK_ATTACK
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
-	db 26, THUNDERBOLT
 	db 33, AGILITY
+	db 36, THUNDERBOLT
 	db 40, LIGHT_SCREEN
 	db 41, THUNDER
 	db 0 ; no more level-up moves
@@ -1757,7 +1757,7 @@ ElectabuzzEvosAttacks:
 	db 9, THUNDERPUNCH
 	db 25, SWIFT
 	db 36, SCREECH
-	db 47, THUNDERBOLT
+	db 46, THUNDERBOLT
 	db 52, LIGHT_SCREEN
 	db 58, THUNDER
 	db 0 ; no more level-up moves
@@ -3270,7 +3270,7 @@ ElekidEvosAttacks:
 	db 9, THUNDERPUNCH
 	db 25, SWIFT
 	db 33, SCREECH
-	db 41, THUNDERBOLT
+	db 40, THUNDERBOLT
 	db 44, LIGHT_SCREEN
 	db 49, THUNDER
 	db 0 ; no more level-up moves

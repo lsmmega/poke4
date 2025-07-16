@@ -326,4 +326,3 @@ DEF UNOWN_WALL_MENU_HEADER_SIZE EQU 5
 ; MoveTutor setval arguments
 	const_def 1
 	const MOVETUTOR_FLAMETHROWER ; 1
-	const MOVETUTOR_THUNDERBOLT  ; 2

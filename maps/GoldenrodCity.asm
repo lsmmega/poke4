@@ -67,18 +67,10 @@ MoveTutorScript:
 	verticalmenu
 	closewindow
 	ifequal MOVETUTOR_FLAMETHROWER, .Flamethrower
-	ifequal MOVETUTOR_THUNDERBOLT, .Thunderbolt
 	sjump .Incompatible
 
 .Flamethrower:
 	setval MOVETUTOR_FLAMETHROWER
-	writetext GoldenrodCityMoveTutorMoveText
-	special MoveTutor
-	ifequal FALSE, .TeachMove
-	sjump .Incompatible
-
-.Thunderbolt:
-	setval MOVETUTOR_THUNDERBOLT
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
@@ -94,8 +86,6 @@ MoveTutorScript:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "FLAMETHROWER@"
-	db "THUNDERBOLT@"
-	db "ICE BEAM@"
 	db "CANCEL@"
 
 .Refused:
