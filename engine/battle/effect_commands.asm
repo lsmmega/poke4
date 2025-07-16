@@ -113,7 +113,7 @@ BattleCommand_CheckTurn:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	assert CANNOT_MOVE == $ff
+	assert CANNOT_MOVE == $fe
 	inc a
 	jp z, EndTurn
 
@@ -6365,8 +6365,6 @@ BattleCommand_Unused5D:
 INCLUDE "engine/battle/move_effects/fury_cutter.asm"
 
 INCLUDE "engine/battle/move_effects/attract.asm"
-
-INCLUDE "engine/battle/move_effects/return.asm"
 
 INCLUDE "engine/battle/move_effects/present.asm"
 

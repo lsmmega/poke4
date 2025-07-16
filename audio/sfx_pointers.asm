@@ -140,7 +140,6 @@ SFX:
 	dba Sfx_ZapCannon
 	dba Sfx_MeanLook
 	dba Sfx_HealBell
-	dba Sfx_Return
 	dba Sfx_ExpBar
 	dba Sfx_MilkDrink
 	dba Sfx_Present

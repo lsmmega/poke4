@@ -218,7 +218,6 @@ MoveDescriptions::
 	dw AttractDescription
 	dw SleepTalkDescription
 	dw HealBellDescription
-	dw ReturnDescription
 	dw PresentDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
@@ -262,7 +261,7 @@ MoveDescriptions::
 	assert_table_length NUM_ATTACKS
 	dw MoveFFDescription
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 BulletSeedDescription:
 DragonClawDescription:
@@ -1131,10 +1130,6 @@ SleepTalkDescription:
 HealBellDescription:
 	db   "Eliminates all"
 	next "status problems.@"
-
-ReturnDescription:
-	db   "An attack that is"
-	next "based on loyalty.@"
 
 PresentDescription:
 	db   "A bomb that may"

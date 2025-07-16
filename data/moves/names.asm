@@ -217,7 +217,6 @@ MoveNames::
 	li "ATTRACT"
 	li "SLEEP TALK"
 	li "HEAL BELL"
-	li "RETURN"
 	li "PRESENT"
 	li "Safeguard"
 	li "PAIN SPLIT"

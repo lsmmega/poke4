@@ -100,7 +100,6 @@ ENDM
 	command effect0x5d              ; 5d
 	command furycutter              ; 5e
 	command attract                 ; 5f
-	command happinesspower          ; 60
 	command present                 ; 61
 	command damagecalc              ; 62
 	command safeguard               ; 64

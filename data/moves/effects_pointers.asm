@@ -122,7 +122,6 @@ MoveEffectsPointers:
 	dw Swagger
 	dw FuryCutter
 	dw Attract
-	dw Return
 	dw Present
 	dw Safeguard
 	dw SacredFire

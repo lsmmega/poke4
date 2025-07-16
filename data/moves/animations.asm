@@ -219,7 +219,6 @@ BattleAnimations::
 	dw BattleAnim_Attract
 	dw BattleAnim_SleepTalk
 	dw BattleAnim_HealBell
-	dw BattleAnim_Return
 	dw BattleAnim_Present
 	dw BattleAnim_Safeguard
 	dw BattleAnim_PainSplit
@@ -262,7 +261,7 @@ BattleAnimations::
 	dw BattleAnim_DazzlingGleam
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $100
+	assert_table_length $ff
 ; $100
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -3943,22 +3942,6 @@ BattleAnim_HealBell:
 	anim_wait 8
 	anim_loop 4, .loop
 	anim_wait 64
-	anim_ret
-
-BattleAnim_Return:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect BATTLE_BG_EFFECT_BOUNCE_DOWN, $0, BG_EFFECT_USER, $0
-	anim_sound 0, 0, SFX_RETURN
-	anim_wait 64
-	anim_incbgeffect BATTLE_BG_EFFECT_BOUNCE_DOWN
-	anim_wait 32
-	anim_bgeffect BATTLE_BG_EFFECT_BODY_SLAM, $0, BG_EFFECT_USER, $0
-	anim_wait 4
-	anim_sound 0, 1, SFX_COMET_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG, 136, 40, $0
-	anim_wait 8
-	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnim_Present:

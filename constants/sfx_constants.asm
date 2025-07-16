@@ -139,7 +139,6 @@
 	const SFX_ZAP_CANNON                  ; 88
 	const SFX_MEAN_LOOK                   ; 89
 	const SFX_HEAL_BELL                   ; 8a
-	const SFX_RETURN                      ; 8b
 	const SFX_EXP_BAR                     ; 8c
 	const SFX_MILK_DRINK                  ; 8d
 	const SFX_PRESENT                     ; 8e

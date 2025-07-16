@@ -2688,22 +2688,6 @@ Sfx_HealBell_Ch5:
 	square_note 8, 13, 1, 2011
 	sound_ret
 
-Sfx_Return:
-	channel_count 1
-	channel 5, Sfx_Return_Ch5
-
-Sfx_Return_Ch5:
-	duty_cycle 0
-.loop1:
-	pitch_sweep 11, -7
-	square_note 8, 15, 1, 1881
-	pitch_sweep 5, 7
-	square_note 8, 15, 1, 1881
-	square_note 16, 0, 0, 0
-	sound_loop 2, .loop1
-	pitch_sweep 0, 8
-	sound_ret
-
 Sfx_ExpBar:
 	channel_count 1
 	channel 5, Sfx_ExpBar_Ch5
