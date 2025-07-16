@@ -269,6 +269,8 @@ Moves:
 	move BULLET_SEED,    EFFECT_MULTI_HIT,          25, GRASS,         PHYSICAL, 100, 30,   0
 	move DRAGON_CLAW,    EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
 	move WATER_PULSE,    EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20
+;5
+	move LOW_SWEEP,      EFFECT_SPEED_DOWN_HIT,     65, FIGHTING,      PHYSICAL, 100, 20, 100
 ;6
 	move DAZZLING_GLEAM, EFFECT_NORMAL_HIT,         80, FAIRY,         SPECIAL,  100, 10,   0
 	assert_table_length NUM_ATTACKS

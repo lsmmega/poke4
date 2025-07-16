@@ -256,16 +256,19 @@ MoveDescriptions::
 	dw BulletSeedDescription
 	dw DragonClawDescription
 	dw WaterPulseDescription
+;5
+	dw LowSweepDescription
 ;6
 	dw DazzlingGleamDescription
 	assert_table_length NUM_ATTACKS
 	dw MoveFFDescription
 	dw Move00Description
-	assert_table_length $ff
+	assert_table_length $100
 
 BulletSeedDescription:
 DragonClawDescription:
 WaterPulseDescription:
+LowSweepDescription:
 DazzlingGleamDescription:
 MoveFFDescription:
 Move00Description:

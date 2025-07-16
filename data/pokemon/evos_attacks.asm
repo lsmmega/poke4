@@ -893,6 +893,7 @@ MachopEvosAttacks:
 	db 1, LOW_KICK
 	db 1, LEER
 	db 7, FOCUS_ENERGY
+	db 12, LOW_SWEEP
 	db 13, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
@@ -909,6 +910,7 @@ MachokeEvosAttacks:
 	db 1, LEER
 	db 1, FOCUS_ENERGY
 	db 8, FOCUS_ENERGY
+	db 12, LOW_SWEEP
 	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
@@ -924,6 +926,7 @@ MachampEvosAttacks:
 	db 1, LEER
 	db 1, FOCUS_ENERGY
 	db 8, FOCUS_ENERGY
+	db 12, LOW_SWEEP
 	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
@@ -1478,6 +1481,7 @@ MarowakEvosAttacks:
 HitmonleeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
+	db 1, LOW_SWEEP
 	db 6, MEDITATE
 	db 11, ROLLING_KICK
 	db 12, ENDURE
