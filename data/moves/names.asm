@@ -94,7 +94,7 @@ MoveNames::
 	li "Dig"
 	li "Toxic"
 	li "CONFUSION"
-	li "PSYCHIC"
+	li "Psychic"
 	li "HYPNOSIS"
 	li "MEDITATE"
 	li "AGILITY"

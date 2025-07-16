@@ -149,7 +149,6 @@ PsyduckEggMoves:
 	db PSYBEAM
 	db FORESIGHT
 	db FUTURE_SIGHT
-	db PSYCHIC_M
 	db CROSS_CHOP
 	db -1 ; end
 

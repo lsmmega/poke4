@@ -656,7 +656,7 @@ VenonatEvosAttacks:
 	db 28, STUN_SPORE
 	db 33, PSYBEAM
 	db 36, SLEEP_POWDER
-	db 41, PSYCHIC_M
+	db 47, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 VenomothEvosAttacks:
@@ -673,7 +673,7 @@ VenomothEvosAttacks:
 	db 31, GUST
 	db 36, PSYBEAM
 	db 42, SLEEP_POWDER
-	db 52, PSYCHIC_M
+	db 55, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:
@@ -871,7 +871,7 @@ KadabraEvosAttacks:
 	db 21, PSYBEAM
 	db 26, RECOVER
 	db 31, FUTURE_SIGHT
-	db 38, PSYCHIC_M
+	db 35, PSYCHIC_M
 	db 45, REFLECT
 	db 0 ; no more level-up moves
 
@@ -885,7 +885,7 @@ AlakazamEvosAttacks:
 	db 21, PSYBEAM
 	db 26, RECOVER
 	db 31, FUTURE_SIGHT
-	db 38, PSYCHIC_M
+	db 35, PSYCHIC_M
 	db 45, REFLECT
 	db 0 ; no more level-up moves
 
@@ -1098,10 +1098,10 @@ SlowpokeEvosAttacks:
 	db 20, CONFUSION
 	db 21, HEADBUTT
 	db 29, DISABLE
+	db 36, PSYCHIC_M
 	db 39, PSYCH_UP
 	db 42, RAIN_DANCE
 	db 43, AMNESIA
-	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 SlowbroEvosAttacks:
@@ -1116,11 +1116,11 @@ SlowbroEvosAttacks:
 	db 20, CONFUSION
 	db 21, HEADBUTT
 	db 29, DISABLE
+	db 36, PSYCHIC_M
 	db 37, WITHDRAW
 	db 41, PSYCH_UP
 	db 42, RAIN_DANCE
 	db 46, AMNESIA
-	db 54, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 MagnemiteEvosAttacks:
@@ -1343,8 +1343,8 @@ DrowzeeEvosAttacks:
 	db 31, POISON_GAS
 	db 33, PSYCH_UP
 	db 36, MEDITATE
-	db 40, PSYCHIC_M
 	db 45, FUTURE_SIGHT
+	db 49, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 HypnoEvosAttacks:
@@ -1699,6 +1699,7 @@ StaryuEvosAttacks:
 	db 31, BUBBLEBEAM
 	db 32, LIGHT_SCREEN
 	db 37, MINIMIZE
+	db 40, PSYCHIC_M
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1706,6 +1707,7 @@ StarmieEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, RAPID_SPIN
 	db 1, LIGHT_SCREEN
+	db 1, PSYCHIC_M
 	db 1, RECOVER
 	db 1, TACKLE
 	db 1, BUBBLEBEAM
@@ -1726,6 +1728,7 @@ MrMimeEvosAttacks:
 	db 36, SAFEGUARD
 	db 41, BATON_PASS
 	db 44, DAZZLING_GLEAM
+	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
@@ -1753,6 +1756,7 @@ JynxEvosAttacks:
 	db 13, POWDER_SNOW
 	db 21, DOUBLESLAP
 	db 25, ICE_PUNCH
+	db 34, PSYCHIC_M
 	db 35, MEAN_LOOK
 	db 41, BODY_SLAM
 	db 51, PERISH_SONG
@@ -2104,8 +2108,8 @@ MewtwoEvosAttacks:
 	db 22, SWIFT
 	db 24, SAFEGUARD
 	db 44, FUTURE_SIGHT
+	db 48, PSYCHIC_M
 	db 55, MIST
-	db 66, PSYCHIC_M
 	db 77, AMNESIA
 	db 88, RECOVER
 	db 0 ; no more level-up moves
@@ -2116,8 +2120,8 @@ MewEvosAttacks:
 	db 10, TRANSFORM
 	db 20, MEGA_PUNCH
 	db 30, METRONOME
-	db 40, PSYCHIC_M
 	db 50, ANCIENTPOWER
+	db 100, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 ChikoritaEvosAttacks:
@@ -2348,8 +2352,8 @@ SpinarakEvosAttacks:
 	db 23, LEECH_LIFE
 	db 30, FURY_SWIPES
 	db 37, SPIDER_WEB
+	db 40, PSYCHIC_M
 	db 45, AGILITY
-	db 53, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 AriadosEvosAttacks:
@@ -2364,8 +2368,8 @@ AriadosEvosAttacks:
 	db 25, LEECH_LIFE
 	db 34, FURY_SWIPES
 	db 43, SPIDER_WEB
+	db 46, PSYCHIC_M
 	db 53, AGILITY
-	db 63, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 CrobatEvosAttacks:
@@ -2471,8 +2475,8 @@ NatuEvosAttacks:
 	db 10, NIGHT_SHADE
 	db 20, TELEPORT
 	db 30, FUTURE_SIGHT
+	db 35, PSYCHIC_M
 	db 40, CONFUSE_RAY
-	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 XatuEvosAttacks:
@@ -2483,8 +2487,8 @@ XatuEvosAttacks:
 	db 10, NIGHT_SHADE
 	db 20, TELEPORT
 	db 35, FUTURE_SIGHT
+	db 41, PSYCHIC_M
 	db 50, CONFUSE_RAY
-	db 65, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 MareepEvosAttacks:
@@ -2728,8 +2732,8 @@ EspeonEvosAttacks:
 	db 23, QUICK_ATTACK
 	db 30, SWIFT
 	db 36, PSYBEAM
+	db 40, PSYCHIC_M
 	db 45, PSYCH_UP
-	db 47, PSYCHIC_M
 	db 52, MORNING_SUN
 	db 0 ; no more level-up moves
 
@@ -2767,10 +2771,10 @@ SlowkingEvosAttacks:
 	db 20, CONFUSION
 	db 21, HEADBUTT
 	db 29, DISABLE
+	db 36, PSYCHIC_M
 	db 39, PSYCH_UP
 	db 42, RAIN_DANCE
 	db 43, SWAGGER
-	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
@@ -2809,6 +2813,7 @@ GirafarigEvosAttacks:
 	db 20, AGILITY
 	db 30, BATON_PASS
 	db 41, PSYBEAM
+	db 50, PSYCHIC_M
 	db 54, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -3270,8 +3275,8 @@ SmoochumEvosAttacks:
 	db 13, POWDER_SNOW
 	db 21, CONFUSION
 	db 25, SING
+	db 32, PSYCHIC_M
 	db 33, MEAN_LOOK
-	db 37, PSYCHIC_M
 	db 45, PERISH_SONG
 	db 49, BLIZZARD
 	db 0 ; no more level-up moves
