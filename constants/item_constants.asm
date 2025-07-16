@@ -217,7 +217,6 @@ ENDM
 
 ; see data/moves/tm_moves.asm for moves
 DEF TM01 EQU const_value
-	add_tm DYNAMICPUNCH ; bf
 	add_tm DRAGON_CLAW
 	add_tm WATER_PULSE
 	add_tm ROLLOUT      ; c2

@@ -855,6 +855,7 @@ PoliwhirlEvosAttacks:
 PoliwrathEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SUBMISSION
+	db 1, DYNAMICPUNCH
 	db 1, RAIN_DANCE
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
@@ -911,6 +912,7 @@ MachopEvosAttacks:
 	db 31, VITAL_THROW
 	db 37, CROSS_CHOP
 	db 43, SCARY_FACE
+	db 44, DYNAMICPUNCH
 	db 49, SUBMISSION
 	db 0 ; no more level-up moves
 
@@ -928,6 +930,7 @@ MachokeEvosAttacks:
 	db 34, VITAL_THROW
 	db 43, CROSS_CHOP
 	db 52, SCARY_FACE
+	db 54, DYNAMICPUNCH
 	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
@@ -944,6 +947,7 @@ MachampEvosAttacks:
 	db 34, VITAL_THROW
 	db 43, CROSS_CHOP
 	db 52, SCARY_FACE
+	db 54, DYNAMICPUNCH
 	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 

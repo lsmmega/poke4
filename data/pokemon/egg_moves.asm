@@ -761,6 +761,7 @@ ElekidEggMoves:
 	db BARRIER
 	db ROLLING_KICK
 	db MEDITATE
+	db DYNAMICPUNCH
 	db CROSS_CHOP
 	db -1 ; end
 
@@ -769,6 +770,7 @@ MagbyEggMoves:
 	db MEGA_PUNCH
 	db BARRIER
 	db SCREECH
+	db DYNAMICPUNCH
 	db CROSS_CHOP
 	db -1 ; end
 

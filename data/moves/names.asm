@@ -221,7 +221,7 @@ MoveNames::
 	li "PAIN SPLIT"
 	li "SACRED FIRE"
 	li "MAGNITUDE"
-	li "DYNAMICPUNCH"
+	li "DynamicPunch"
 	li "MEGAHORN"
 	li "DragonBreath"
 	li "BATON PASS"
