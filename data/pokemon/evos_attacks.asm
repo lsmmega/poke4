@@ -1284,6 +1284,7 @@ GastlyEvosAttacks:
 	db 28, CONFUSE_RAY
 	db 33, DREAM_EATER
 	db 36, DESTINY_BOND
+	db 40, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1299,6 +1300,7 @@ HaunterEvosAttacks:
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
 	db 48, DESTINY_BOND
+	db 48, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 GengarEvosAttacks:
@@ -1313,6 +1315,7 @@ GengarEvosAttacks:
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
 	db 48, DESTINY_BOND
+	db 48, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
@@ -2786,6 +2789,7 @@ MisdreavusEvosAttacks:
 	db 19, MEAN_LOOK
 	db 27, PSYBEAM
 	db 36, PAIN_SPLIT
+	db 43, SHADOW_BALL
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves
 

@@ -246,7 +246,7 @@ MoveNames::
 	li "Psych Up"
 	li "EXTREMESPEED"
 	li "ANCIENTPOWER"
-	li "SHADOW BALL"
+	li "Shadow Ball"
 	li "FUTURE SIGHT"
 	li "Rock Smash"
 	li "WHIRLPOOL"
