@@ -190,7 +190,7 @@ MoveNames::
 	li "SWEET KISS"
 	li "BELLY DRUM"
 	li "SLUDGE BOMB"
-	li "MUD-SLAP"
+	li "Mud-Slap"
 	li "OCTAZOOKA"
 	li "SPIKES"
 	li "ZAP CANNON"

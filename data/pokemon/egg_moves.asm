@@ -68,6 +68,7 @@ EkansEggMoves:
 SandshrewEggMoves:
 	db FLAIL
 	db COUNTER
+	db MUD_SLAP
 	db RAPID_SPIN
 	db METAL_CLAW
 	db -1 ; end
@@ -228,6 +229,7 @@ FarfetchDEggMoves:
 	db GUST
 	db QUICK_ATTACK
 	db FLAIL
+	db MUD_SLAP
 	db -1 ; end
 
 DoduoEggMoves:
@@ -359,6 +361,7 @@ GoldeenEggMoves:
 	db PSYBEAM
 	db HAZE
 	db HYDRO_PUMP
+	db MUD_SLAP
 	db -1 ; end
 
 MrMimeEggMoves:
@@ -386,6 +389,7 @@ LaprasEggMoves:
 
 EeveeEggMoves:
 	db FLAIL
+	db MUD_SLAP
 	db CHARM
 	db -1 ; end
 
@@ -640,6 +644,7 @@ QwilfishEggMoves:
 	db -1 ; end
 
 ShuckleEggMoves:
+	db MUD_SLAP
 	db SWEET_SCENT
 	db -1 ; end
 
@@ -728,6 +733,7 @@ HoundourEggMoves:
 PhanpyEggMoves:
 	db FOCUS_ENERGY
 	db BODY_SLAM
+	db MUD_SLAP
 	db ANCIENTPOWER
 	db WATER_GUN
 	db -1 ; end

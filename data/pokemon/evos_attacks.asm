@@ -682,6 +682,7 @@ DiglettEvosAttacks:
 	db 1, SCRATCH
 	db 5, GROWL
 	db 9, MAGNITUDE
+	db 12, MUD_SLAP
 	db 25, SAND_ATTACK
 	db 32, DIG
 	db 33, SLASH
@@ -697,6 +698,7 @@ DugtrioEvosAttacks:
 	db 1, MAGNITUDE
 	db 5, GROWL
 	db 9, MAGNITUDE
+	db 12, MUD_SLAP
 	db 25, SAND_ATTACK
 	db 36, DIG
 	db 37, SLASH
@@ -765,6 +767,7 @@ MankeyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
+	db 8, MUD_SLAP
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
@@ -781,6 +784,7 @@ PrimeapeEvosAttacks:
 	db 1, LEER
 	db 1, LOW_KICK
 	db 1, RAGE
+	db 8, MUD_SLAP
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
@@ -1225,6 +1229,7 @@ GrimerEvosAttacks:
 	db 1, POISON_GAS
 	db 1, POUND
 	db 5, HARDEN
+	db 7, MUD_SLAP
 	db 10, DISABLE
 	db 16, SLUDGE
 	db 23, MINIMIZE
@@ -1239,6 +1244,8 @@ MukEvosAttacks:
 	db 1, POISON_GAS
 	db 1, POUND
 	db 1, HARDEN
+	db 1, MUD_SLAP
+	db 7, MUD_SLAP
 	db 33, HARDEN
 	db 37, DISABLE
 	db 45, SLUDGE
@@ -1454,6 +1461,7 @@ ExeggutorEvosAttacks:
 CuboneEvosAttacks:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0 ; no more evolutions
+	db 1, MUD_SLAP
 	db 1, GROWL
 	db 5, TAIL_WHIP
 	db 9, BONE_CLUB
@@ -1469,6 +1477,7 @@ CuboneEvosAttacks:
 
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, MUD_SLAP
 	db 1, GROWL
 	db 1, TAIL_WHIP
 	db 1, BONE_CLUB
@@ -2222,6 +2231,7 @@ TotodileEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 7, RAGE
+	db 8, MUD_SLAP
 	db 13, WATER_GUN
 	db 20, BITE
 	db 27, SCARY_FACE
@@ -2237,6 +2247,7 @@ CroconawEvosAttacks:
 	db 1, LEER
 	db 1, RAGE
 	db 7, RAGE
+	db 8, MUD_SLAP
 	db 13, WATER_GUN
 	db 21, BITE
 	db 28, SCARY_FACE
@@ -2252,6 +2263,7 @@ FeraligatrEvosAttacks:
 	db 1, RAGE
 	db 1, WATER_GUN
 	db 7, RAGE
+	db 8, MUD_SLAP
 	db 13, WATER_GUN
 	db 21, BITE
 	db 28, SCARY_FACE
@@ -2852,6 +2864,7 @@ ForretressEvosAttacks:
 DunsparceEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, RAGE
+	db 4, MUD_SLAP
 	db 5, DEFENSE_CURL
 	db 13, GLARE
 	db 18, SPITE
@@ -2865,6 +2878,7 @@ GligarEvosAttacks:
 	db 1, POISON_STING
 	db 6, SAND_ATTACK
 	db 13, HARDEN
+	db 19, MUD_SLAP
 	db 20, QUICK_ATTACK
 	db 28, FAINT_ATTACK
 	db 36, SLASH
@@ -3044,6 +3058,7 @@ SwinubEvosAttacks:
 	db EVOLVE_LEVEL, 33, PILOSWINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, MUD_SLAP
 	db 10, POWDER_SNOW
 	db 25, ENDURE
 	db 28, TAKE_DOWN
@@ -3056,6 +3071,7 @@ SwinubEvosAttacks:
 PiloswineEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HORN_ATTACK
+	db 1, MUD_SLAP
 	db 1, POWDER_SNOW
 	db 10, POWDER_SNOW
 	db 25, ENDURE
