@@ -73,6 +73,7 @@ CharmanderEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 7, EMBER
+	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
 	db 19, RAGE
 	db 25, SCARY_FACE
@@ -89,6 +90,7 @@ CharmeleonEvosAttacks:
 	db 1, GROWL
 	db 1, EMBER
 	db 7, EMBER
+	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
 	db 20, RAGE
 	db 27, SCARY_FACE
@@ -106,6 +108,7 @@ CharizardEvosAttacks:
 	db 1, EMBER
 	db 1, SMOKESCREEN
 	db 7, EMBER
+	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
 	db 20, RAGE
 	db 27, SCARY_FACE
@@ -1310,6 +1313,7 @@ OnixEvosAttacks:
 	db 1, TACKLE
 	db 1, SCREECH
 	db 10, BIND
+	db 12, DRAGONBREATH
 	db 14, ROCK_THROW
 	db 16, CURSE
 	db 23, HARDEN
@@ -1618,6 +1622,7 @@ HorseaEvosAttacks:
 	db 1, BUBBLE
 	db 8, SMOKESCREEN
 	db 15, LEER
+	db 20, DRAGONBREATH
 	db 22, WATER_GUN
 	db 29, TWISTER
 	db 36, AGILITY
@@ -1634,6 +1639,7 @@ SeadraEvosAttacks:
 	db 1, WATER_GUN
 	db 8, SMOKESCREEN
 	db 15, LEER
+	db 20, DRAGONBREATH
 	db 22, WATER_GUN
 	db 29, TWISTER
 	db 40, AGILITY
@@ -2852,6 +2858,7 @@ SteelixEvosAttacks:
 	db 1, TACKLE
 	db 1, SCREECH
 	db 10, BIND
+	db 12, DRAGONBREATH
 	db 14, ROCK_THROW
 	db 16, CURSE
 	db 23, HARDEN
@@ -3145,6 +3152,7 @@ KingdraEvosAttacks:
 	db 1, WATER_GUN
 	db 8, SMOKESCREEN
 	db 15, LEER
+	db 20, DRAGONBREATH
 	db 22, WATER_GUN
 	db 29, TWISTER
 	db 40, AGILITY

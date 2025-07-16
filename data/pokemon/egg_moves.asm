@@ -409,6 +409,7 @@ KabutoEggMoves:
 
 AerodactylEggMoves:
 	db WHIRLWIND
+	db DRAGONBREATH
 	db PURSUIT
 	db FORESIGHT
 	db -1 ; end
@@ -421,6 +422,7 @@ DratiniEggMoves:
 	db MIST
 	db HAZE
 	db SUPERSONIC
+	db DRAGONBREATH
 	db -1 ; end
 
 ChikoritaEggMoves:

@@ -41,7 +41,6 @@ DragonsDenB1FCheckRivalCallback:
 	endcallback
 
 DragonsDenB1F_ClairScene:
-; BUG: Clair can give TM24 Dragonbreath twice (see docs/bugs_and_glitches.md)
 	appear DRAGONSDENB1F_CLAIR
 	opentext
 	writetext ClairText_Wait
@@ -52,17 +51,17 @@ DragonsDenB1F_ClairScene:
 	playmusic MUSIC_NONE
 	applymovement DRAGONSDENB1F_CLAIR, MovementDragonsDen_ClairWalksToYou
 	opentext
-	writetext ClairText_GiveDragonbreathDragonDen
+	writetext ClairText_GiveDragonClawDragonDen
 	promptbutton
-	giveitem TM_DRAGONBREATH
+	giveitem TM_DRAGON_CLAW
 	iffalse .BagFull
-	getitemname STRING_BUFFER_3, TM_DRAGONBREATH
-	writetext Text_ReceivedTM24
+	getitemname STRING_BUFFER_3, TM_DRAGON_CLAW
+	writetext Text_ReceivedTM02
 	playsound SFX_ITEM
 	waitsfx
 	itemnotify
-	setevent EVENT_GOT_TM24_DRAGONBREATH
-	writetext ClairText_DescribeDragonbreathDragonDen
+	setevent EVENT_GOT_TM02_DRAGON_CLAW
+	writetext ClairText_DescribeDragonClawDragonDen
 	promptbutton
 	writetext ClairText_WhatsTheMatterDragonDen
 	waitbutton
@@ -207,7 +206,7 @@ ClairText_Wait:
 	text "Wait!"
 	done
 
-ClairText_GiveDragonbreathDragonDen:
+ClairText_GiveDragonClawDragonDen:
 	text "CLAIR: I'm sorry"
 	line "about this."
 
@@ -215,14 +214,14 @@ ClairText_GiveDragonbreathDragonDen:
 	line "my apology."
 	done
 
-Text_ReceivedTM24:
+Text_ReceivedTM02:
 	text "<PLAYER> received"
-	line "TM24."
+	line "TM02."
 	done
 
-ClairText_DescribeDragonbreathDragonDen:
+ClairText_DescribeDragonClawDragonDen:
 	text "That contains"
-	line "DRAGONBREATH."
+	line "Dragon Claw."
 
 	para "No, it doesn't"
 	line "have anything to"
