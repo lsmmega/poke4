@@ -384,6 +384,7 @@ SandshrewEvosAttacks:
 	db 17, POISON_STING
 	db 23, SLASH
 	db 30, SWIFT
+	db 33, DIG
 	db 37, FURY_SWIPES
 	db 45, SANDSTORM
 	db 45, EARTHQUAKE
@@ -399,6 +400,7 @@ SandslashEvosAttacks:
 	db 17, POISON_STING
 	db 24, SLASH
 	db 33, SWIFT
+	db 41, DIG
 	db 42, FURY_SWIPES
 	db 52, SANDSTORM
 	db 61, EARTHQUAKE
@@ -680,8 +682,8 @@ DiglettEvosAttacks:
 	db 1, SCRATCH
 	db 5, GROWL
 	db 9, MAGNITUDE
-	db 17, DIG
 	db 25, SAND_ATTACK
+	db 32, DIG
 	db 33, SLASH
 	db 40, EARTHQUAKE
 	db 49, FISSURE
@@ -695,8 +697,8 @@ DugtrioEvosAttacks:
 	db 1, MAGNITUDE
 	db 5, GROWL
 	db 9, MAGNITUDE
-	db 17, DIG
 	db 25, SAND_ATTACK
+	db 36, DIG
 	db 37, SLASH
 	db 48, EARTHQUAKE
 	db 61, FISSURE
@@ -1326,6 +1328,7 @@ OnixEvosAttacks:
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
+	db 44, DIG
 	db 48, IRON_TAIL
 	db 0 ; no more level-up moves
 
@@ -2872,6 +2875,7 @@ SteelixEvosAttacks:
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
+	db 44, DIG
 	db 48, IRON_TAIL
 	db 49, CRUNCH
 	db 0 ; no more level-up moves
@@ -3251,6 +3255,7 @@ HitmontopEvosAttacks:
 	db 19, QUICK_ATTACK
 	db 25, RAPID_SPIN
 	db 31, COUNTER
+	db 32, DIG
 	db 37, AGILITY
 	db 43, DETECT
 	db 49, TRIPLE_KICK

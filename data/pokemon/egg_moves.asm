@@ -278,7 +278,6 @@ DrowzeeEggMoves:
 	db -1 ; end
 
 KrabbyEggMoves:
-	db DIG
 	db HAZE
 	db AMNESIA
 	db FLAIL
@@ -403,7 +402,6 @@ KabutoEggMoves:
 	db BUBBLEBEAM
 	db AURORA_BEAM
 	db RAPID_SPIN
-	db DIG
 	db FLAIL
 	db -1 ; end
 
