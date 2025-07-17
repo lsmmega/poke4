@@ -361,8 +361,8 @@ PikachuEvosAttacks:
 	db 1, GROWL
 	db 6, TAIL_WHIP
 	db 8, THUNDER_WAVE
+	db 8, DOUBLE_TEAM
 	db 11, QUICK_ATTACK
-	db 15, DOUBLE_TEAM
 	db 20, SLAM
 	db 33, AGILITY
 	db 36, THUNDERBOLT
@@ -372,6 +372,7 @@ PikachuEvosAttacks:
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DOUBLE_TEAM
 	db 1, THUNDERBOLT
 	db 1, LIGHT_SCREEN
 	db 1, THUNDER
@@ -1761,12 +1762,12 @@ ScytherEvosAttacks:
 	db 1, LEER
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
+	db 16, DOUBLE_TEAM
 	db 18, FALSE_SWIPE
 	db 24, AGILITY
 	db 30, WING_ATTACK
 	db 36, SLASH
 	db 42, SWORDS_DANCE
-	db 48, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
 JynxEvosAttacks:
@@ -2723,7 +2724,7 @@ YanmaEvosAttacks:
 	db 1, TACKLE
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
-	db 13, DOUBLE_TEAM
+	db 11, DOUBLE_TEAM
 	db 14, AERIAL_ACE
 	db 19, SONICBOOM
 	db 25, DETECT
@@ -2978,12 +2979,12 @@ ScizorEvosAttacks:
 	db 1, LEER
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
+	db 16, DOUBLE_TEAM
 	db 18, FALSE_SWIPE
 	db 24, AGILITY
 	db 30, METAL_CLAW
 	db 36, SLASH
 	db 42, SWORDS_DANCE
-	db 48, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
 ShuckleEvosAttacks:

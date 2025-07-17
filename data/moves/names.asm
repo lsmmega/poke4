@@ -104,7 +104,7 @@ MoveNames::
 	li "NIGHT SHADE"
 	li "MIMIC"
 	li "SCREECH"
-	li "DOUBLE TEAM"
+	li "Double Team"
 	li "RECOVER"
 	li "HARDEN"
 	li "MINIMIZE"
