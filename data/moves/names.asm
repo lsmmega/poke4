@@ -115,7 +115,7 @@ MoveNames::
 	li "BARRIER"
 	li "Light Screen"
 	li "HAZE"
-	li "REFLECT"
+	li "Reflect"
 	li "FOCUS ENERGY"
 	li "BIDE"
 	li "METRONOME"

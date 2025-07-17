@@ -194,7 +194,6 @@ MachopEggMoves:
 BellsproutEggMoves:
 	db SWORDS_DANCE
 	db ENCORE
-	db REFLECT
 	db SYNTHESIS
 	db LEECH_LIFE
 	db -1 ; end
@@ -294,7 +293,6 @@ KrabbyEggMoves:
 ExeggcuteEggMoves:
 	db SYNTHESIS
 	db MOONLIGHT
-	db REFLECT
 	db MEGA_DRAIN
 	db ANCIENTPOWER
 	db -1 ; end
@@ -343,7 +341,6 @@ TangelaEggMoves:
 	db FLAIL
 	db CONFUSION
 	db MEGA_DRAIN
-	db REFLECT
 	db AMNESIA
 	db -1 ; end
 
@@ -540,7 +537,6 @@ MareepEggMoves:
 	db TAKE_DOWN
 	db BODY_SLAM
 	db SCREECH
-	db REFLECT
 	db -1 ; end
 
 MarillEggMoves:
@@ -563,7 +559,6 @@ HoppipEggMoves:
 	db GROWL
 	db ENCORE
 	db DOUBLE_EDGE
-	db REFLECT
 	db AMNESIA
 	db PAY_DAY
 	db -1 ; end
@@ -617,7 +612,6 @@ GirafarigEggMoves:
 	db -1 ; end
 
 PinecoEggMoves:
-	db REFLECT
 	db PIN_MISSILE
 	db FLAIL
 	db SWIFT
@@ -641,7 +635,6 @@ GligarEggMoves:
 SnubbullEggMoves:
 	db METRONOME
 	db FAINT_ATTACK
-	db REFLECT
 	db PRESENT
 	db CRUNCH
 	db HEAL_BELL
@@ -672,7 +665,6 @@ SneaselEggMoves:
 	db COUNTER
 	db SPITE
 	db FORESIGHT
-	db REFLECT
 	db BITE
 	db -1 ; end
 
@@ -755,7 +747,6 @@ PhanpyEggMoves:
 	db -1 ; end
 
 StantlerEggMoves:
-	db REFLECT
 	db SPITE
 	db DISABLE
 	db BITE

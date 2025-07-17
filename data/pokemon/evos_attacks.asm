@@ -877,13 +877,13 @@ KadabraEvosAttacks:
 	db 1, TELEPORT
 	db 1, KINESIS
 	db 1, CONFUSION
+	db 10, REFLECT
 	db 16, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
 	db 31, FUTURE_SIGHT
 	db 35, PSYCHIC_M
-	db 45, REFLECT
 	db 0 ; no more level-up moves
 
 AlakazamEvosAttacks:
@@ -891,13 +891,13 @@ AlakazamEvosAttacks:
 	db 1, TELEPORT
 	db 1, KINESIS
 	db 1, CONFUSION
+	db 10, REFLECT
 	db 16, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
 	db 31, FUTURE_SIGHT
 	db 35, PSYCHIC_M
-	db 45, REFLECT
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:
@@ -1446,7 +1446,7 @@ ExeggcuteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BARRAGE
 	db 1, HYPNOSIS
-	db 7, REFLECT
+	db 5, REFLECT
 	db 13, LEECH_SEED
 	db 19, CONFUSION
 	db 25, STUN_SPORE
@@ -1465,6 +1465,7 @@ ExeggutorEvosAttacks:
 	db 1, GIGA_DRAIN
 	db 1, SOLARBEAM
 	db 1, HYPNOSIS
+	db 1, REFLECT
 	db 19, STOMP
 	db 31, EGG_BOMB
 	db 0 ; no more level-up moves
@@ -1745,11 +1746,11 @@ MrMimeEvosAttacks:
 	db 11, SUBSTITUTE
 	db 16, MEDITATE
 	db 21, DOUBLESLAP
-	db 26, REFLECT
 	db 31, ENCORE
 	db 36, PSYBEAM
 	db 36, LIGHT_SCREEN
 	db 36, SAFEGUARD
+	db 36, REFLECT
 	db 41, BATON_PASS
 	db 44, DAZZLING_GLEAM
 	db 48, PSYCHIC_M
@@ -2039,11 +2040,11 @@ ArticunoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GUST
 	db 1, POWDER_SNOW
+	db 10, REFLECT
 	db 13, MIST
 	db 25, AGILITY
 	db 37, MIND_READER
 	db 45, ICE_BEAM
-	db 61, REFLECT
 	db 73, BLIZZARD
 	db 0 ; no more level-up moves
 
@@ -2156,8 +2157,8 @@ ChikoritaEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 8, RAZOR_LEAF
-	db 12, REFLECT
 	db 15, POISONPOWDER
+	db 17, REFLECT
 	db 22, SYNTHESIS
 	db 28, SWEET_SCENT
 	db 29, BODY_SLAM
@@ -2172,10 +2173,9 @@ BayleefEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, RAZOR_LEAF
-	db 1, REFLECT
 	db 8, RAZOR_LEAF
-	db 12, REFLECT
 	db 15, POISONPOWDER
+	db 18, REFLECT
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 32, SWEET_SCENT
@@ -2189,10 +2189,9 @@ MeganiumEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, RAZOR_LEAF
-	db 1, REFLECT
 	db 8, RAZOR_LEAF
-	db 12, REFLECT
 	db 15, POISONPOWDER
+	db 18, REFLECT
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 34, SWEET_SCENT
@@ -2324,8 +2323,8 @@ HoothootEvosAttacks:
 	db 1, GROWL
 	db 6, FORESIGHT
 	db 11, PECK
+	db 12, REFLECT
 	db 16, HYPNOSIS
-	db 22, REFLECT
 	db 28, TAKE_DOWN
 	db 34, CONFUSION
 	db 48, DREAM_EATER
@@ -2339,8 +2338,8 @@ NoctowlEvosAttacks:
 	db 1, PECK
 	db 6, FORESIGHT
 	db 11, PECK
+	db 12, REFLECT
 	db 16, HYPNOSIS
-	db 25, REFLECT
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
 	db 57, DREAM_EATER
@@ -2353,8 +2352,8 @@ LedybaEvosAttacks:
 	db 8, SUPERSONIC
 	db 12, LIGHT_SCREEN
 	db 12, SAFEGUARD
+	db 12, REFLECT
 	db 15, COMET_PUNCH
-	db 22, REFLECT
 	db 29, BATON_PASS
 	db 36, SWIFT
 	db 43, AGILITY
@@ -2368,8 +2367,8 @@ LedianEvosAttacks:
 	db 8, SUPERSONIC
 	db 12, LIGHT_SCREEN
 	db 12, SAFEGUARD
+	db 12, REFLECT
 	db 15, COMET_PUNCH
-	db 24, REFLECT
 	db 33, BATON_PASS
 	db 42, SWIFT
 	db 51, AGILITY
@@ -2878,6 +2877,7 @@ ForretressEvosAttacks:
 	db 1, SELFDESTRUCT
 	db 8, SELFDESTRUCT
 	db 15, TAKE_DOWN
+	db 20, REFLECT
 	db 22, RAPID_SPIN
 	db 23, ROLLOUT
 	db 29, BIDE
@@ -3396,7 +3396,7 @@ RaikouEvosAttacks:
 	db 24, ROAR
 	db 31, QUICK_ATTACK
 	db 41, SPARK
-	db 51, REFLECT
+	db 60, REFLECT
 	db 61, CRUNCH
 	db 66, RAIN_DANCE
 	db 72, THUNDER
