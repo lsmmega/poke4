@@ -221,7 +221,6 @@ DEF TM01 EQU const_value
 	add_tm WATER_PULSE    ;3
 	add_tm ROAR           ;5
 	add_tm TOXIC          ;6
-	add_tm HIDDEN_POWER ; c9
 	add_tm BULLET_SEED
 	add_tm SUNNY_DAY    ; ca
 	add_tm SWEET_SCENT  ; cb

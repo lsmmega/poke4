@@ -235,7 +235,7 @@ MoveNames::
 	li "MORNING SUN"
 	li "SYNTHESIS"
 	li "MOONLIGHT"
-	li "HIDDEN POWER"
+	li "Hidden Power"
 	li "CROSS CHOP"
 	li "TWISTER"
 	li "Rain Dance"
