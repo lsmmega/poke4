@@ -2,7 +2,6 @@ MoveNames::
 	list_start
 ;1
 	li "POUND"
-	li "KARATE CHOP"
 	li "DOUBLESLAP"
 	li "COMET PUNCH"
 	li "MEGA PUNCH"

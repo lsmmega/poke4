@@ -73,7 +73,6 @@
 	const SFX_JUMP_KICK                   ; 46
 	const SFX_STOMP                       ; 47
 	const SFX_TAIL_WHIP                   ; 48
-	const SFX_KARATE_CHOP                 ; 49
 	const SFX_SUBMISSION                  ; 4a
 	const SFX_WATER_GUN                   ; 4b
 	const SFX_SWORDS_DANCE                ; 4c

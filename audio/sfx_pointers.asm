@@ -74,7 +74,6 @@ SFX:
 	dba Sfx_JumpKick
 	dba Sfx_Stomp
 	dba Sfx_TailWhip
-	dba Sfx_KarateChop
 	dba Sfx_Submission
 	dba Sfx_WaterGun
 	dba Sfx_SwordsDance

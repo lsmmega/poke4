@@ -347,10 +347,6 @@ Sfx_TailWhip:
 	channel_count 1
 	channel 8, Sfx_TailWhip_Ch8
 
-Sfx_KarateChop:
-	channel_count 1
-	channel 8, Sfx_KarateChop_Ch8
-
 Sfx_Submission:
 	channel_count 1
 	channel 8, Sfx_Submission_Ch8
@@ -4438,11 +4434,6 @@ Sfx_TailWhip_Ch8:
 	noise_note 2, 10, 1, 49
 	noise_note 15, 8, 2, 50
 	noise_note 8, 15, 1, 52
-	sound_ret
-
-Sfx_KarateChop_Ch8:
-	noise_note 2, 13, 2, 50
-	noise_note 15, 15, 2, 67
 	sound_ret
 
 Sfx_Submission_Ch8:

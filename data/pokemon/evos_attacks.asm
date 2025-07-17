@@ -775,7 +775,6 @@ MankeyEvosAttacks:
 	db 1, LEER
 	db 8, MUD_SLAP
 	db 9, LOW_KICK
-	db 15, KARATE_CHOP
 	db 19, SWAGGER
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
@@ -793,7 +792,6 @@ PrimeapeEvosAttacks:
 	db 1, RAGE
 	db 8, MUD_SLAP
 	db 9, LOW_KICK
-	db 15, KARATE_CHOP
 	db 19, SWAGGER
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
@@ -909,7 +907,6 @@ MachopEvosAttacks:
 	db 1, LEER
 	db 7, FOCUS_ENERGY
 	db 12, LOW_SWEEP
-	db 13, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
@@ -927,7 +924,6 @@ MachokeEvosAttacks:
 	db 1, FOCUS_ENERGY
 	db 8, FOCUS_ENERGY
 	db 12, LOW_SWEEP
-	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
 	db 34, VITAL_THROW
@@ -944,7 +940,6 @@ MachampEvosAttacks:
 	db 1, FOCUS_ENERGY
 	db 8, FOCUS_ENERGY
 	db 12, LOW_SWEEP
-	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
 	db 34, VITAL_THROW

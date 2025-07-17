@@ -766,7 +766,6 @@ SmoochumEggMoves:
 
 ElekidEggMoves:
 	db ICE_PUNCH
-	db KARATE_CHOP
 	db BARRIER
 	db ROLLING_KICK
 	db MEDITATE
@@ -775,7 +774,6 @@ ElekidEggMoves:
 	db -1 ; end
 
 MagbyEggMoves:
-	db KARATE_CHOP
 	db MEGA_PUNCH
 	db BARRIER
 	db SCREECH
