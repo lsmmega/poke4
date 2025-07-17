@@ -167,20 +167,20 @@ PowerPlantManager:
 	setevent EVENT_RESTORED_POWER_TO_KANTO
 	clearevent EVENT_GOLDENROD_TRAIN_STATION_GENTLEMAN
 .ReturnedMachinePart:
-	checkevent EVENT_GOT_TM07_ZAP_CANNON
-	iftrue .GotZapCannon
+	checkevent EVENT_GOT_TM24_THUNDERBOLT
+	iftrue .GotThunderbolt
 	writetext PowerPlantManagerTakeThisTMText
 	promptbutton
-	verbosegiveitem TM_ZAP_CANNON
+	verbosegiveitem TM_THUNDERBOLT
 	iffalse .NoRoom
-	setevent EVENT_GOT_TM07_ZAP_CANNON
-	writetext PowerPlantManagerTM07IsZapCannonText
+	setevent EVENT_GOT_TM24_THUNDERBOLT
+	writetext PowerPlantManagerTM24IsThunderboltText
 	waitbutton
 .NoRoom:
 	closetext
 	end
 
-.GotZapCannon:
+.GotThunderbolt:
 	writetext PowerPlantManagerMyBelovedGeneratorText
 	waitbutton
 	closetext
@@ -364,9 +364,9 @@ PowerPlantManagerTakeThisTMText:
 	line "as a reward!"
 	done
 
-PowerPlantManagerTM07IsZapCannonText:
-	text "MANAGER: TM07 is"
-	line "my ZAP CANNON."
+PowerPlantManagerTM24IsThunderboltText:
+	text "MANAGER: TM24 is"
+	line "Thunderbolt."
 
 	para "It's a powerful"
 	line "technique!"

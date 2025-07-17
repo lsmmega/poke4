@@ -1149,7 +1149,7 @@ MagnemiteEvosAttacks:
 	db 33, SWIFT
 	db 39, SCREECH
 	db 44, LIGHT_SCREEN
-	db 45, ZAP_CANNON
+	db 52, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
@@ -1166,7 +1166,7 @@ MagnetonEvosAttacks:
 	db 35, TRI_ATTACK
 	db 43, SCREECH
 	db 52, LIGHT_SCREEN
-	db 53, ZAP_CANNON
+	db 64, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
@@ -1954,7 +1954,7 @@ PorygonEvosAttacks:
 	db 24, SHARPEN
 	db 32, LOCK_ON
 	db 36, TRI_ATTACK
-	db 44, ZAP_CANNON
+	db 60, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 OmanyteEvosAttacks:
@@ -2058,6 +2058,7 @@ ZapdosEvosAttacks:
 	db 49, DRILL_PECK
 	db 50, RAIN_DANCE
 	db 55, THUNDER
+	db 70, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 MoltresEvosAttacks:
@@ -2549,6 +2550,7 @@ FlaaffyEvosAttacks:
 
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, ZAP_CANNON
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, THUNDERSHOCK
@@ -2867,6 +2869,7 @@ PinecoEvosAttacks:
 
 ForretressEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, ZAP_CANNON
 	db 1, TACKLE
 	db 1, PROTECT
 	db 1, SELFDESTRUCT
@@ -2878,6 +2881,7 @@ ForretressEvosAttacks:
 	db 39, EXPLOSION
 	db 49, SPIKES
 	db 59, DOUBLE_EDGE
+	db 60, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 DunsparceEvosAttacks:
@@ -3256,7 +3260,7 @@ Porygon2EvosAttacks:
 	db 24, DEFENSE_CURL
 	db 32, LOCK_ON
 	db 36, TRI_ATTACK
-	db 44, ZAP_CANNON
+	db 60, ZAP_CANNON
 	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -3390,6 +3394,7 @@ RaikouEvosAttacks:
 	db 61, CRUNCH
 	db 66, RAIN_DANCE
 	db 72, THUNDER
+	db 78, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 EnteiEvosAttacks:
