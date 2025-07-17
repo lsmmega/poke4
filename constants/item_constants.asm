@@ -242,7 +242,6 @@ DEF TM01 EQU const_value
 	add_tm PSYCHIC_M      ;29
 	add_tm SHADOW_BALL    ;30
 	add_tm DOUBLE_TEAM    ;32
-	add_tm ICE_PUNCH    ; e1
 	add_tm SWAGGER      ; e2
 	add_tm SLEEP_TALK   ; e3
 	add_tm SLUDGE_BOMB  ; e4

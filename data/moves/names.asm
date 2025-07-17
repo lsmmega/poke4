@@ -8,7 +8,7 @@ MoveNames::
 	li "MEGA PUNCH"
 	li "PAY DAY"
 	li "FIRE PUNCH"
-	li "ICE PUNCH"
+	li "Ice Punch"
 	li "THUNDERPUNCH"
 	li "SCRATCH"
 	li "VICEGRIP"

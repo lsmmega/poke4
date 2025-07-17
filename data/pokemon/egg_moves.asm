@@ -179,11 +179,13 @@ PoliwagEggMoves:
 	db -1 ; end
 
 AbraEggMoves:
+	db ICE_PUNCH
 	db ENCORE
 	db BARRIER
 	db -1 ; end
 
 MachopEggMoves:
+	db ICE_PUNCH
 	db MEDITATE
 	db ROLLING_KICK
 	db ENCORE
@@ -265,6 +267,7 @@ ShellderEggMoves:
 	db -1 ; end
 
 GastlyEggMoves:
+	db ICE_PUNCH
 	db PSYWAVE
 	db PERISH_SONG
 	db HAZE
@@ -277,6 +280,7 @@ OnixEggMoves:
 	db -1 ; end
 
 DrowzeeEggMoves:
+	db ICE_PUNCH
 	db BARRIER
 	db -1 ; end
 
@@ -447,6 +451,7 @@ CyndaquilEggMoves:
 	db -1 ; end
 
 TotodileEggMoves:
+	db ICE_PUNCH
 	db CRUNCH
 	db THRASH
 	db HYDRO_PUMP
@@ -663,6 +668,7 @@ HeracrossEggMoves:
 	db -1 ; end
 
 SneaselEggMoves:
+	db ICE_PUNCH
 	db COUNTER
 	db SPITE
 	db FORESIGHT
@@ -708,6 +714,7 @@ RemoraidEggMoves:
 	db -1 ; end
 
 DelibirdEggMoves:
+	db ICE_PUNCH
 	db AURORA_BEAM
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
@@ -762,10 +769,12 @@ TyrogueEggMoves:
 	db -1 ; end
 
 SmoochumEggMoves:
+	db ICE_PUNCH
 	db MEDITATE
 	db -1 ; end
 
 ElekidEggMoves:
+	db ICE_PUNCH
 	db KARATE_CHOP
 	db BARRIER
 	db ROLLING_KICK

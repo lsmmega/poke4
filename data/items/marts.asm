@@ -134,7 +134,6 @@ MartGoldenrod5F:
 	db 3 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
 	db -1 ; end
 
 MartOlivine:
@@ -290,7 +289,6 @@ MartCeladon3F:
 	db TM_PROTECT
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
 	db -1 ; end
 
 MartCeladon4F:

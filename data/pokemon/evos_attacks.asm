@@ -1526,7 +1526,7 @@ HitmonchanEvosAttacks:
 	db 7, AGILITY
 	db 13, PURSUIT
 	db 26, THUNDERPUNCH
-	db 26, ICE_PUNCH
+	db 24, ICE_PUNCH
 	db 26, FIRE_PUNCH
 	db 32, MACH_PUNCH
 	db 38, MEGA_PUNCH
@@ -1779,7 +1779,7 @@ JynxEvosAttacks:
 	db 9, LOVELY_KISS
 	db 13, POWDER_SNOW
 	db 21, DOUBLESLAP
-	db 25, ICE_PUNCH
+	db 28, ICE_PUNCH
 	db 34, PSYCHIC_M
 	db 35, MEAN_LOOK
 	db 41, BODY_SLAM
@@ -3325,6 +3325,7 @@ SmoochumEvosAttacks:
 	db 13, POWDER_SNOW
 	db 21, CONFUSION
 	db 25, SING
+	db 28, ICE_PUNCH
 	db 32, PSYCHIC_M
 	db 33, MEAN_LOOK
 	db 45, PERISH_SONG
