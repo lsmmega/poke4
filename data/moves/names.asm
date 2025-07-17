@@ -205,7 +205,7 @@ MoveNames::
 	li "Giga Drain"
 	li "Endure"
 	li "CHARM"
-	li "ROLLOUT"
+	li "Rollout"
 	li "FALSE SWIPE"
 	li "SWAGGER"
 	li "MILK DRINK"

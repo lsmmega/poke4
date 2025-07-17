@@ -272,6 +272,7 @@ GastlyEggMoves:
 OnixEggMoves:
 	db ROCK_SLIDE
 	db FLAIL
+	db ROLLOUT
 	db -1 ; end
 
 DrowzeeEggMoves:
@@ -510,6 +511,7 @@ IgglybuffEggMoves:
 	db PERISH_SONG
 	db PRESENT
 	db FAINT_ATTACK
+	db ROLLOUT
 	db -1 ; end
 
 TogepiEggMoves:
@@ -547,6 +549,7 @@ MarillEggMoves:
 
 SudowoodoEggMoves:
 	db SELFDESTRUCT
+	db ROLLOUT
 	db -1 ; end
 
 HoppipEggMoves:
@@ -673,6 +676,7 @@ TeddiursaEggMoves:
 
 SlugmaEggMoves:
 	db ACID_ARMOR
+	db ROLLOUT
 	db -1 ; end
 
 SwinubEggMoves:

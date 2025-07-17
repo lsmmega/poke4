@@ -217,11 +217,10 @@ ENDM
 
 ; see data/moves/tm_moves.asm for moves
 DEF TM01 EQU const_value
-	add_tm DRAGON_CLAW
-	add_tm WATER_PULSE
-	add_tm ROLLOUT      ; c2
-	add_tm ROAR         ; c4
-	add_tm TOXIC        ; c5
+	add_tm DRAGON_CLAW    ;2
+	add_tm WATER_PULSE    ;3
+	add_tm ROAR           ;5
+	add_tm TOXIC          ;6
 	add_tm ZAP_CANNON   ; c6
 	add_tm HIDDEN_POWER ; c9
 	add_tm BULLET_SEED
