@@ -266,6 +266,7 @@ Moves:
 	move BULLET_SEED,    EFFECT_MULTI_HIT,          25, GRASS,         PHYSICAL, 100, 30,   0
 	move AERIAL_ACE,     EFFECT_ALWAYS_HIT,         60, FLYING,        PHYSICAL, 100, 20,   0
 	move DRAGON_CLAW,    EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
+	move SHOCK_WAVE,     EFFECT_ALWAYS_HIT,         60, ELECTRIC,      SPECIAL,  100, 20,   0
 	move WATER_PULSE,    EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20
 ;4
 	move GIGA_IMPACT,    EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL,  90,  5,   0

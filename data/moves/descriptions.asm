@@ -253,6 +253,7 @@ MoveDescriptions::
 	dw BulletSeedDescription
 	dw AerialAceDescription
 	dw DragonClawDescription
+	dw ShockWaveDescription
 	dw WaterPulseDescription
 ;4
 	dw GigaImpactDescription
@@ -264,11 +265,12 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $ff
+	assert_table_length $100
 
 BulletSeedDescription:
 AerialAceDescription:
 DragonClawDescription:
+ShockWaveDescription:
 WaterPulseDescription:
 GigaImpactDescription:
 LowSweepDescription:

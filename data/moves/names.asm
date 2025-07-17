@@ -252,6 +252,7 @@ MoveNames::
 	li "Bullet Seed"
 	li "Aerial Ace"
 	li "Dragon Claw"
+	li "Shock Wave"
 	li "Water Pulse"
 ;4
 	li "Giga Impact"

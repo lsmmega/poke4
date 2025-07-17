@@ -1783,6 +1783,7 @@ ElectabuzzEvosAttacks:
 	db 1, LEER
 	db 1, THUNDERPUNCH
 	db 9, THUNDERPUNCH
+	db 16, SHOCK_WAVE
 	db 25, SWIFT
 	db 36, SCREECH
 	db 46, THUNDERBOLT
@@ -3332,6 +3333,7 @@ ElekidEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 9, THUNDERPUNCH
+	db 16, SHOCK_WAVE
 	db 25, SWIFT
 	db 33, SCREECH
 	db 40, THUNDERBOLT

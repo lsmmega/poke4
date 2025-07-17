@@ -258,6 +258,7 @@
 	const BULLET_SEED
 	const AERIAL_ACE
 	const DRAGON_CLAW
+	const SHOCK_WAVE
 	const WATER_PULSE
 ;4
 	const GIGA_IMPACT
@@ -269,10 +270,10 @@
 	const STRUGGLE
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $ff
+DEF CANNOT_MOVE EQU $100
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $ff
+	const_next $100
 	const ANIM_SWEET_SCENT_2     ; 100
 	const ANIM_THROW_POKE_BALL   ; 101
 	const ANIM_SEND_OUT_MON      ; 102

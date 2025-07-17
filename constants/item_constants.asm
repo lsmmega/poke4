@@ -243,6 +243,7 @@ DEF TM01 EQU const_value
 	add_tm SHADOW_BALL    ;30
 	add_tm DOUBLE_TEAM    ;32
 	add_tm REFLECT        ;33
+	add_tm SHOCK_WAVE     ;34
 	add_tm SLEEP_TALK   ; e3
 	add_tm SLUDGE_BOMB  ; e4
 	add_tm SANDSTORM    ; e5
