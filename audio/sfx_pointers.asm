@@ -69,7 +69,6 @@ SFX:
 	dba Sfx_Tackle
 	dba Sfx_PoisonSting
 	dba Sfx_Powder
-	dba Sfx_Doubleslap
 	dba Sfx_Bite
 	dba Sfx_JumpKick
 	dba Sfx_Stomp

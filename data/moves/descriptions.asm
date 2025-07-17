@@ -3,7 +3,6 @@ MoveDescriptions::
 	table_width 2
 ;1
 	dw PoundDescription
-	dw DoubleslapDescription
 	dw CometPunchDescription
 	dw MegaPunchDescription
 	dw PayDayDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 BulletSeedDescription:
 AerialAceDescription:
@@ -281,10 +280,6 @@ Move00Description:
 PoundDescription:
 	db   "Pounds with fore-"
 	next "legs or tail.@"
-
-DoubleslapDescription:
-	db   "Repeatedly slaps"
-	next "2-5 times.@"
 
 CometPunchDescription:
 	db   "Repeatedly punches"

@@ -326,10 +326,6 @@ Sfx_Powder:
 	channel_count 1
 	channel 8, Sfx_Powder_Ch8
 
-Sfx_Doubleslap:
-	channel_count 1
-	channel 8, Sfx_Doubleslap_Ch8
-
 Sfx_Bite:
 	channel_count 2
 	channel 5, Sfx_Bite_Ch5
@@ -4393,11 +4389,6 @@ Sfx_Powder_Ch8:
 	noise_note 2, 12, 2, 1
 	noise_note 15, 15, 4, 1
 	noise_note 15, 15, 2, 1
-	sound_ret
-
-Sfx_Doubleslap_Ch8:
-	noise_note 8, 15, 1, 50
-	noise_note 8, 15, 1, 51
 	sound_ret
 
 Sfx_Bite_Ch5:

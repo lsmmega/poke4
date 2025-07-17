@@ -498,7 +498,6 @@ PichuEggMoves:
 	db BIDE
 	db PRESENT
 	db ENCORE
-	db DOUBLESLAP
 	db -1 ; end
 
 CleffaEggMoves:
@@ -570,7 +569,6 @@ AipomEggMoves:
 	db AGILITY
 	db SPITE
 	db SLAM
-	db DOUBLESLAP
 	db BEAT_UP
 	db -1 ; end
 

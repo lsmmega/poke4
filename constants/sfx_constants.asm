@@ -68,7 +68,6 @@
 	const SFX_TACKLE                      ; 41
 	const SFX_POISON_STING                ; 42
 	const SFX_POWDER                      ; 43
-	const SFX_DOUBLESLAP                  ; 44
 	const SFX_BITE                        ; 45
 	const SFX_JUMP_KICK                   ; 46
 	const SFX_STOMP                       ; 47
