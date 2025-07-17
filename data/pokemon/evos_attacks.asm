@@ -25,7 +25,7 @@ BulbasaurEvosAttacks:
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 20, RAZOR_LEAF
-	db 25, SWEET_SCENT
+	db 24, SWEET_SCENT
 	db 32, GROWTH
 	db 36, SOLARBEAM
 	db 39, SYNTHESIS
@@ -43,7 +43,7 @@ IvysaurEvosAttacks:
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 22, RAZOR_LEAF
-	db 29, SWEET_SCENT
+	db 30, SWEET_SCENT
 	db 38, GROWTH
 	db 47, SYNTHESIS
 	db 50, SOLARBEAM
@@ -61,7 +61,7 @@ VenusaurEvosAttacks:
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 22, RAZOR_LEAF
-	db 29, SWEET_SCENT
+	db 30, SWEET_SCENT
 	db 41, GROWTH
 	db 53, SYNTHESIS
 	db 58, SOLARBEAM
@@ -583,7 +583,7 @@ OddishEvosAttacks:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 7, SWEET_SCENT
+	db 8, SWEET_SCENT
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
@@ -601,7 +601,6 @@ GloomEvosAttacks:
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, POISONPOWDER
-	db 7, SWEET_SCENT
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
@@ -962,7 +961,7 @@ BellsproutEvosAttacks:
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 23, ACID
-	db 30, SWEET_SCENT
+	db 29, SWEET_SCENT
 	db 37, RAZOR_LEAF
 	db 45, SLAM
 	db 0 ; no more level-up moves
@@ -979,7 +978,7 @@ WeepinbellEvosAttacks:
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 24, ACID
-	db 33, SWEET_SCENT
+	db 32, SWEET_SCENT
 	db 42, RAZOR_LEAF
 	db 54, SLAM
 	db 0 ; no more level-up moves
@@ -2159,6 +2158,7 @@ ChikoritaEvosAttacks:
 	db 12, REFLECT
 	db 15, POISONPOWDER
 	db 22, SYNTHESIS
+	db 28, SWEET_SCENT
 	db 29, BODY_SLAM
 	db 31, LIGHT_SCREEN
 	db 39, SAFEGUARD
@@ -2177,6 +2177,7 @@ BayleefEvosAttacks:
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
+	db 32, SWEET_SCENT
 	db 36, LIGHT_SCREEN
 	db 46, SAFEGUARD
 	db 54, SOLARBEAM
@@ -2193,6 +2194,7 @@ MeganiumEvosAttacks:
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
+	db 34, SWEET_SCENT
 	db 40, LIGHT_SCREEN
 	db 54, SAFEGUARD
 	db 66, SOLARBEAM
@@ -3031,6 +3033,7 @@ TeddiursaEvosAttacks:
 	db 8, LICK
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
+	db 22, SWEET_SCENT
 	db 29, REST
 	db 36, SLASH
 	db 43, SNORE
@@ -3046,6 +3049,7 @@ UrsaringEvosAttacks:
 	db 8, LICK
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
+	db 22, SWEET_SCENT
 	db 29, REST
 	db 39, SLASH
 	db 49, SNORE

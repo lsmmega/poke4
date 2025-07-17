@@ -228,7 +228,7 @@ MoveNames::
 	li "ENCORE"
 	li "PURSUIT"
 	li "RAPID SPIN"
-	li "SWEET SCENT"
+	li "Sweet Scent"
 	li "Iron Tail"
 	li "METAL CLAW"
 	li "VITAL THROW"

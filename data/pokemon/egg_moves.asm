@@ -123,6 +123,7 @@ ParasEggMoves:
 	db PSYBEAM
 	db FLAIL
 	db PURSUIT
+	db SWEET_SCENT
 	db -1 ; end
 
 VenonatEggMoves:
@@ -571,6 +572,10 @@ AipomEggMoves:
 	db SLAM
 	db DOUBLESLAP
 	db BEAT_UP
+	db -1 ; end
+
+SunkernEggMoves:
+	db SWEET_SCENT
 	db -1 ; end
 
 YanmaEggMoves:

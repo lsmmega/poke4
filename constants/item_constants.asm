@@ -217,31 +217,30 @@ ENDM
 
 ; see data/moves/tm_moves.asm for moves
 DEF TM01 EQU const_value
-	add_tm DRAGON_CLAW    ;2
-	add_tm WATER_PULSE    ;3
-	add_tm ROAR           ;5
-	add_tm TOXIC          ;6
-	add_tm BULLET_SEED
-	add_tm SUNNY_DAY    ; ca
-	add_tm SWEET_SCENT  ; cb
-	add_tm ICE_BEAM
-	add_tm BLIZZARD     ; cd
-	add_tm HYPER_BEAM   ; ce
-	add_tm LIGHT_SCREEN
-	add_tm PROTECT      ; d0
-	add_tm RAIN_DANCE   ; d1
-	add_tm GIGA_DRAIN   ; d2
-	add_tm SAFEGUARD
-	add_tm DAZZLING_GLEAM
-	add_tm SOLARBEAM    ; d5
-	add_tm IRON_TAIL    ; d6
-	add_tm THUNDERBOLT
-	add_tm THUNDER      ; d8
-	add_tm EARTHQUAKE   ; d9
-	add_tm LOW_SWEEP
-	add_tm DIG          ; db
-	add_tm PSYCHIC_M    ; dd
-	add_tm SHADOW_BALL  ; de
+	add_tm DRAGON_CLAW    ; 2
+	add_tm WATER_PULSE    ; 3
+	add_tm ROAR           ; 5
+	add_tm TOXIC          ; 6
+	add_tm BULLET_SEED    ; 9
+	add_tm SUNNY_DAY      ;11
+	add_tm ICE_BEAM       ;13
+	add_tm BLIZZARD       ;14
+	add_tm HYPER_BEAM     ;15
+	add_tm LIGHT_SCREEN   ;16
+	add_tm PROTECT        ;17
+	add_tm RAIN_DANCE     ;18
+	add_tm GIGA_DRAIN     ;19
+	add_tm SAFEGUARD      ;20
+	add_tm DAZZLING_GLEAM ;21
+	add_tm SOLARBEAM      ;22
+	add_tm IRON_TAIL      ;23
+	add_tm THUNDERBOLT    ;24
+	add_tm THUNDER        ;25
+	add_tm EARTHQUAKE     ;26
+	add_tm LOW_SWEEP      ;27
+	add_tm DIG            ;28
+	add_tm PSYCHIC_M      ;29
+	add_tm SHADOW_BALL    ;30
 	add_tm DOUBLE_TEAM  ; e0
 	add_tm ICE_PUNCH    ; e1
 	add_tm SWAGGER      ; e2
