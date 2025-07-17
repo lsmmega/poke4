@@ -207,7 +207,7 @@ MoveNames::
 	li "CHARM"
 	li "Rollout"
 	li "FALSE SWIPE"
-	li "SWAGGER"
+	li "Swagger"
 	li "MILK DRINK"
 	li "SPARK"
 	li "FURY CUTTER"

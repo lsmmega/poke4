@@ -776,6 +776,7 @@ MankeyEvosAttacks:
 	db 8, MUD_SLAP
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
+	db 19, SWAGGER
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
@@ -793,6 +794,7 @@ PrimeapeEvosAttacks:
 	db 8, MUD_SLAP
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
+	db 19, SWAGGER
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 28, RAGE
@@ -1365,6 +1367,7 @@ DrowzeeEvosAttacks:
 	db 33, PSYCH_UP
 	db 36, MEDITATE
 	db 45, FUTURE_SIGHT
+	db 45, SWAGGER
 	db 49, PSYCHIC_M
 	db 0 ; no more level-up moves
 
@@ -1380,6 +1383,7 @@ HypnoEvosAttacks:
 	db 33, POISON_GAS
 	db 33, PSYCH_UP
 	db 40, MEDITATE
+	db 45, SWAGGER
 	db 49, PSYCHIC_M
 	db 60, FUTURE_SIGHT
 	db 0 ; no more level-up moves
@@ -1840,6 +1844,7 @@ TaurosEvosAttacks:
 	db 26, PURSUIT
 	db 34, REST
 	db 43, THRASH
+	db 45, SWAGGER
 	db 53, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -2616,13 +2621,13 @@ SudowoodoEvosAttacks:
 
 PolitoedEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWAGGER
 	db 1, PERISH_SONG
 	db 1, RAIN_DANCE
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
 	db 35, PERISH_SONG
-	db 51, SWAGGER
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
@@ -2799,6 +2804,7 @@ MurkrowEvosAttacks:
 
 SlowkingEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWAGGER
 	db 1, CURSE
 	db 1, TACKLE
 	db 6, GROWL
@@ -2810,7 +2816,6 @@ SlowkingEvosAttacks:
 	db 36, PSYCHIC_M
 	db 39, PSYCH_UP
 	db 42, RAIN_DANCE
-	db 43, SWAGGER
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
@@ -3412,7 +3417,7 @@ EnteiEvosAttacks:
 	db 31, FIRE_SPIN
 	db 41, STOMP
 	db 51, FLAMETHROWER
-	db 61, SWAGGER
+	db 60, SWAGGER
 	db 66, SUNNY_DAY
 	db 71, FIRE_BLAST
 	db 0 ; no more level-up moves
