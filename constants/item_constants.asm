@@ -248,7 +248,7 @@ DEF TM01 EQU const_value
 	add_tm SLUDGE_BOMB  ; e4
 	add_tm SANDSTORM    ; e5
 	add_tm FIRE_BLAST   ; e6
-	add_tm AERIAL_ACE
+	add_tm AERIAL_ACE     ;41
 	add_tm SWIFT        ; e7
 	add_tm DEFENSE_CURL ; e8
 	add_tm THUNDERPUNCH ; e9
@@ -261,14 +261,14 @@ DEF TM01 EQU const_value
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2
-	add_tm ENDURE
-	add_tm PSYCH_UP
+	add_tm ENDURE         ;58
+	add_tm PSYCH_UP       ;77
 	add_tm CUT          ; f3
 	add_tm FLY          ; f4
 	add_tm SURF         ; f5
 	add_tm STRENGTH     ; f6
 	add_tm FLASH        ; f7
-	add_tm ROCK_SMASH
+	add_tm ROCK_SMASH     ;98
 	add_tm WHIRLPOOL    ; f8
 	add_tm WATERFALL    ; f9
 DEF NUM_TMS EQU __tm_value__ - 1
