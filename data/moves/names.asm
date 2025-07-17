@@ -254,6 +254,8 @@ MoveNames::
 	li "Aerial Ace"
 	li "Dragon Claw"
 	li "Water Pulse"
+;4
+	li "Giga Impact"
 ;5
 	li "Low Sweep"
 ;6

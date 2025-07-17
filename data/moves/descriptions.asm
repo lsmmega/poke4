@@ -255,6 +255,8 @@ MoveDescriptions::
 	dw AerialAceDescription
 	dw DragonClawDescription
 	dw WaterPulseDescription
+;4
+	dw GigaImpactDescription
 ;5
 	dw LowSweepDescription
 ;6
@@ -263,12 +265,13 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $ff
+	assert_table_length $100
 
 BulletSeedDescription:
 AerialAceDescription:
 DragonClawDescription:
 WaterPulseDescription:
+GigaImpactDescription:
 LowSweepDescription:
 DazzlingGleamDescription:
 MoveFFDescription:

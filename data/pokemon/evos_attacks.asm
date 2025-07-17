@@ -1798,6 +1798,7 @@ ElectabuzzEvosAttacks:
 	db 46, THUNDERBOLT
 	db 52, LIGHT_SCREEN
 	db 58, THUNDER
+	db 64, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
@@ -1841,6 +1842,7 @@ TaurosEvosAttacks:
 	db 43, THRASH
 	db 45, SWAGGER
 	db 53, TAKE_DOWN
+	db 60, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
@@ -2023,6 +2025,7 @@ AerodactylEvosAttacks:
 	db 36, SCARY_FACE
 	db 43, TAKE_DOWN
 	db 55, HYPER_BEAM
+	db 60, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 SnorlaxEvosAttacks:
@@ -2034,6 +2037,7 @@ SnorlaxEvosAttacks:
 	db 22, BELLY_DRUM
 	db 36, REST
 	db 43, BODY_SLAM
+	db 56, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 ArticunoEvosAttacks:
@@ -3252,6 +3256,7 @@ DonphanEvosAttacks:
 	db 25, FURY_ATTACK
 	db 41, RAPID_SPIN
 	db 43, EARTHQUAKE
+	db 50, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
@@ -3478,6 +3483,7 @@ TyranitarEvosAttacks:
 	db 38, SCARY_FACE
 	db 47, CRUNCH
 	db 52, HYPER_BEAM
+	db 59, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:

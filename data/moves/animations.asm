@@ -256,6 +256,8 @@ BattleAnimations::
 	dw BattleAnim_AerialAce
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_WaterPulse
+;4
+	dw BattleAnim_GigaImpact
 ;5
 	dw BattleAnim_LowSweep
 ;6
@@ -264,7 +266,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $100
+	assert_table_length $101
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -294,6 +296,7 @@ BattleAnim_BulletSeed:
 BattleAnim_AerialAce:
 BattleAnim_DragonClaw:
 BattleAnim_WaterPulse:
+BattleAnim_GigaImpact:
 BattleAnim_LowSweep:
 BattleAnim_DazzlingGleam:
 BattleAnim_Dummy:

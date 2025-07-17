@@ -261,6 +261,7 @@ DEF TM01 EQU const_value
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2
 	add_tm ENDURE         ;58
+	add_tm GIGA_IMPACT    ;68
 	add_tm PSYCH_UP       ;77
 	add_tm SWAGGER        ;87
 	add_tm CUT          ; f3
