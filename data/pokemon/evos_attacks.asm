@@ -544,15 +544,16 @@ JigglypuffEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 9, POUND
 	db 14, DISABLE
-	db 29, REST
+	db 20, REST
 	db 34, BODY_SLAM
 	db 39, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 WigglytuffEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SING
 	db 1, DISABLE
+	db 1, REST
+	db 1, SING
 	db 1, DEFENSE_CURL
 	db 0 ; no more level-up moves
 
@@ -1835,7 +1836,7 @@ TaurosEvosAttacks:
 	db 13, HORN_ATTACK
 	db 19, SCARY_FACE
 	db 26, PURSUIT
-	db 34, REST
+	db 40, REST
 	db 43, THRASH
 	db 45, SWAGGER
 	db 53, TAKE_DOWN
@@ -2035,8 +2036,8 @@ SnorlaxEvosAttacks:
 	db 8, AMNESIA
 	db 20, SNORE
 	db 20, SLEEP_TALK
+	db 20, REST
 	db 22, BELLY_DRUM
-	db 36, REST
 	db 43, BODY_SLAM
 	db 56, GIGA_IMPACT
 	db 0 ; no more level-up moves
@@ -2307,7 +2308,7 @@ SentretEvosAttacks:
 	db 11, QUICK_ATTACK
 	db 17, FURY_SWIPES
 	db 25, SLAM
-	db 33, REST
+	db 28, REST
 	db 41, AMNESIA
 	db 0 ; no more level-up moves
 
@@ -2320,7 +2321,7 @@ FurretEvosAttacks:
 	db 11, QUICK_ATTACK
 	db 18, FURY_SWIPES
 	db 28, SLAM
-	db 38, REST
+	db 32, REST
 	db 48, AMNESIA
 	db 0 ; no more level-up moves
 
@@ -3001,8 +3002,8 @@ ShuckleEvosAttacks:
 	db 9, WRAP
 	db 14, ENCORE
 	db 20, SAFEGUARD
+	db 25, REST
 	db 28, BIDE
-	db 37, REST
 	db 0 ; no more level-up moves
 
 HeracrossEvosAttacks:
@@ -3042,9 +3043,9 @@ TeddiursaEvosAttacks:
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
 	db 22, SWEET_SCENT
-	db 29, REST
 	db 36, SLASH
 	db 43, SNORE
+	db 43, REST
 	db 50, THRASH
 	db 0 ; no more level-up moves
 
@@ -3058,8 +3059,8 @@ UrsaringEvosAttacks:
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
 	db 22, SWEET_SCENT
-	db 29, REST
 	db 39, SLASH
+	db 47, REST
 	db 49, SNORE
 	db 59, THRASH
 	db 0 ; no more level-up moves

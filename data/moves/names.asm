@@ -153,7 +153,7 @@ MoveNames::
 	li "EXPLOSION"
 	li "FURY SWIPES"
 	li "BONEMERANG"
-	li "REST"
+	li "Rest"
 	li "ROCK SLIDE"
 	li "HYPER FANG"
 	li "SHARPEN"
