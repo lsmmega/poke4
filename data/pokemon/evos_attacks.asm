@@ -220,6 +220,7 @@ BeedrillEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
 	db 10, FURY_ATTACK
+	db 11, FURY_CUTTER
 	db 15, FOCUS_ENERGY
 	db 20, TWINEEDLE
 	db 25, RAGE
@@ -391,6 +392,7 @@ SandshrewEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 9, ROLLOUT
 	db 11, SAND_ATTACK
+	db 12, FURY_CUTTER
 	db 17, POISON_STING
 	db 21, SWIFT
 	db 23, SLASH
@@ -407,6 +409,7 @@ SandslashEvosAttacks:
 	db 1, SAND_ATTACK
 	db 9, ROLLOUT
 	db 11, SAND_ATTACK
+	db 12, FURY_CUTTER
 	db 17, POISON_STING
 	db 21, SWIFT
 	db 24, SLASH
@@ -631,6 +634,7 @@ ParasEvosAttacks:
 	db 1, SCRATCH
 	db 7, STUN_SPORE
 	db 13, POISONPOWDER
+	db 17, FURY_CUTTER
 	db 19, LEECH_LIFE
 	db 25, SPORE
 	db 31, SLASH
@@ -645,6 +649,7 @@ ParasectEvosAttacks:
 	db 1, POISONPOWDER
 	db 7, STUN_SPORE
 	db 13, POISONPOWDER
+	db 17, FURY_CUTTER
 	db 19, LEECH_LIFE
 	db 28, SPORE
 	db 37, SLASH
@@ -1172,6 +1177,7 @@ FarfetchDEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 7, SAND_ATTACK
+	db 10, FURY_CUTTER
 	db 13, LEER
 	db 19, FURY_ATTACK
 	db 20, AERIAL_ACE
@@ -1761,6 +1767,7 @@ ScytherEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
+	db 4, FURY_CUTTER
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
 	db 16, DOUBLE_TEAM
@@ -2917,6 +2924,7 @@ GligarEvosAttacks:
 	db 1, POISON_STING
 	db 6, SAND_ATTACK
 	db 13, HARDEN
+	db 16, FURY_CUTTER
 	db 19, MUD_SLAP
 	db 20, QUICK_ATTACK
 	db 28, FAINT_ATTACK
@@ -2989,6 +2997,7 @@ ScizorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
+	db 1, FURY_CUTTER
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
 	db 16, DOUBLE_TEAM

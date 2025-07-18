@@ -207,7 +207,7 @@ MoveNames::
 	li "Swagger"
 	li "MILK DRINK"
 	li "SPARK"
-	li "FURY CUTTER"
+	li "Fury Cutter"
 	li "Steel Wing"
 	li "MEAN LOOK"
 	li "Attract"
