@@ -374,6 +374,7 @@ PikachuEvosAttacks:
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, THUNDERPUNCH
 	db 1, DOUBLE_TEAM
 	db 1, THUNDERBOLT
 	db 1, LIGHT_SCREEN
@@ -1522,7 +1523,7 @@ HitmonchanEvosAttacks:
 	db 0 ; no more evolutions
 	db 7, AGILITY
 	db 13, PURSUIT
-	db 26, THUNDERPUNCH
+	db 24, THUNDERPUNCH
 	db 24, ICE_PUNCH
 	db 26, FIRE_PUNCH
 	db 32, MACH_PUNCH
@@ -1787,10 +1788,9 @@ ElectabuzzEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
-	db 1, THUNDERPUNCH
-	db 9, THUNDERPUNCH
 	db 12, SWIFT
 	db 16, SHOCK_WAVE
+	db 28, THUNDERPUNCH
 	db 36, SCREECH
 	db 46, THUNDERBOLT
 	db 52, LIGHT_SCREEN
@@ -2115,10 +2115,11 @@ DragonairEvosAttacks:
 
 DragoniteEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, THUNDERPUNCH
 	db 1, WRAP
 	db 1, LEER
-	db 1, THUNDER_WAVE
 	db 1, TWISTER
+	db 1, THUNDER_WAVE
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
@@ -2558,6 +2559,7 @@ FlaaffyEvosAttacks:
 
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, THUNDERPUNCH
 	db 1, ZAP_CANNON
 	db 1, TACKLE
 	db 1, GROWL
@@ -2566,7 +2568,6 @@ AmpharosEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
-	db 30, THUNDERPUNCH
 	db 57, LIGHT_SCREEN
 	db 62, THUNDER
 	db 0 ; no more level-up moves
@@ -3344,9 +3345,9 @@ ElekidEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
-	db 9, THUNDERPUNCH
 	db 12, SWIFT
 	db 16, SHOCK_WAVE
+	db 25, THUNDERPUNCH
 	db 33, SCREECH
 	db 40, THUNDERBOLT
 	db 44, LIGHT_SCREEN

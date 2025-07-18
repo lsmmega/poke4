@@ -6,7 +6,7 @@ MoveNames::
 	li "PAY DAY"
 	li "FIRE PUNCH"
 	li "Ice Punch"
-	li "THUNDERPUNCH"
+	li "ThunderPunch"
 	li "SCRATCH"
 	li "VICEGRIP"
 	li "GUILLOTINE"

@@ -180,12 +180,14 @@ PoliwagEggMoves:
 
 AbraEggMoves:
 	db ICE_PUNCH
+	db THUNDERPUNCH
 	db ENCORE
 	db BARRIER
 	db -1 ; end
 
 MachopEggMoves:
 	db ICE_PUNCH
+	db THUNDERPUNCH
 	db MEDITATE
 	db ROLLING_KICK
 	db ENCORE
@@ -267,6 +269,7 @@ ShellderEggMoves:
 
 GastlyEggMoves:
 	db ICE_PUNCH
+	db THUNDERPUNCH
 	db PSYWAVE
 	db PERISH_SONG
 	db HAZE
@@ -281,6 +284,7 @@ OnixEggMoves:
 
 DrowzeeEggMoves:
 	db ICE_PUNCH
+	db THUNDERPUNCH
 	db BARRIER
 	db -1 ; end
 
@@ -495,6 +499,7 @@ ChinchouEggMoves:
 	db -1 ; end
 
 PichuEggMoves:
+	db THUNDERPUNCH
 	db REVERSAL
 	db BIDE
 	db PRESENT
@@ -776,6 +781,7 @@ ElekidEggMoves:
 
 MagbyEggMoves:
 	db MEGA_PUNCH
+	db THUNDERPUNCH
 	db BARRIER
 	db SCREECH
 	db DYNAMICPUNCH
