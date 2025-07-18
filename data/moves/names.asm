@@ -254,6 +254,7 @@ MoveNames::
 	li "Shock Wave"
 	li "Water Pulse"
 ;4
+	li "Bug Buzz"
 	li "Giga Impact"
 ;5
 	li "Low Sweep"

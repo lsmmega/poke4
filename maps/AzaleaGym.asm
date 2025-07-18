@@ -33,26 +33,26 @@ AzaleaGymBugsyScript:
 	readvar VAR_BADGES
 	scall AzaleaGymActivateRockets
 .FightDone:
-	checkevent EVENT_GOT_TM49_FURY_CUTTER
-	iftrue .GotFuryCutter
+	checkevent EVENT_GOT_TM62_BUG_BUZZ
+	iftrue .GotBugBuzz
 	setevent EVENT_BEAT_TWINS_AMY_AND_MAY
 	setevent EVENT_BEAT_BUG_CATCHER_BENNY
 	setevent EVENT_BEAT_BUG_CATCHER_AL
 	setevent EVENT_BEAT_BUG_CATCHER_JOSH
 	writetext BugsyText_HiveBadgeSpeech
 	promptbutton
-	verbosegiveitem TM_FURY_CUTTER
-	iffalse .NoRoomForFuryCutter
-	setevent EVENT_GOT_TM49_FURY_CUTTER
-	writetext BugsyText_FuryCutterSpeech
+	verbosegiveitem TM_BUG_BUZZ
+	iffalse .NoRoomForBugBuzz
+	setevent EVENT_GOT_TM62_BUG_BUZZ
+	writetext BugsyText_BugBuzzSpeech
 	waitbutton
 	closetext
 	end
 
-.GotFuryCutter:
+.GotBugBuzz:
 	writetext BugsyText_BugMonsAreDeep
 	waitbutton
-.NoRoomForFuryCutter:
+.NoRoomForBugBuzz:
 	closetext
 	end
 
@@ -203,20 +203,15 @@ BugsyText_HiveBadgeSpeech:
 	line "you to have this."
 	done
 
-BugsyText_FuryCutterSpeech:
-	text "TM49 contains"
-	line "FURY CUTTER."
+BugsyText_BugBuzzSpeech:
+	text "TM62 contains"
+	line "Bug Buzz."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "It has a chance"
+	line "lower enemy"
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
-
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "sp.def every"
+	line "turn."
 	done
 
 BugsyText_BugMonsAreDeep:

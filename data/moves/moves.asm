@@ -268,6 +268,7 @@ Moves:
 	move SHOCK_WAVE,     EFFECT_ALWAYS_HIT,         60, ELECTRIC,      SPECIAL,  100, 20,   0
 	move WATER_PULSE,    EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20
 ;4
+	move BUG_BUZZ,       EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           SPECIAL,  100, 10,  10
 	move GIGA_IMPACT,    EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL,  90,  5,   0
 ;5
 	move LOW_SWEEP,      EFFECT_SPEED_DOWN_HIT,     65, FIGHTING,      PHYSICAL, 100, 20, 100

@@ -199,6 +199,7 @@ ButterfreeEvosAttacks:
 	db 23, WHIRLWIND
 	db 28, GUST
 	db 28, SAFEGUARD
+	db 32, BUG_BUZZ
 	db 34, PSYBEAM
 	db 0 ; no more level-up moves
 
@@ -675,6 +676,7 @@ VenonatEvosAttacks:
 
 VenomothEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, BUG_BUZZ
 	db 1, TACKLE
 	db 1, DISABLE
 	db 1, FORESIGHT
@@ -688,6 +690,7 @@ VenomothEvosAttacks:
 	db 36, PSYBEAM
 	db 42, SLEEP_POWDER
 	db 55, PSYCHIC_M
+	db 59, BUG_BUZZ
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:
@@ -2374,6 +2377,7 @@ LedybaEvosAttacks:
 	db 12, SAFEGUARD
 	db 12, REFLECT
 	db 29, BATON_PASS
+	db 33, BUG_BUZZ
 	db 43, AGILITY
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2389,6 +2393,7 @@ LedianEvosAttacks:
 	db 12, SAFEGUARD
 	db 12, REFLECT
 	db 33, BATON_PASS
+	db 38, BUG_BUZZ
 	db 51, AGILITY
 	db 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2748,6 +2753,7 @@ YanmaEvosAttacks:
 	db 31, SUPERSONIC
 	db 37, WING_ATTACK
 	db 43, SCREECH
+	db 57, BUG_BUZZ
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:
