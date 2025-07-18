@@ -127,7 +127,7 @@ MoveNames::
 	li "Fire Blast"
 	li "WATERFALL"
 	li "CLAMP"
-	li "SWIFT"
+	li "Swift"
 	li "SKULL BASH"
 	li "SPIKE CANNON"
 	li "CONSTRICT"

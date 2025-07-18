@@ -391,8 +391,8 @@ SandshrewEvosAttacks:
 	db 9, ROLLOUT
 	db 11, SAND_ATTACK
 	db 17, POISON_STING
+	db 21, SWIFT
 	db 23, SLASH
-	db 30, SWIFT
 	db 33, DIG
 	db 37, FURY_SWIPES
 	db 42, SANDSTORM
@@ -408,8 +408,8 @@ SandslashEvosAttacks:
 	db 9, ROLLOUT
 	db 11, SAND_ATTACK
 	db 17, POISON_STING
+	db 21, SWIFT
 	db 24, SLASH
-	db 33, SWIFT
 	db 41, DIG
 	db 42, FURY_SWIPES
 	db 56, SANDSTORM
@@ -1144,7 +1144,6 @@ MagnemiteEvosAttacks:
 	db 16, SONICBOOM
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
-	db 33, SWIFT
 	db 39, SCREECH
 	db 44, LIGHT_SCREEN
 	db 52, ZAP_CANNON
@@ -1418,9 +1417,9 @@ VoltorbEvosAttacks:
 	db 9, SCREECH
 	db 11, ROLLOUT
 	db 17, SONICBOOM
+	db 20, SWIFT
 	db 23, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
-	db 37, SWIFT
 	db 39, EXPLOSION
 	db 41, MIRROR_COAT
 	db 0 ; no more level-up moves
@@ -1434,9 +1433,9 @@ ElectrodeEvosAttacks:
 	db 9, SCREECH
 	db 11, ROLLOUT
 	db 17, SONICBOOM
+	db 20, SWIFT
 	db 23, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
-	db 40, SWIFT
 	db 44, EXPLOSION
 	db 48, MIRROR_COAT
 	db 0 ; no more level-up moves
@@ -1721,7 +1720,7 @@ StaryuEvosAttacks:
 	db 7, WATER_GUN
 	db 13, RAPID_SPIN
 	db 19, RECOVER
-	db 25, SWIFT
+	db 20, SWIFT
 	db 31, BUBBLEBEAM
 	db 32, LIGHT_SCREEN
 	db 37, MINIMIZE
@@ -1732,6 +1731,7 @@ StaryuEvosAttacks:
 StarmieEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, RAPID_SPIN
+	db 1, SWIFT
 	db 1, LIGHT_SCREEN
 	db 1, PSYCHIC_M
 	db 1, RECOVER
@@ -1793,8 +1793,8 @@ ElectabuzzEvosAttacks:
 	db 1, LEER
 	db 1, THUNDERPUNCH
 	db 9, THUNDERPUNCH
+	db 12, SWIFT
 	db 16, SHOCK_WAVE
-	db 25, SWIFT
 	db 36, SCREECH
 	db 46, THUNDERBOLT
 	db 52, LIGHT_SCREEN
@@ -1897,6 +1897,7 @@ EeveeEvosAttacks:
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
 	db 16, GROWL
+	db 20, SWIFT
 	db 23, QUICK_ATTACK
 	db 30, BITE
 	db 36, BATON_PASS
@@ -1905,6 +1906,7 @@ EeveeEvosAttacks:
 
 VaporeonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWIFT
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
@@ -1920,6 +1922,7 @@ VaporeonEvosAttacks:
 
 JolteonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWIFT
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
@@ -1934,6 +1937,7 @@ JolteonEvosAttacks:
 
 FlareonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWIFT
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
@@ -2135,8 +2139,8 @@ MewtwoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
 	db 1, DISABLE
+	db 1, SWIFT
 	db 11, BARRIER
-	db 22, SWIFT
 	db 24, SAFEGUARD
 	db 44, FUTURE_SIGHT
 	db 48, PSYCHIC_M
@@ -2213,7 +2217,7 @@ CyndaquilEvosAttacks:
 	db 12, EMBER
 	db 19, QUICK_ATTACK
 	db 27, FLAME_WHEEL
-	db 36, SWIFT
+	db 31, SWIFT
 	db 40, FLAMETHROWER
 	db 49, ROLLOUT
 	db 0 ; no more level-up moves
@@ -2228,7 +2232,7 @@ QuilavaEvosAttacks:
 	db 12, EMBER
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
-	db 42, SWIFT
+	db 31, SWIFT
 	db 46, FLAMETHROWER
 	db 57, ROLLOUT
 	db 0 ; no more level-up moves
@@ -2243,7 +2247,7 @@ TyphlosionEvosAttacks:
 	db 12, EMBER
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
-	db 45, SWIFT
+	db 31, SWIFT
 	db 48, FLAMETHROWER
 	db 61, ROLLOUT
 	db 0 ; no more level-up moves
@@ -2354,12 +2358,12 @@ LedybaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 8, SUPERSONIC
+	db 8, SWIFT
 	db 12, LIGHT_SCREEN
 	db 12, SAFEGUARD
 	db 12, REFLECT
 	db 15, COMET_PUNCH
 	db 29, BATON_PASS
-	db 36, SWIFT
 	db 43, AGILITY
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2368,13 +2372,14 @@ LedianEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SUPERSONIC
+	db 1, SWIFT
 	db 8, SUPERSONIC
+	db 8, SWIFT
 	db 12, LIGHT_SCREEN
 	db 12, SAFEGUARD
 	db 12, REFLECT
 	db 15, COMET_PUNCH
 	db 33, BATON_PASS
-	db 42, SWIFT
 	db 51, AGILITY
 	db 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2691,7 +2696,7 @@ AipomEvosAttacks:
 	db 6, SAND_ATTACK
 	db 12, BATON_PASS
 	db 19, FURY_SWIPES
-	db 27, SWIFT
+	db 22, SWIFT
 	db 36, SCREECH
 	db 46, AGILITY
 	db 0 ; no more level-up moves
@@ -2768,8 +2773,8 @@ EspeonEvosAttacks:
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
 	db 16, CONFUSION
+	db 20, SWIFT
 	db 23, QUICK_ATTACK
-	db 30, SWIFT
 	db 36, PSYBEAM
 	db 40, PSYCHIC_M
 	db 45, PSYCH_UP
@@ -2778,6 +2783,7 @@ EspeonEvosAttacks:
 
 UmbreonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWIFT
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
@@ -3184,7 +3190,6 @@ SkarmoryEvosAttacks:
 	db 1, LEER
 	db 1, PECK
 	db 13, SAND_ATTACK
-	db 19, SWIFT
 	db 25, AGILITY
 	db 37, FURY_ATTACK
 	db 49, STEEL_WING
@@ -3342,8 +3347,8 @@ ElekidEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 9, THUNDERPUNCH
+	db 12, SWIFT
 	db 16, SHOCK_WAVE
-	db 25, SWIFT
 	db 33, SCREECH
 	db 40, THUNDERBOLT
 	db 44, LIGHT_SCREEN
@@ -3490,7 +3495,6 @@ LugiaEvosAttacks:
 	db 33, RECOVER
 	db 44, HYDRO_PUMP
 	db 63, RAIN_DANCE
-	db 66, SWIFT
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER
 	db 99, FUTURE_SIGHT
@@ -3503,7 +3507,6 @@ HoOhEvosAttacks:
 	db 22, GUST
 	db 33, RECOVER
 	db 63, SUNNY_DAY
-	db 66, SWIFT
 	db 72, FIRE_BLAST
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER

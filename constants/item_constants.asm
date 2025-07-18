@@ -249,7 +249,6 @@ DEF TM01 EQU const_value
 	add_tm SANDSTORM      ;37
 	add_tm FIRE_BLAST     ;38
 	add_tm AERIAL_ACE     ;41
-	add_tm SWIFT        ; e7
 	add_tm DEFENSE_CURL ; e8
 	add_tm THUNDERPUNCH ; e9
 	add_tm DREAM_EATER  ; ea
