@@ -522,6 +522,7 @@ VulpixEvosAttacks:
 	db 32, FLAMETHROWER
 	db 37, FIRE_SPIN
 	db 44, SAFEGUARD
+	db 56, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -529,6 +530,7 @@ NinetalesEvosAttacks:
 	db 1, CONFUSE_RAY
 	db 1, FLAMETHROWER
 	db 1, SAFEGUARD
+	db 1, FIRE_BLAST
 	db 1, EMBER
 	db 1, QUICK_ATTACK
 	db 43, FIRE_SPIN
@@ -1076,7 +1078,7 @@ PonytaEvosAttacks:
 	db 26, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 43, AGILITY
-	db 53, FIRE_BLAST
+	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 RapidashEvosAttacks:
@@ -1093,7 +1095,7 @@ RapidashEvosAttacks:
 	db 34, TAKE_DOWN
 	db 40, FURY_ATTACK
 	db 47, AGILITY
-	db 61, FIRE_BLAST
+	db 56, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1813,7 +1815,7 @@ MagmarEvosAttacks:
 	db 46, FLAMETHROWER
 	db 49, CONFUSE_RAY
 	db 52, SUNNY_DAY
-	db 57, FIRE_BLAST
+	db 58, FIRE_BLAST
 	db 64, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -3359,7 +3361,7 @@ MagbyEvosAttacks:
 	db 40, FLAMETHROWER
 	db 43, CONFUSE_RAY
 	db 44, SUNNY_DAY
-	db 49, FIRE_BLAST
+	db 48, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 MiltankEvosAttacks:
@@ -3415,7 +3417,7 @@ EnteiEvosAttacks:
 	db 41, STOMP
 	db 60, SWAGGER
 	db 66, SUNNY_DAY
-	db 71, FIRE_BLAST
+	db 72, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
@@ -3500,9 +3502,9 @@ HoOhEvosAttacks:
 	db 18, SAFEGUARD
 	db 22, GUST
 	db 33, RECOVER
-	db 44, FIRE_BLAST
 	db 63, SUNNY_DAY
 	db 66, SWIFT
+	db 72, FIRE_BLAST
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER
 	db 99, FUTURE_SIGHT

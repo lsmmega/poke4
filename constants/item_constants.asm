@@ -247,7 +247,7 @@ DEF TM01 EQU const_value
 	add_tm FLAMETHROWER   ;35
 	add_tm SLUDGE_BOMB    ;36
 	add_tm SANDSTORM      ;37
-	add_tm FIRE_BLAST   ; e6
+	add_tm FIRE_BLAST     ;38
 	add_tm AERIAL_ACE     ;41
 	add_tm SWIFT        ; e7
 	add_tm DEFENSE_CURL ; e8
