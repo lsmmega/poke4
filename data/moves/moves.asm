@@ -262,6 +262,7 @@ Moves:
 	move WHIRLPOOL,      EFFECT_TRAP_TARGET,        15, WATER,         SPECIAL,   70, 15,   0
 	move BEAT_UP,        EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0
 ;3
+	move ROCK_TOMB,      EFFECT_SPEED_DOWN_HIT,     60, ROCK,          PHYSICAL,  95, 15, 100
 	move BULLET_SEED,    EFFECT_MULTI_HIT,          25, GRASS,         PHYSICAL, 100, 30,   0
 	move AERIAL_ACE,     EFFECT_ALWAYS_HIT,         60, FLYING,        PHYSICAL, 100, 20,   0
 	move DRAGON_CLAW,    EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0

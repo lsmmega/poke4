@@ -2614,6 +2614,7 @@ SudowoodoEvosAttacks:
 	db 1, MIMIC
 	db 10, FLAIL
 	db 19, LOW_KICK
+	db 20, ROCK_TOMB
 	db 28, ROCK_SLIDE
 	db 37, FAINT_ATTACK
 	db 46, SLAM
@@ -3254,6 +3255,7 @@ DonphanEvosAttacks:
 	db 10, ROLLOUT
 	db 17, FLAIL
 	db 25, FURY_ATTACK
+	db 30, ROCK_TOMB
 	db 41, RAPID_SPIN
 	db 43, EARTHQUAKE
 	db 50, GIGA_IMPACT

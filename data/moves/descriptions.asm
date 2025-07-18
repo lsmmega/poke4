@@ -249,6 +249,7 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 ;3
+	dw RockTombDescription
 	dw BulletSeedDescription
 	dw AerialAceDescription
 	dw DragonClawDescription
@@ -264,8 +265,9 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $ff
+	assert_table_length $100
 
+RockTombDescription:
 BulletSeedDescription:
 AerialAceDescription:
 DragonClawDescription:

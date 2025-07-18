@@ -250,6 +250,7 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 ;3
+	dw BattleAnim_RockTomb
 	dw BattleAnim_BulletSeed
 	dw BattleAnim_AerialAce
 	dw BattleAnim_DragonClaw
@@ -265,7 +266,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $100
+	assert_table_length $101
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -291,6 +292,7 @@ BattleAnimations::
 	dw BattleAnim_HitConfusion
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
+BattleAnim_RockTomb:
 BattleAnim_BulletSeed:
 BattleAnim_AerialAce:
 BattleAnim_DragonClaw:

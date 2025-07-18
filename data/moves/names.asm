@@ -248,6 +248,7 @@ MoveNames::
 	li "WHIRLPOOL"
 	li "BEAT UP"
 ;3
+	li "Rock Tomb"
 	li "Bullet Seed"
 	li "Aerial Ace"
 	li "Dragon Claw"
