@@ -1527,7 +1527,7 @@ HitmonchanEvosAttacks:
 	db 13, PURSUIT
 	db 24, THUNDERPUNCH
 	db 24, ICE_PUNCH
-	db 26, FIRE_PUNCH
+	db 24, FIRE_PUNCH
 	db 32, MACH_PUNCH
 	db 38, MEGA_PUNCH
 	db 50, COUNTER
@@ -1804,11 +1804,10 @@ MagmarEvosAttacks:
 	db 1, EMBER
 	db 1, LEER
 	db 1, SMOG
-	db 1, FIRE_PUNCH
 	db 7, LEER
 	db 13, SMOG
-	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
+	db 28, FIRE_PUNCH
 	db 46, FLAMETHROWER
 	db 49, CONFUSE_RAY
 	db 52, SUNNY_DAY
@@ -2116,6 +2115,7 @@ DragonairEvosAttacks:
 
 DragoniteEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, FIRE_PUNCH
 	db 1, THUNDERPUNCH
 	db 1, WRAP
 	db 1, LEER
@@ -2562,6 +2562,7 @@ AmpharosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERPUNCH
 	db 1, ZAP_CANNON
+	db 1, FIRE_PUNCH
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, THUNDERSHOCK
@@ -3361,8 +3362,8 @@ MagbyEvosAttacks:
 	db 1, EMBER
 	db 7, LEER
 	db 13, SMOG
-	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
+	db 28, FIRE_PUNCH
 	db 40, FLAMETHROWER
 	db 43, CONFUSE_RAY
 	db 44, SUNNY_DAY

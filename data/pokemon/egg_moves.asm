@@ -179,6 +179,7 @@ PoliwagEggMoves:
 	db -1 ; end
 
 AbraEggMoves:
+	db FIRE_PUNCH
 	db ICE_PUNCH
 	db THUNDERPUNCH
 	db ENCORE
@@ -186,6 +187,7 @@ AbraEggMoves:
 	db -1 ; end
 
 MachopEggMoves:
+	db FIRE_PUNCH
 	db ICE_PUNCH
 	db THUNDERPUNCH
 	db MEDITATE
@@ -268,6 +270,7 @@ ShellderEggMoves:
 	db -1 ; end
 
 GastlyEggMoves:
+	db FIRE_PUNCH
 	db ICE_PUNCH
 	db THUNDERPUNCH
 	db PSYWAVE
@@ -283,6 +286,7 @@ OnixEggMoves:
 	db -1 ; end
 
 DrowzeeEggMoves:
+	db FIRE_PUNCH
 	db ICE_PUNCH
 	db THUNDERPUNCH
 	db BARRIER
@@ -772,6 +776,7 @@ SmoochumEggMoves:
 	db -1 ; end
 
 ElekidEggMoves:
+	db FIRE_PUNCH
 	db ICE_PUNCH
 	db BARRIER
 	db ROLLING_KICK

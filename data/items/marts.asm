@@ -10,7 +10,6 @@ Marts:
 	dw MartGoldenrod2F2
 	dw MartGoldenrod3F
 	dw MartGoldenrod4F
-	dw MartGoldenrod5F
 	dw MartOlivine
 	dw MartEcruteak
 	dw MartMahogany1
@@ -128,11 +127,6 @@ MartGoldenrod4F:
 	db CARBOS
 	db CALCIUM
 	db HP_UP
-	db -1 ; end
-
-MartGoldenrod5F:
-	db 1 ; # items
-	db TM_FIRE_PUNCH
 	db -1 ; end
 
 MartOlivine:
@@ -283,10 +277,9 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 3 ; # items
+	db 2 ; # items
 	db TM_PSYCH_UP
 	db TM_PROTECT
-	db TM_FIRE_PUNCH
 	db -1 ; end
 
 MartCeladon4F:
