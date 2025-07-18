@@ -253,7 +253,7 @@ DEF TM01 EQU const_value
 	add_tm REST           ;44
 	add_tm ATTRACT        ;45
 	add_tm THIEF          ;46
-	add_tm STEEL_WING   ; ef
+	add_tm STEEL_WING     ;47
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2

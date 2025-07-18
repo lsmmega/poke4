@@ -208,7 +208,7 @@ MoveNames::
 	li "MILK DRINK"
 	li "SPARK"
 	li "FURY CUTTER"
-	li "STEEL WING"
+	li "Steel Wing"
 	li "MEAN LOOK"
 	li "Attract"
 	li "Sleep Talk"

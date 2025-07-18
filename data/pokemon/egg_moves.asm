@@ -537,7 +537,6 @@ NatuEggMoves:
 	db DRILL_PECK
 	db QUICK_ATTACK
 	db FAINT_ATTACK
-	db STEEL_WING
 	db -1 ; end
 
 MareepEggMoves:

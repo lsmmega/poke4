@@ -3190,8 +3190,8 @@ SkarmoryEvosAttacks:
 	db 1, PECK
 	db 13, SAND_ATTACK
 	db 25, AGILITY
+	db 28, STEEL_WING
 	db 37, FURY_ATTACK
-	db 49, STEEL_WING
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
