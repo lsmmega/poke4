@@ -1463,7 +1463,7 @@ Nightmare:
 	nightmare
 	endmove
 
-FlameWheel:
+DefrostBurn:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1630,28 +1630,6 @@ Safeguard:
 	usedmovetext
 	doturn
 	safeguard
-	endmove
-
-SacredFire:
-	checkobedience
-	usedmovetext
-	doturn
-	critical
-	damagestats
-	damagecalc
-	stab
-	damagevariation
-	checkhit
-	effectchance
-	moveanim
-	failuretext
-	applydamage
-	criticaltext
-	supereffectivetext
-	defrost
-	checkfaint
-	buildopponentrage
-	burntarget
 	endmove
 
 Magnitude:

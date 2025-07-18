@@ -109,7 +109,7 @@ MoveEffectsPointers:
 	dw Thief
 	dw MeanLook
 	dw Nightmare
-	dw FlameWheel
+	dw DefrostBurn
 	dw Curse
 	dw NormalHit
 	dw Protect
@@ -124,7 +124,6 @@ MoveEffectsPointers:
 	dw Attract
 	dw Present
 	dw Safeguard
-	dw SacredFire
 	dw Magnitude
 	dw BatonPass
 	dw Pursuit

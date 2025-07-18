@@ -183,7 +183,7 @@ Moves:
 	move SPIDER_WEB,     EFFECT_MEAN_LOOK,           0, BUG,           STATUS,   100, 10,   0
 	move MIND_READER,    EFFECT_LOCK_ON,             0, NORMAL,        STATUS,   100,  5,   0
 	move NIGHTMARE,      EFFECT_NIGHTMARE,           0, GHOST,         STATUS,   100, 15,   0
-	move FLAME_WHEEL,    EFFECT_FLAME_WHEEL,        60, FIRE,          PHYSICAL, 100, 25,  10
+	move FLAME_WHEEL,    EFFECT_DEFROST_BURN_HIT,   60, FIRE,          PHYSICAL, 100, 25,  10
 	move SNORE,          EFFECT_SNORE,              50, NORMAL,        SPECIAL,  100, 15,  30
 	move CURSE,          EFFECT_CURSE,               0, CURSE_TYPE,    STATUS,   100, 10,   0
 	move FLAIL,          EFFECT_REVERSAL,            1, NORMAL,        PHYSICAL, 100, 15,   0
@@ -230,7 +230,7 @@ Moves:
 	move PRESENT,        EFFECT_PRESENT,             1, NORMAL,        PHYSICAL,  90, 15,   0
 	move SAFEGUARD,      EFFECT_SAFEGUARD,           0, NORMAL,        STATUS,   100, 25,   0
 	move PAIN_SPLIT,     EFFECT_PAIN_SPLIT,          0, NORMAL,        STATUS,   100, 20,   0
-	move SACRED_FIRE,    EFFECT_SACRED_FIRE,       100, FIRE,          PHYSICAL,  95,  5,  50
+	move SACRED_FIRE,    EFFECT_DEFROST_BURN_HIT,  100, FIRE,          PHYSICAL,  95,  5,  50
 	move MAGNITUDE,      EFFECT_MAGNITUDE,           1, GROUND,        PHYSICAL, 100, 30,   0
 	move DYNAMICPUNCH,   EFFECT_CONFUSE_HIT,       100, FIGHTING,      PHYSICAL,  50,  5, 100
 	move MEGAHORN,       EFFECT_NORMAL_HIT,        120, BUG,           PHYSICAL,  85, 10,   0

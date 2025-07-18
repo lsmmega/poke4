@@ -355,7 +355,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_THIEF,            AI_Smart_Thief
 	dbw EFFECT_MEAN_LOOK,        AI_Smart_MeanLook
 	dbw EFFECT_NIGHTMARE,        AI_Smart_Nightmare
-	dbw EFFECT_FLAME_WHEEL,      AI_Smart_FlameWheel
+	dbw EFFECT_DEFROST_BURN_HIT, AI_Smart_DefrostBurn
 	dbw EFFECT_CURSE,            AI_Smart_Curse
 	dbw EFFECT_PROTECT,          AI_Smart_Protect
 	dbw EFFECT_FORESIGHT,        AI_Smart_Foresight
@@ -1830,7 +1830,7 @@ AI_Smart_Nightmare:
 	dec [hl]
 	ret
 
-AI_Smart_FlameWheel:
+AI_Smart_DefrostBurn:
 ; Use this move if the enemy is frozen.
 
 	ld a, [wEnemyMonStatus]
