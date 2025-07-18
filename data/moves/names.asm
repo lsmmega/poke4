@@ -135,7 +135,7 @@ MoveNames::
 	li "SOFTBOILED"
 	li "HI JUMP KICK"
 	li "GLARE"
-	li "DREAM EATER"
+	li "Dream Eater"
 	li "POISON GAS"
 	li "BARRAGE"
 	li "LEECH LIFE"

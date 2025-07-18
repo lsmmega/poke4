@@ -1296,9 +1296,9 @@ GastlyEvosAttacks:
 	db 20, CURSE
 	db 21, NIGHT_SHADE
 	db 28, CONFUSE_RAY
-	db 33, DREAM_EATER
 	db 36, DESTINY_BOND
 	db 40, SHADOW_BALL
+	db 48, DREAM_EATER
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1312,9 +1312,9 @@ HaunterEvosAttacks:
 	db 20, CURSE
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
-	db 39, DREAM_EATER
 	db 48, DESTINY_BOND
 	db 48, SHADOW_BALL
+	db 60, DREAM_EATER
 	db 0 ; no more level-up moves
 
 GengarEvosAttacks:
@@ -1327,9 +1327,9 @@ GengarEvosAttacks:
 	db 20, CURSE
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
-	db 39, DREAM_EATER
 	db 48, DESTINY_BOND
 	db 48, SHADOW_BALL
+	db 60, DREAM_EATER
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
@@ -2335,7 +2335,7 @@ HoothootEvosAttacks:
 	db 16, HYPNOSIS
 	db 28, TAKE_DOWN
 	db 34, CONFUSION
-	db 48, DREAM_EATER
+	db 39, DREAM_EATER
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
@@ -2350,7 +2350,7 @@ NoctowlEvosAttacks:
 	db 16, HYPNOSIS
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
-	db 57, DREAM_EATER
+	db 53, DREAM_EATER
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
