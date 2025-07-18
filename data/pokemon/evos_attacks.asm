@@ -3415,6 +3415,7 @@ RaikouEvosAttacks:
 
 EnteiEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SACRED_FIRE
 	db 1, BITE
 	db 1, LEER
 	db 11, EMBER
@@ -3503,10 +3504,10 @@ LugiaEvosAttacks:
 
 HoOhEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SACRED_FIRE
 	db 18, SAFEGUARD
 	db 22, GUST
 	db 33, RECOVER
+	db 54, SACRED_FIRE
 	db 63, SUNNY_DAY
 	db 72, FIRE_BLAST
 	db 77, WHIRLWIND
