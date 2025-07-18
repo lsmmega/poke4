@@ -336,6 +336,7 @@ EkansEvosAttacks:
 	db 15, BITE
 	db 23, GLARE
 	db 29, SCREECH
+	db 33, SLUDGE_BOMB
 	db 37, ACID
 	db 43, HAZE
 	db 0 ; no more level-up moves
@@ -350,6 +351,7 @@ ArbokEvosAttacks:
 	db 15, BITE
 	db 25, GLARE
 	db 33, SCREECH
+	db 39, SLUDGE_BOMB
 	db 43, ACID
 	db 51, HAZE
 	db 0 ; no more level-up moves
@@ -1236,9 +1238,9 @@ GrimerEvosAttacks:
 	db 10, DISABLE
 	db 16, SLUDGE
 	db 23, MINIMIZE
+	db 29, SLUDGE_BOMB
 	db 31, SCREECH
 	db 40, ACID_ARMOR
-	db 50, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
@@ -1253,9 +1255,9 @@ MukEvosAttacks:
 	db 37, DISABLE
 	db 45, SLUDGE
 	db 23, MINIMIZE
+	db 29, SLUDGE_BOMB
 	db 31, SCREECH
 	db 45, ACID_ARMOR
-	db 60, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
@@ -1551,6 +1553,7 @@ KoffingEvosAttacks:
 	db 17, SELFDESTRUCT
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
+	db 32, SLUDGE_BOMB
 	db 33, HAZE
 	db 36, TOXIC
 	db 41, EXPLOSION
@@ -1567,6 +1570,7 @@ WeezingEvosAttacks:
 	db 17, SELFDESTRUCT
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
+	db 32, SLUDGE_BOMB
 	db 33, HAZE
 	db 38, TOXIC
 	db 44, EXPLOSION
