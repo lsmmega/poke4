@@ -165,7 +165,7 @@ MoveNames::
 ;2
 	li "SKETCH"
 	li "TRIPLE KICK"
-	li "THIEF"
+	li "Thief"
 	li "SPIDER WEB"
 	li "MIND READER"
 	li "NIGHTMARE"
