@@ -1522,7 +1522,6 @@ HitmonleeEvosAttacks:
 
 HitmonchanEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, COMET_PUNCH
 	db 7, AGILITY
 	db 13, PURSUIT
 	db 26, THUNDERPUNCH
@@ -1639,7 +1638,6 @@ TangelaEvosAttacks:
 
 KangaskhanEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, COMET_PUNCH
 	db 7, LEER
 	db 13, BITE
 	db 19, TAIL_WHIP
@@ -2362,7 +2360,6 @@ LedybaEvosAttacks:
 	db 12, LIGHT_SCREEN
 	db 12, SAFEGUARD
 	db 12, REFLECT
-	db 15, COMET_PUNCH
 	db 29, BATON_PASS
 	db 43, AGILITY
 	db 50, DOUBLE_EDGE
@@ -2378,7 +2375,6 @@ LedianEvosAttacks:
 	db 12, LIGHT_SCREEN
 	db 12, SAFEGUARD
 	db 12, REFLECT
-	db 15, COMET_PUNCH
 	db 33, BATON_PASS
 	db 51, AGILITY
 	db 60, DOUBLE_EDGE

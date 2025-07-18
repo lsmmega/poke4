@@ -16,7 +16,6 @@ Moves:
 	table_width MOVE_LENGTH, Moves
 ;1
 	move POUND,          EFFECT_NORMAL_HIT,         40, NORMAL,        PHYSICAL, 100, 35,   0
-	move COMET_PUNCH,    EFFECT_MULTI_HIT,          18, NORMAL,        PHYSICAL,  85, 15,   0
 	move MEGA_PUNCH,     EFFECT_NORMAL_HIT,         80, NORMAL,        PHYSICAL,  85, 20,   0
 	move PAY_DAY,        EFFECT_PAY_DAY,            40, NORMAL,        PHYSICAL, 100, 20,   0
 	move FIRE_PUNCH,     EFFECT_BURN_HIT,           75, FIRE,          PHYSICAL, 100, 15,  10

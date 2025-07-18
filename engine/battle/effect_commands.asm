@@ -113,7 +113,7 @@ BattleCommand_CheckTurn:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	assert CANNOT_MOVE == $100
+	assert CANNOT_MOVE == $ff
 	and a ; NO_MOVE?
 	jp z, EndTurn
 
