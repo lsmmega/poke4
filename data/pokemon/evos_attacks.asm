@@ -812,9 +812,9 @@ GrowlitheEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 9, EMBER
+	db 12, FLAME_WHEEL
 	db 18, LEER
 	db 26, TAKE_DOWN
-	db 34, FLAME_WHEEL
 	db 42, AGILITY
 	db 40, FLAMETHROWER
 	db 44, ROAR
@@ -1075,6 +1075,7 @@ PonytaEvosAttacks:
 	db 8, TAIL_WHIP
 	db 13, EMBER
 	db 19, STOMP
+	db 25, FLAME_WHEEL
 	db 26, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 43, AGILITY
@@ -1091,6 +1092,7 @@ RapidashEvosAttacks:
 	db 8, TAIL_WHIP
 	db 13, EMBER
 	db 19, STOMP
+	db 25, FLAME_WHEEL
 	db 26, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 40, FURY_ATTACK
@@ -1806,6 +1808,7 @@ MagmarEvosAttacks:
 	db 1, SMOG
 	db 7, LEER
 	db 13, SMOG
+	db 16, FLAME_WHEEL
 	db 25, SMOKESCREEN
 	db 28, FIRE_PUNCH
 	db 46, FLAMETHROWER
@@ -2214,8 +2217,8 @@ CyndaquilEvosAttacks:
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 19, QUICK_ATTACK
+	db 19, FLAME_WHEEL
 	db 22, DEFENSE_CURL
-	db 27, FLAME_WHEEL
 	db 31, SWIFT
 	db 40, FLAMETHROWER
 	db 49, ROLLOUT
@@ -2229,9 +2232,9 @@ QuilavaEvosAttacks:
 	db 1, SMOKESCREEN
 	db 6, SMOKESCREEN
 	db 12, EMBER
+	db 20, FLAME_WHEEL
 	db 21, QUICK_ATTACK
 	db 24, DEFENSE_CURL
-	db 31, FLAME_WHEEL
 	db 31, SWIFT
 	db 46, FLAMETHROWER
 	db 57, ROLLOUT
@@ -2245,9 +2248,9 @@ TyphlosionEvosAttacks:
 	db 1, EMBER
 	db 6, SMOKESCREEN
 	db 12, EMBER
+	db 20, FLAME_WHEEL
 	db 21, QUICK_ATTACK
 	db 24, DEFENSE_CURL
-	db 31, FLAME_WHEEL
 	db 31, SWIFT
 	db 48, FLAMETHROWER
 	db 61, ROLLOUT
@@ -3362,6 +3365,7 @@ MagbyEvosAttacks:
 	db 1, EMBER
 	db 7, LEER
 	db 13, SMOG
+	db 16, FLAME_WHEEL
 	db 25, SMOKESCREEN
 	db 28, FIRE_PUNCH
 	db 40, FLAMETHROWER
@@ -3418,6 +3422,7 @@ EnteiEvosAttacks:
 	db 1, SACRED_FIRE
 	db 1, BITE
 	db 1, LEER
+	db 6, FLAME_WHEEL
 	db 11, EMBER
 	db 24, ROAR
 	db 31, FIRE_SPIN
