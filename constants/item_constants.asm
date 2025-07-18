@@ -250,7 +250,6 @@ DEF TM01 EQU const_value
 	add_tm FIRE_BLAST     ;38
 	add_tm ROCK_TOMB      ;39
 	add_tm AERIAL_ACE     ;40
-	add_tm DETECT       ; eb
 	add_tm REST         ; ec
 	add_tm ATTRACT      ; ed
 	add_tm THIEF        ; ee

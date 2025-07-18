@@ -1522,13 +1522,13 @@ HitmonleeEvosAttacks:
 HitmonchanEvosAttacks:
 	db 0 ; no more evolutions
 	db 7, AGILITY
+	db 12, DETECT
 	db 13, PURSUIT
 	db 24, THUNDERPUNCH
 	db 24, ICE_PUNCH
 	db 26, FIRE_PUNCH
 	db 32, MACH_PUNCH
 	db 38, MEGA_PUNCH
-	db 44, DETECT
 	db 50, COUNTER
 	db 0 ; no more level-up moves
 
@@ -2060,10 +2060,10 @@ ZapdosEvosAttacks:
 	db 10, LIGHT_SCREEN
 	db 13, THUNDER_WAVE
 	db 25, AGILITY
-	db 37, DETECT
 	db 49, DRILL_PECK
 	db 50, RAIN_DANCE
 	db 55, THUNDER
+	db 60, DETECT
 	db 70, ZAP_CANNON
 	db 0 ; no more level-up moves
 
@@ -2731,8 +2731,8 @@ YanmaEvosAttacks:
 	db 7, QUICK_ATTACK
 	db 11, DOUBLE_TEAM
 	db 14, AERIAL_ACE
+	db 17, DETECT
 	db 19, SONICBOOM
-	db 25, DETECT
 	db 31, SUPERSONIC
 	db 37, WING_ATTACK
 	db 43, SCREECH
@@ -3314,13 +3314,13 @@ HitmontopEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ROLLING_KICK
 	db 7, FOCUS_ENERGY
+	db 12, DETECT
 	db 13, PURSUIT
 	db 19, QUICK_ATTACK
 	db 25, RAPID_SPIN
 	db 31, COUNTER
 	db 32, DIG
 	db 37, AGILITY
-	db 43, DETECT
 	db 49, TRIPLE_KICK
 	db 0 ; no more level-up moves
 

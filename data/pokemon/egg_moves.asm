@@ -309,6 +309,7 @@ CuboneEggMoves:
 	db SCREECH
 	db SKULL_BASH
 	db PERISH_SONG
+	db DETECT
 	db SWORDS_DANCE
 	db -1 ; end
 
@@ -398,6 +399,7 @@ LaprasEggMoves:
 EeveeEggMoves:
 	db FLAIL
 	db MUD_SLAP
+	db DETECT
 	db CHARM
 	db -1 ; end
 
