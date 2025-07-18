@@ -9,7 +9,6 @@
 	const ROUTE35_SUPER_NERD
 	const ROUTE35_OFFICER
 	const ROUTE35_FRUIT_TREE
-	const ROUTE35_POKE_BALL
 
 Route35_MapScripts:
 	def_scene_scripts
