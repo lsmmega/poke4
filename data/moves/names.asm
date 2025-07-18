@@ -210,7 +210,7 @@ MoveNames::
 	li "FURY CUTTER"
 	li "STEEL WING"
 	li "MEAN LOOK"
-	li "ATTRACT"
+	li "Attract"
 	li "Sleep Talk"
 	li "HEAL BELL"
 	li "PRESENT"

@@ -251,7 +251,7 @@ DEF TM01 EQU const_value
 	add_tm ROCK_TOMB      ;39
 	add_tm AERIAL_ACE     ;40
 	add_tm REST           ;44
-	add_tm ATTRACT      ; ed
+	add_tm ATTRACT        ;45
 	add_tm THIEF        ; ee
 	add_tm STEEL_WING   ; ef
 	add_tm FIRE_PUNCH   ; f0
