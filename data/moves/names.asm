@@ -108,7 +108,7 @@ MoveNames::
 	li "SMOKESCREEN"
 	li "CONFUSE RAY"
 	li "WITHDRAW"
-	li "DEFENSE CURL"
+	li "Defense Curl"
 	li "BARRIER"
 	li "Light Screen"
 	li "HAZE"

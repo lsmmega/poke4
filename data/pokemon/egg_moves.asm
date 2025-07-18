@@ -273,6 +273,7 @@ GastlyEggMoves:
 	db -1 ; end
 
 OnixEggMoves:
+	db DEFENSE_CURL
 	db ROCK_SLIDE
 	db FLAIL
 	db ROLLOUT
@@ -549,6 +550,7 @@ MarillEggMoves:
 	db -1 ; end
 
 SudowoodoEggMoves:
+	db DEFENSE_CURL
 	db SELFDESTRUCT
 	db ROLLOUT
 	db -1 ; end
@@ -648,6 +650,7 @@ QwilfishEggMoves:
 	db -1 ; end
 
 ShuckleEggMoves:
+	db DEFENSE_CURL
 	db MUD_SLAP
 	db SWEET_SCENT
 	db -1 ; end
