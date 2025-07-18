@@ -51,7 +51,7 @@ MoveNames::
 	li "DISABLE"
 	li "ACID"
 	li "EMBER"
-	li "FLAMETHROWER"
+	li "Flamethrower"
 	li "MIST"
 	li "WATER GUN"
 	li "HYDRO PUMP"

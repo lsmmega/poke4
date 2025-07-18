@@ -2687,7 +2687,7 @@ wBaseUnusedFrontpic:: dw
 wBaseUnusedBackpic:: dw
 wBaseGrowthRate:: db
 wBaseEggGroups:: db
-wBaseTM:: flag_array NUM_TM_TUTOR
+wBaseTM:: flag_array NUM_TMS
 wCurBaseDataEnd::
 	assert wCurBaseDataEnd - wCurBaseData == BASE_DATA_SIZE
 

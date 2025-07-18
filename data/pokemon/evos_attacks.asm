@@ -76,8 +76,8 @@ CharmanderEvosAttacks:
 	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
 	db 19, RAGE
+	db 24, FLAMETHROWER
 	db 25, SCARY_FACE
-	db 31, FLAMETHROWER
 	db 37, SLASH
 	db 43, DRAGON_RAGE
 	db 49, FIRE_SPIN
@@ -94,7 +94,7 @@ CharmeleonEvosAttacks:
 	db 13, SMOKESCREEN
 	db 20, RAGE
 	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
+	db 30, FLAMETHROWER
 	db 41, SLASH
 	db 48, DRAGON_RAGE
 	db 55, FIRE_SPIN
@@ -112,7 +112,7 @@ CharizardEvosAttacks:
 	db 13, SMOKESCREEN
 	db 20, RAGE
 	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
+	db 30, FLAMETHROWER
 	db 36, WING_ATTACK
 	db 44, SLASH
 	db 54, DRAGON_RAGE
@@ -517,17 +517,18 @@ VulpixEvosAttacks:
 	db 1, TAIL_WHIP
 	db 7, QUICK_ATTACK
 	db 19, CONFUSE_RAY
-	db 31, FLAMETHROWER
+	db 32, FLAMETHROWER
 	db 37, FIRE_SPIN
 	db 44, SAFEGUARD
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CONFUSE_RAY
+	db 1, FLAMETHROWER
+	db 1, SAFEGUARD
 	db 1, EMBER
 	db 1, QUICK_ATTACK
-	db 1, CONFUSE_RAY
-	db 1, SAFEGUARD
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -807,16 +808,17 @@ GrowlitheEvosAttacks:
 	db 26, TAKE_DOWN
 	db 34, FLAME_WHEEL
 	db 42, AGILITY
+	db 40, FLAMETHROWER
 	db 44, ROAR
-	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 ArcanineEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, FLAME_WHEEL
+	db 1, TAKE_DOWN
+	db 1, FLAMETHROWER
 	db 1, ROAR
 	db 1, LEER
-	db 1, TAKE_DOWN
-	db 1, FLAME_WHEEL
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 
@@ -1802,7 +1804,7 @@ MagmarEvosAttacks:
 	db 13, SMOG
 	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
-	db 41, FLAMETHROWER
+	db 46, FLAMETHROWER
 	db 49, CONFUSE_RAY
 	db 52, SUNNY_DAY
 	db 57, FIRE_BLAST
@@ -1933,7 +1935,6 @@ FlareonEvosAttacks:
 	db 36, FIRE_SPIN
 	db 42, SMOG
 	db 47, LEER
-	db 52, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
@@ -2065,7 +2066,6 @@ MoltresEvosAttacks:
 	db 10, SAFEGUARD
 	db 13, FIRE_SPIN
 	db 25, AGILITY
-	db 49, FLAMETHROWER
 	db 50, SUNNY_DAY
 	db 60, ENDURE
 	db 73, SKY_ATTACK
@@ -2206,7 +2206,7 @@ CyndaquilEvosAttacks:
 	db 19, QUICK_ATTACK
 	db 27, FLAME_WHEEL
 	db 36, SWIFT
-	db 46, FLAMETHROWER
+	db 40, FLAMETHROWER
 	db 49, ROLLOUT
 	db 0 ; no more level-up moves
 
@@ -2221,7 +2221,7 @@ QuilavaEvosAttacks:
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 42, SWIFT
-	db 54, FLAMETHROWER
+	db 46, FLAMETHROWER
 	db 57, ROLLOUT
 	db 0 ; no more level-up moves
 
@@ -2236,7 +2236,7 @@ TyphlosionEvosAttacks:
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 45, SWIFT
-	db 60, FLAMETHROWER
+	db 48, FLAMETHROWER
 	db 61, ROLLOUT
 	db 0 ; no more level-up moves
 
@@ -3060,8 +3060,8 @@ SlugmaEvosAttacks:
 	db 15, ROCK_THROW
 	db 22, HARDEN
 	db 29, AMNESIA
-	db 36, FLAMETHROWER
 	db 43, ROCK_SLIDE
+	db 48, FLAMETHROWER
 	db 50, BODY_SLAM
 	db 0 ; no more level-up moves
 
@@ -3074,8 +3074,8 @@ MagcargoEvosAttacks:
 	db 15, ROCK_THROW
 	db 22, HARDEN
 	db 29, AMNESIA
-	db 36, FLAMETHROWER
 	db 48, ROCK_SLIDE
+	db 54, FLAMETHROWER
 	db 60, BODY_SLAM
 	db 0 ; no more level-up moves
 
@@ -3191,8 +3191,8 @@ HoundourEvosAttacks:
 	db 13, SMOG
 	db 20, BITE
 	db 27, FAINT_ATTACK
-	db 35, FLAMETHROWER
 	db 43, CRUNCH
+	db 44, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 HoundoomEvosAttacks:
@@ -3203,7 +3203,7 @@ HoundoomEvosAttacks:
 	db 13, SMOG
 	db 20, BITE
 	db 30, FAINT_ATTACK
-	db 41, FLAMETHROWER
+	db 50, FLAMETHROWER
 	db 52, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -3350,7 +3350,7 @@ MagbyEvosAttacks:
 	db 13, SMOG
 	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
-	db 37, FLAMETHROWER
+	db 40, FLAMETHROWER
 	db 43, CONFUSE_RAY
 	db 44, SUNNY_DAY
 	db 49, FIRE_BLAST
@@ -3407,7 +3407,6 @@ EnteiEvosAttacks:
 	db 24, ROAR
 	db 31, FIRE_SPIN
 	db 41, STOMP
-	db 51, FLAMETHROWER
 	db 60, SWAGGER
 	db 66, SUNNY_DAY
 	db 71, FIRE_BLAST

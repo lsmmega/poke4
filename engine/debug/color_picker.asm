@@ -735,7 +735,7 @@ DebugColor_TMJoypad:
 
 .up
 	ld a, [wDebugColorCurTM]
-	cp NUM_TM_TUTOR - 1
+	cp NUM_TMS - 1
 	jr z, .wrap_down
 	inc a
 	jr .done
@@ -752,7 +752,7 @@ DebugColor_TMJoypad:
 	jr .done
 
 .wrap_up
-	ld a, NUM_TM_TUTOR - 1
+	ld a, NUM_TMS - 1
 
 .done
 	ld [wDebugColorCurTM], a

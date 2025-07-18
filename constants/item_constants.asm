@@ -244,6 +244,7 @@ DEF TM01 EQU const_value
 	add_tm DOUBLE_TEAM    ;32
 	add_tm REFLECT        ;33
 	add_tm SHOCK_WAVE     ;34
+	add_tm FLAMETHROWER   ;35
 	add_tm SLUDGE_BOMB  ; e4
 	add_tm SANDSTORM    ; e5
 	add_tm FIRE_BLAST   ; e6
@@ -273,21 +274,6 @@ DEF TM01 EQU const_value
 	add_tm WHIRLPOOL    ; f8
 	add_tm WATERFALL    ; f9
 DEF NUM_TMS EQU __tm_value__ - 1
-
-MACRO add_mt
-; Defines two constants:
-; - \1_TMNUM: the learnable TM flag, starting at 58
-; - MT##_MOVE: alias for the move id, equal to the value of \1
-	DEF MT_VALUE = __tm_value__ - NUM_TMS
-	DEF MT{02d:MT_VALUE}_MOVE = \1
-	add_tmnum \1
-ENDM
-
-DEF MT01 EQU const_value
-	add_mt FLAMETHROWER
-DEF NUM_TUTORS = __tm_value__ - NUM_TMS - 1
-
-DEF NUM_TM_TUTOR EQU NUM_TMS + NUM_TUTORS
 
 	const ITEM_FA       ; fa
 
