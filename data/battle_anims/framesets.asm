@@ -73,8 +73,6 @@ BattleAnimFrameData:
 	dw .Frameset_Gust                ; BATTLE_ANIM_FRAMESET_GUST
 	dw .Frameset_VineWhip1           ; BATTLE_ANIM_FRAMESET_VINE_WHIP_1
 	dw .Frameset_VineWhip2           ; BATTLE_ANIM_FRAMESET_VINE_WHIP_2
-	dw .Frameset_RazorWind1          ; BATTLE_ANIM_FRAMESET_RAZOR_WIND_1
-	dw .Frameset_RazorWind2          ; BATTLE_ANIM_FRAMESET_RAZOR_WIND_2
 	dw .Frameset_SonicboomJP         ; BATTLE_ANIM_FRAMESET_SONICBOOM_JP
 	dw .Frameset_Warp                ; BATTLE_ANIM_FRAMESET_WARP
 	dw .Frameset_ChargeOrb2          ; BATTLE_ANIM_FRAMESET_CHARGE_ORB_2
@@ -678,24 +676,6 @@ BattleAnimFrameData:
 .Frameset_VineWhip2:
 	oamframe BATTLE_ANIM_OAMSET_56,  2, B_OAM_XFLIP, B_OAM_YFLIP
 	oamframe BATTLE_ANIM_OAMSET_57,  4, B_OAM_XFLIP, B_OAM_YFLIP
-	oamdelete
-
-.Frameset_RazorWind1:
-	oamframe BATTLE_ANIM_OAMSET_56,  1
-	oamframe BATTLE_ANIM_OAMSET_57,  1
-	oamframe BATTLE_ANIM_OAMSET_58,  1
-	oamframe BATTLE_ANIM_OAMSET_57,  1, B_OAM_XFLIP, B_OAM_YFLIP
-	oamframe BATTLE_ANIM_OAMSET_58,  1, B_OAM_XFLIP, B_OAM_YFLIP
-	oamframe BATTLE_ANIM_OAMSET_57,  2
-	oamdelete
-
-.Frameset_RazorWind2:
-	oamframe BATTLE_ANIM_OAMSET_56,  1, B_OAM_XFLIP, B_OAM_YFLIP
-	oamframe BATTLE_ANIM_OAMSET_57,  1, B_OAM_XFLIP, B_OAM_YFLIP
-	oamframe BATTLE_ANIM_OAMSET_58,  1, B_OAM_XFLIP, B_OAM_YFLIP
-	oamframe BATTLE_ANIM_OAMSET_57,  1
-	oamframe BATTLE_ANIM_OAMSET_58,  1
-	oamframe BATTLE_ANIM_OAMSET_57,  2, B_OAM_XFLIP, B_OAM_YFLIP
 	oamdelete
 
 .Frameset_SonicboomJP:

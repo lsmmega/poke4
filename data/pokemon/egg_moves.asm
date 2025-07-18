@@ -12,7 +12,6 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
 	db SKULL_BASH
-	db RAZOR_WIND
 	db PETAL_DANCE
 	db -1 ; end
 
@@ -386,7 +385,6 @@ MrMimeEggMoves:
 ScytherEggMoves:
 	db COUNTER
 	db BATON_PASS
-	db RAZOR_WIND
 	db REVERSAL
 	db -1 ; end
 
@@ -464,7 +462,6 @@ TotodileEggMoves:
 	db THRASH
 	db HYDRO_PUMP
 	db ANCIENTPOWER
-	db RAZOR_WIND
 	db ROCK_SLIDE
 	db -1 ; end
 
@@ -638,7 +635,6 @@ DunsparceEggMoves:
 GligarEggMoves:
 	db METAL_CLAW
 	db WING_ATTACK
-	db RAZOR_WIND
 	db COUNTER
 	db -1 ; end
 

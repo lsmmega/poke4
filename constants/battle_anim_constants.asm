@@ -97,8 +97,6 @@ DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLE_ANIM_OBJ_GUST                ; 3e
 	const BATTLE_ANIM_OBJ_VINE_WHIP1          ; 3f
 	const BATTLE_ANIM_OBJ_VINE_WHIP2          ; 40
-	const BATTLE_ANIM_OBJ_RAZOR_WIND1         ; 41
-	const BATTLE_ANIM_OBJ_RAZOR_WIND2         ; 42
 	const BATTLE_ANIM_OBJ_SONICBOOM_JP        ; 43
 	const BATTLE_ANIM_OBJ_WARP                ; 44
 	const BATTLE_ANIM_OBJ_ABSORB              ; 45
@@ -250,7 +248,6 @@ DEF NUM_BATTLE_ANIM_OBJS EQU const_value
 	const BATTLE_ANIM_FUNC_BITE                      ; 17
 	const BATTLE_ANIM_FUNC_SOLAR_BEAM                ; 18
 	const BATTLE_ANIM_FUNC_GUST                      ; 19
-	const BATTLE_ANIM_FUNC_RAZOR_WIND                ; 1a
 	const BATTLE_ANIM_FUNC_KICK                      ; 1b
 	const BATTLE_ANIM_FUNC_ABSORB                    ; 1c
 	const BATTLE_ANIM_FUNC_EGG                       ; 1d
@@ -380,8 +377,6 @@ DEF NUM_BATTLE_ANIM_FUNCS EQU const_value
 	const BATTLE_ANIM_FRAMESET_GUST                  ; 45
 	const BATTLE_ANIM_FRAMESET_VINE_WHIP_1           ; 46
 	const BATTLE_ANIM_FRAMESET_VINE_WHIP_2           ; 47
-	const BATTLE_ANIM_FRAMESET_RAZOR_WIND_1          ; 48
-	const BATTLE_ANIM_FRAMESET_RAZOR_WIND_2          ; 49
 	const BATTLE_ANIM_FRAMESET_SONICBOOM_JP          ; 4a
 	const BATTLE_ANIM_FRAMESET_WARP                  ; 4b
 	const BATTLE_ANIM_FRAMESET_CHARGE_ORB_2          ; 4c

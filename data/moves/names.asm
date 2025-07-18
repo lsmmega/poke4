@@ -10,7 +10,6 @@ MoveNames::
 	li "SCRATCH"
 	li "VICEGRIP"
 	li "GUILLOTINE"
-	li "RAZOR WIND"
 	li "SWORDS DANCE"
 	li "CUT"
 	li "GUST"
