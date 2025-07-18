@@ -212,7 +212,7 @@ MoveNames::
 	li "STEEL WING"
 	li "MEAN LOOK"
 	li "ATTRACT"
-	li "SLEEP TALK"
+	li "Sleep Talk"
 	li "HEAL BELL"
 	li "PRESENT"
 	li "Safeguard"

@@ -2025,6 +2025,7 @@ SnorlaxEvosAttacks:
 	db 8, AMNESIA
 	db 15, DEFENSE_CURL
 	db 20, SNORE
+	db 20, SLEEP_TALK
 	db 22, BELLY_DRUM
 	db 36, REST
 	db 43, BODY_SLAM
