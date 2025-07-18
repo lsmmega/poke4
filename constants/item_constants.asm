@@ -245,8 +245,8 @@ DEF TM01 EQU const_value
 	add_tm REFLECT        ;33
 	add_tm SHOCK_WAVE     ;34
 	add_tm FLAMETHROWER   ;35
-	add_tm SLUDGE_BOMB  ; e4
-	add_tm SANDSTORM    ; e5
+	add_tm SLUDGE_BOMB    ;36
+	add_tm SANDSTORM      ;37
 	add_tm FIRE_BLAST   ; e6
 	add_tm AERIAL_ACE     ;41
 	add_tm SWIFT        ; e7
