@@ -395,7 +395,7 @@ SandshrewEvosAttacks:
 	db 30, SWIFT
 	db 33, DIG
 	db 37, FURY_SWIPES
-	db 45, SANDSTORM
+	db 42, SANDSTORM
 	db 45, EARTHQUAKE
 	db 0 ; no more level-up moves
 
@@ -412,7 +412,7 @@ SandslashEvosAttacks:
 	db 33, SWIFT
 	db 41, DIG
 	db 42, FURY_SWIPES
-	db 52, SANDSTORM
+	db 56, SANDSTORM
 	db 61, EARTHQUAKE
 	db 0 ; no more level-up moves
 
@@ -689,6 +689,7 @@ DiglettEvosAttacks:
 	db 9, MAGNITUDE
 	db 12, MUD_SLAP
 	db 25, SAND_ATTACK
+	db 28, SANDSTORM
 	db 32, DIG
 	db 33, SLASH
 	db 40, EARTHQUAKE
@@ -705,6 +706,7 @@ DugtrioEvosAttacks:
 	db 9, MAGNITUDE
 	db 12, MUD_SLAP
 	db 25, SAND_ATTACK
+	db 30, SANDSTORM
 	db 36, DIG
 	db 37, SLASH
 	db 48, EARTHQUAKE
@@ -1341,8 +1343,8 @@ OnixEvosAttacks:
 	db 16, CURSE
 	db 23, HARDEN
 	db 27, RAGE
-	db 36, SANDSTORM
 	db 40, SLAM
+	db 40, SANDSTORM
 	db 44, DIG
 	db 48, IRON_TAIL
 	db 0 ; no more level-up moves
@@ -2922,8 +2924,8 @@ SteelixEvosAttacks:
 	db 16, CURSE
 	db 23, HARDEN
 	db 27, RAGE
-	db 36, SANDSTORM
 	db 40, SLAM
+	db 40, SANDSTORM
 	db 44, DIG
 	db 48, IRON_TAIL
 	db 49, CRUNCH
@@ -3436,12 +3438,12 @@ LarvitarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER
-	db 8, SANDSTORM
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 31, EARTHQUAKE
 	db 36, SCARY_FACE
+	db 39, SANDSTORM
 	db 42, HYPER_BEAM
 	db 43, CRUNCH
 	db 0 ; no more level-up moves
@@ -3451,15 +3453,14 @@ PupitarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER
-	db 1, SANDSTORM
 	db 1, SCREECH
-	db 8, SANDSTORM
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 33, EARTHQUAKE
 	db 38, SCARY_FACE
 	db 47, CRUNCH
+	db 47, SANDSTORM
 	db 52, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -3467,15 +3468,14 @@ TyranitarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER
-	db 1, SANDSTORM
 	db 1, SCREECH
-	db 8, SANDSTORM
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 33, EARTHQUAKE
 	db 38, SCARY_FACE
 	db 47, CRUNCH
+	db 47, SANDSTORM
 	db 52, HYPER_BEAM
 	db 59, GIGA_IMPACT
 	db 0 ; no more level-up moves
