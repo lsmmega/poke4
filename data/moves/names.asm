@@ -253,6 +253,7 @@ MoveNames::
 	li "Water Pulse"
 ;4
 	li "Bug Buzz"
+	li "Focus Blast"
 	li "Giga Impact"
 ;5
 	li "Low Sweep"
