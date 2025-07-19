@@ -36,7 +36,6 @@ Moves:
 	move STOMP,          EFFECT_STOMP,              65, NORMAL,        PHYSICAL, 100, 20,  30
 	move DOUBLE_KICK,    EFFECT_DOUBLE_HIT,         30, FIGHTING,      PHYSICAL, 100, 30,   0
 	move MEGA_KICK,      EFFECT_NORMAL_HIT,        120, NORMAL,        PHYSICAL,  75,  5,   0
-	move ROLLING_KICK,   EFFECT_FLINCH_HIT,         60, FIGHTING,      PHYSICAL,  85, 15,  30
 	move SAND_ATTACK,    EFFECT_ACCURACY_DOWN,       0, GROUND,        STATUS,   100, 15,   0
 	move HEADBUTT,       EFFECT_FLINCH_HIT,         70, NORMAL,        PHYSICAL, 100, 15,  30
 	move HORN_ATTACK,    EFFECT_NORMAL_HIT,         65, NORMAL,        PHYSICAL, 100, 25,   0

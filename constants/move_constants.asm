@@ -28,7 +28,6 @@
 	const STOMP        ; 17
 	const DOUBLE_KICK  ; 18
 	const MEGA_KICK    ; 19
-	const ROLLING_KICK ; 1b
 	const SAND_ATTACK  ; 1c
 	const HEADBUTT     ; 1d
 	const HORN_ATTACK  ; 1e
@@ -270,10 +269,10 @@
 	const STRUGGLE
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $100
+DEF CANNOT_MOVE EQU $ff
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $100
+	const_next $ff
 	const ANIM_SWEET_SCENT_2     ; 100
 	const ANIM_THROW_POKE_BALL   ; 101
 	const ANIM_SEND_OUT_MON      ; 102

@@ -23,7 +23,6 @@ MoveDescriptions::
 	dw StompDescription
 	dw DoubleKickDescription
 	dw MegaKickDescription
-	dw RollingKickDescription
 	dw SandAttackDescription
 	dw HeadbuttDescription
 	dw HornAttackDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -366,10 +365,6 @@ DoubleKickDescription:
 MegaKickDescription:
 	db   "A powerful kicking"
 	next "attack.@"
-
-RollingKickDescription:
-	db   "A fast, spinning"
-	next "kick.@"
 
 SandAttackDescription:
 	db   "Reduces accuracy"

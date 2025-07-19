@@ -24,7 +24,6 @@ BattleAnimations::
 	dw BattleAnim_Stomp
 	dw BattleAnim_DoubleKick
 	dw BattleAnim_MegaKick
-	dw BattleAnim_RollingKick
 	dw BattleAnim_SandAttack
 	dw BattleAnim_Headbutt
 	dw BattleAnim_HornAttack
@@ -266,7 +265,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $101
+	assert_table_length $100
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -749,16 +748,6 @@ BattleAnim_HiJumpKick:
 	anim_wait 16
 	anim_sound 0, 0, SFX_DOUBLE_KICK
 	anim_obj BATTLE_ANIM_OBJ_HIT, 44, 88, $0
-	anim_wait 16
-	anim_ret
-
-BattleAnim_RollingKick:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 112, 56, $0
-	anim_setobj $1, $3
-	anim_wait 12
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
 	anim_wait 16
 	anim_ret
 

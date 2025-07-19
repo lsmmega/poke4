@@ -190,7 +190,6 @@ MachopEggMoves:
 	db ICE_PUNCH
 	db THUNDERPUNCH
 	db MEDITATE
-	db ROLLING_KICK
 	db ENCORE
 	db -1 ; end
 
@@ -775,7 +774,6 @@ ElekidEggMoves:
 	db FIRE_PUNCH
 	db ICE_PUNCH
 	db BARRIER
-	db ROLLING_KICK
 	db MEDITATE
 	db DYNAMICPUNCH
 	db CROSS_CHOP

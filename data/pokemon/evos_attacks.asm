@@ -1520,7 +1520,6 @@ HitmonleeEvosAttacks:
 	db 1, DOUBLE_KICK
 	db 1, LOW_SWEEP
 	db 6, MEDITATE
-	db 11, ROLLING_KICK
 	db 12, ENDURE
 	db 21, FOCUS_ENERGY
 	db 26, HI_JUMP_KICK
@@ -3331,7 +3330,6 @@ TyrogueEvosAttacks:
 
 HitmontopEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROLLING_KICK
 	db 7, FOCUS_ENERGY
 	db 12, DETECT
 	db 13, PURSUIT
