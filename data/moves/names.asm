@@ -246,6 +246,7 @@ MoveNames::
 	li "Shock Wave"
 	li "Water Pulse"
 ;4
+	li "Rock Polish"
 	li "Bug Buzz"
 	li "Dragon Pulse"
 	li "Drain Punch"

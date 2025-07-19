@@ -328,6 +328,7 @@ KoffingEggMoves:
 	db -1 ; end
 
 RhyhornEggMoves:
+	db ROCK_POLISH
 	db CRUNCH
 	db REVERSAL
 	db ROCK_SLIDE

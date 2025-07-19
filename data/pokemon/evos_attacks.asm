@@ -1031,6 +1031,7 @@ GeodudeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
+	db 6, ROCK_POLISH
 	db 10, ROLLOUT
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
@@ -1045,7 +1046,9 @@ GravelerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
+	db 1, ROCK_POLISH
 	db 1, ROCK_THROW
+	db 6, ROCK_POLISH
 	db 10, ROLLOUT
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
@@ -1059,8 +1062,10 @@ GolemEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
+	db 1, ROCK_POLISH
 	db 1, ROCK_THROW
 	db 1, MAGNITUDE
+	db 6, ROCK_POLISH
 	db 10, ROLLOUT
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
@@ -1339,6 +1344,7 @@ OnixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
+	db 8, ROCK_POLISH
 	db 10, BIND
 	db 12, DRAGONBREATH
 	db 14, ROCK_THROW
@@ -2919,6 +2925,7 @@ GligarEvosAttacks:
 
 SteelixEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, ROCK_POLISH
 	db 1, TACKLE
 	db 1, SCREECH
 	db 10, BIND
