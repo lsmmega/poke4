@@ -1043,7 +1043,7 @@ GeodudeEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 26, HARDEN
 	db 34, EARTHQUAKE
-	db 41, EXPLOSION
+	db 36, EXPLOSION
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
@@ -1058,7 +1058,7 @@ GravelerEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 27, HARDEN
 	db 40, EARTHQUAKE
-	db 48, EXPLOSION
+	db 44, EXPLOSION
 	db 0 ; no more level-up moves
 
 GolemEvosAttacks:
@@ -1073,7 +1073,7 @@ GolemEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 27, HARDEN
 	db 40, EARTHQUAKE
-	db 48, EXPLOSION
+	db 44, EXPLOSION
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:
@@ -1431,8 +1431,8 @@ VoltorbEvosAttacks:
 	db 20, SWIFT
 	db 23, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
-	db 39, EXPLOSION
 	db 41, MIRROR_COAT
+	db 41, EXPLOSION
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:
@@ -1445,7 +1445,7 @@ ElectrodeEvosAttacks:
 	db 20, SWIFT
 	db 23, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
-	db 44, EXPLOSION
+	db 47, EXPLOSION
 	db 48, MIRROR_COAT
 	db 0 ; no more level-up moves
 
@@ -1566,7 +1566,7 @@ KoffingEvosAttacks:
 	db 32, SLUDGE_BOMB
 	db 33, HAZE
 	db 36, TOXIC
-	db 41, EXPLOSION
+	db 44, EXPLOSION
 	db 45, DESTINY_BOND
 	db 0 ; no more level-up moves
 
@@ -1583,7 +1583,7 @@ WeezingEvosAttacks:
 	db 32, SLUDGE_BOMB
 	db 33, HAZE
 	db 38, TOXIC
-	db 44, EXPLOSION
+	db 50, EXPLOSION
 	db 51, DESTINY_BOND
 	db 0 ; no more level-up moves
 
@@ -2890,7 +2890,7 @@ PinecoEvosAttacks:
 	db 22, RAPID_SPIN
 	db 23, ROLLOUT
 	db 29, BIDE
-	db 36, EXPLOSION
+	db 34, EXPLOSION
 	db 43, SPIKES
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2907,7 +2907,7 @@ ForretressEvosAttacks:
 	db 22, RAPID_SPIN
 	db 23, ROLLOUT
 	db 29, BIDE
-	db 39, EXPLOSION
+	db 36, EXPLOSION
 	db 49, SPIKES
 	db 59, DOUBLE_EDGE
 	db 60, ZAP_CANNON

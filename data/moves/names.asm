@@ -144,7 +144,7 @@ MoveNames::
 	li "SPLASH"
 	li "ACID ARMOR"
 	li "CRABHAMMER"
-	li "EXPLOSION"
+	li "Explosion"
 	li "FURY SWIPES"
 	li "BONEMERANG"
 	li "Rest"
