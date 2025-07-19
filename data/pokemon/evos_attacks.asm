@@ -357,6 +357,7 @@ ArbokEvosAttacks:
 PikachuEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, RAICHU
 	db 0 ; no more evolutions
+	db 1, NASTY_PLOT
 	db 1, THUNDERSHOCK
 	db 1, GROWL
 	db 6, TAIL_WHIP
@@ -373,6 +374,7 @@ PikachuEvosAttacks:
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERPUNCH
+	db 1, NASTY_PLOT
 	db 1, DOUBLE_TEAM
 	db 1, THUNDERBOLT
 	db 1, LIGHT_SCREEN
@@ -528,6 +530,7 @@ VulpixEvosAttacks:
 
 NinetalesEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, NASTY_PLOT
 	db 1, CONFUSE_RAY
 	db 1, FLAMETHROWER
 	db 1, SAFEGUARD
@@ -730,6 +733,7 @@ MeowthEvosAttacks:
 	db 20, PAY_DAY
 	db 28, FAINT_ATTACK
 	db 35, SCREECH
+	db 40, NASTY_PLOT
 	db 41, FURY_SWIPES
 	db 46, SLASH
 	db 0 ; no more level-up moves
@@ -744,6 +748,7 @@ PersianEvosAttacks:
 	db 29, FAINT_ATTACK
 	db 38, SCREECH
 	db 46, FURY_SWIPES
+	db 48, NASTY_PLOT
 	db 53, SLASH
 	db 0 ; no more level-up moves
 
@@ -1368,10 +1373,12 @@ DrowzeeEvosAttacks:
 	db 45, FUTURE_SIGHT
 	db 45, SWAGGER
 	db 49, PSYCHIC_M
+	db 53, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 HypnoEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, NASTY_PLOT
 	db 1, POUND
 	db 1, HYPNOSIS
 	db 1, DISABLE
@@ -1384,6 +1391,7 @@ HypnoEvosAttacks:
 	db 40, MEDITATE
 	db 45, SWAGGER
 	db 49, PSYCHIC_M
+	db 53, NASTY_PLOT
 	db 60, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
@@ -2142,6 +2150,7 @@ MewtwoEvosAttacks:
 	db 24, SAFEGUARD
 	db 44, FUTURE_SIGHT
 	db 48, PSYCHIC_M
+	db 50, NASTY_PLOT
 	db 55, MIST
 	db 77, AMNESIA
 	db 88, RECOVER
@@ -2466,6 +2475,7 @@ PichuEvosAttacks:
 	db 6, TAIL_WHIP
 	db 8, THUNDER_WAVE
 	db 11, SWEET_KISS
+	db 16, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:
@@ -2702,6 +2712,7 @@ AipomEvosAttacks:
 	db 19, FURY_SWIPES
 	db 22, SWIFT
 	db 36, SCREECH
+	db 39, NASTY_PLOT
 	db 46, AGILITY
 	db 0 ; no more level-up moves
 
@@ -2812,6 +2823,7 @@ MurkrowEvosAttacks:
 
 SlowkingEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, NASTY_PLOT
 	db 1, SWAGGER
 	db 1, CURSE
 	db 1, TACKLE
@@ -2863,6 +2875,7 @@ GirafarigEvosAttacks:
 	db 20, AGILITY
 	db 30, BATON_PASS
 	db 41, PSYBEAM
+	db 46, NASTY_PLOT
 	db 50, PSYCHIC_M
 	db 54, CRUNCH
 	db 0 ; no more level-up moves
@@ -3212,10 +3225,12 @@ HoundourEvosAttacks:
 	db 27, FAINT_ATTACK
 	db 43, CRUNCH
 	db 44, FLAMETHROWER
+	db 52, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 HoundoomEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, NASTY_PLOT
 	db 1, LEER
 	db 1, EMBER
 	db 13, ROAR
@@ -3224,6 +3239,7 @@ HoundoomEvosAttacks:
 	db 30, FAINT_ATTACK
 	db 50, FLAMETHROWER
 	db 52, CRUNCH
+	db 60, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 KingdraEvosAttacks:

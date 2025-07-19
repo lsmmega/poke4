@@ -256,6 +256,7 @@ BattleAnimations::
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_EnergyBall
 	dw BattleAnim_GigaImpact
+	dw BattleAnim_NastyPlot
 ;5
 	dw BattleAnim_LowSweep
 	dw BattleAnim_Scald
@@ -265,7 +266,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $100
+	assert_table_length $101
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -303,6 +304,7 @@ BattleAnim_DrainPunch:
 BattleAnim_FocusBlast:
 BattleAnim_EnergyBall:
 BattleAnim_GigaImpact:
+BattleAnim_NastyPlot:
 BattleAnim_LowSweep:
 BattleAnim_Scald:
 BattleAnim_DazzlingGleam:

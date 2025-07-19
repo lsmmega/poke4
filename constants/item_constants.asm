@@ -261,6 +261,7 @@ DEF TM01 EQU const_value
 	add_tm DRAGON_PULSE   ;59
 	add_tm DRAIN_PUNCH    ;60
 	add_tm BUG_BUZZ       ;62
+	add_tm NASTY_PLOT     ;63
 	add_tm GIGA_IMPACT    ;68
 	add_tm PSYCH_UP       ;77
 	add_tm DREAM_EATER    ;85
