@@ -48,7 +48,6 @@
 	const ROAR         ; 2e
 	const SING         ; 2f
 	const SUPERSONIC   ; 30
-	const SONICBOOM    ; 31
 	const DISABLE      ; 32
 	const ACID         ; 33
 	const EMBER        ; 34
@@ -270,10 +269,10 @@
 	const STRUGGLE
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $100
+DEF CANNOT_MOVE EQU $ff
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $100
+	const_next $ff
 	const ANIM_SWEET_SCENT_2     ; 100
 	const ANIM_THROW_POKE_BALL   ; 101
 	const ANIM_SEND_OUT_MON      ; 102

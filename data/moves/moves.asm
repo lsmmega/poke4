@@ -56,7 +56,6 @@ Moves:
 	move ROAR,           EFFECT_FORCE_SWITCH,        0, NORMAL,        STATUS,   100, 20, 100
 	move SING,           EFFECT_SLEEP,               0, NORMAL,        STATUS,    55, 15,   0
 	move SUPERSONIC,     EFFECT_CONFUSE,             0, NORMAL,        STATUS,    55, 20,   0
-	move SONICBOOM,      EFFECT_STATIC_DAMAGE,      20, NORMAL,        SPECIAL,   90, 20,   0
 	move DISABLE,        EFFECT_DISABLE,             0, NORMAL,        STATUS,    55, 20,   0
 	move ACID,           EFFECT_DEFENSE_DOWN_HIT,   40, POISON,        SPECIAL,  100, 30,  10
 	move EMBER,          EFFECT_BURN_HIT,           40, FIRE,          SPECIAL,  100, 25,  10

@@ -43,7 +43,6 @@ MoveDescriptions::
 	dw RoarDescription
 	dw SingDescription
 	dw SupersonicDescription
-	dw SonicboomDescription
 	dw DisableDescription
 	dw AcidDescription
 	dw EmberDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -448,10 +447,6 @@ SingDescription:
 SupersonicDescription:
 	db   "Sound waves that"
 	next "cause confusion.@"
-
-SonicboomDescription:
-	db   "Always inflicts"
-	next "20HP damage.@"
 
 DisableDescription:
 	db   "Disables the foe's"
