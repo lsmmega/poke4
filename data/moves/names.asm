@@ -137,7 +137,7 @@ MoveNames::
 	li "BUBBLE"
 	li "DIZZY PUNCH"
 	li "SPORE"
-	li "FLASH"
+	li "Flash"
 	li "PSYWAVE"
 	li "SPLASH"
 	li "ACID ARMOR"

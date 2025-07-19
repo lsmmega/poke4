@@ -266,6 +266,7 @@ DEF TM01 EQU const_value
 	add_tm SHADOW_CLAW    ;65
 	add_tm GIGA_IMPACT    ;68
 	add_tm ROCK_POLISH    ;69
+	add_tm FLASH          ;70
 	add_tm PSYCH_UP       ;77
 	add_tm SLEEP_TALK     ;82
 	add_tm DREAM_EATER    ;85
@@ -274,7 +275,6 @@ DEF TM01 EQU const_value
 	add_tm FLY          ; f4
 	add_tm SURF         ; f5
 	add_tm STRENGTH     ; f6
-	add_tm FLASH        ; f7
 	add_tm ROCK_SMASH     ;98
 	add_tm WHIRLPOOL    ; f8
 	add_tm WATERFALL    ; f9
