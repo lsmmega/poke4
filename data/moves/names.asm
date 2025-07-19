@@ -178,7 +178,7 @@ MoveNames::
 	li "FAINT ATTACK"
 	li "SWEET KISS"
 	li "BELLY DRUM"
-	li "SLUDGE BOMB"
+	li "Sludge Bomb"
 	li "Mud-Slap"
 	li "OCTAZOOKA"
 	li "SPIKES"
