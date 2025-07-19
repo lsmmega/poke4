@@ -254,6 +254,7 @@ MoveNames::
 	li "Energy Ball"
 	li "Giga Impact"
 	li "Nasty Plot"
+	li "Shadow Claw"
 ;5
 	li "Low Sweep"
 	li "Scald"

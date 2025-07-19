@@ -255,6 +255,7 @@ MoveDescriptions::
 	dw EnergyBallDescription
 	dw GigaImpactDescription
 	dw NastyPlotDescription
+	dw ShadowClawDescription
 ;5
 	dw LowSweepDescription
 	dw ScaldDescription
@@ -264,7 +265,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $ff
+	assert_table_length $100
 
 RockTombDescription:
 BulletSeedDescription:
@@ -279,6 +280,7 @@ FocusBlastDescription:
 EnergyBallDescription:
 GigaImpactDescription:
 NastyPlotDescription:
+ShadowClawDescription:
 LowSweepDescription:
 ScaldDescription:
 DazzlingGleamDescription:

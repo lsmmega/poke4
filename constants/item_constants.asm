@@ -263,6 +263,7 @@ DEF TM01 EQU const_value
 	add_tm BUG_BUZZ       ;62
 	add_tm NASTY_PLOT     ;63
 	add_tm EXPLOSION      ;64
+	add_tm SHADOW_CLAW    ;65
 	add_tm GIGA_IMPACT    ;68
 	add_tm PSYCH_UP       ;77
 	add_tm SLEEP_TALK     ;82
@@ -277,8 +278,6 @@ DEF TM01 EQU const_value
 	add_tm WHIRLPOOL    ; f8
 	add_tm WATERFALL    ; f9
 DEF NUM_TMS EQU __tm_value__ - 1
-
-	const ITEM_FA       ; fa
 
 DEF USE_SCRIPT_VAR EQU $00
 DEF ITEM_FROM_MEM  EQU $ff

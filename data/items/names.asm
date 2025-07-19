@@ -250,8 +250,8 @@ ItemNames::
 	li "TM57"
 	li "TM58"
 	li "TM59"
+	li "TM60"
 	assert_list_length NUM_ITEMS + NUM_TMS
-	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
