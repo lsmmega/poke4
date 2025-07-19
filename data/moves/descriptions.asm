@@ -36,7 +36,6 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw TwineedleDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -254,6 +253,7 @@ MoveDescriptions::
 ;4
 	dw BugBuzzDescription
 	dw FocusBlastDescription
+	dw EnergyBallDescription
 	dw GigaImpactDescription
 ;5
 	dw LowSweepDescription
@@ -274,6 +274,7 @@ ShockWaveDescription:
 WaterPulseDescription:
 BugBuzzDescription:
 FocusBlastDescription:
+EnergyBallDescription:
 GigaImpactDescription:
 LowSweepDescription:
 ScaldDescription:
@@ -417,10 +418,6 @@ TailWhipDescription:
 PoisonStingDescription:
 	db   "An attack that may"
 	next "poison the target.@"
-
-TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
 
 PinMissileDescription:
 	db   "Fires pins that"

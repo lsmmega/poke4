@@ -49,7 +49,6 @@ Moves:
 	move DOUBLE_EDGE,    EFFECT_RECOIL_HIT,        120, NORMAL,        PHYSICAL, 100, 15,   0
 	move TAIL_WHIP,      EFFECT_DEFENSE_DOWN,        0, NORMAL,        STATUS,   100, 30,   0
 	move POISON_STING,   EFFECT_POISON_HIT,         15, POISON,        PHYSICAL, 100, 35,  30
-	move TWINEEDLE,      EFFECT_POISON_MULTI_HIT,   25, BUG,           PHYSICAL, 100, 20,  20
 	move PIN_MISSILE,    EFFECT_MULTI_HIT,          14, BUG,           PHYSICAL,  85, 20,   0
 	move LEER,           EFFECT_DEFENSE_DOWN,        0, NORMAL,        STATUS,   100, 30,   0
 	move BITE,           EFFECT_FLINCH_HIT,         60, DARK,          PHYSICAL, 100, 25,  30
@@ -267,6 +266,7 @@ Moves:
 ;4
 	move BUG_BUZZ,       EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           SPECIAL,  100, 10,  10
 	move FOCUS_BLAST,    EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,      SPECIAL,   70,  5,  10
+	move ENERGY_BALL,    EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,         SPECIAL,  100, 10,  10
 	move GIGA_IMPACT,    EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL,  90,  5,   0
 ;5
 	move LOW_SWEEP,      EFFECT_SPEED_DOWN_HIT,     65, FIGHTING,      PHYSICAL, 100, 20, 100

@@ -41,7 +41,6 @@
 	const DOUBLE_EDGE  ; 26
 	const TAIL_WHIP    ; 27
 	const POISON_STING ; 28
-	const TWINEEDLE    ; 29
 	const PIN_MISSILE  ; 2a
 	const LEER         ; 2b
 	const BITE         ; 2c
@@ -259,6 +258,7 @@
 ;4
 	const BUG_BUZZ
 	const FOCUS_BLAST
+	const ENERGY_BALL
 	const GIGA_IMPACT
 ;5
 	const LOW_SWEEP

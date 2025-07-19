@@ -35,7 +35,6 @@ MoveNames::
 	li "DOUBLE-EDGE"
 	li "TAIL WHIP"
 	li "POISON STING"
-	li "TWINEEDLE"
 	li "PIN MISSILE"
 	li "LEER"
 	li "BITE"
@@ -253,6 +252,7 @@ MoveNames::
 ;4
 	li "Bug Buzz"
 	li "Focus Blast"
+	li "Energy Ball"
 	li "Giga Impact"
 ;5
 	li "Low Sweep"

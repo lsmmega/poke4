@@ -1961,8 +1961,6 @@ BattleCommand_MoveAnimNoSub:
 	jr z, .alternate_anim
 	cp EFFECT_DOUBLE_HIT
 	jr z, .alternate_anim
-	cp EFFECT_POISON_MULTI_HIT
-	jr z, .alternate_anim
 	cp EFFECT_TRIPLE_KICK
 	jr z, .triplekick
 	xor a
@@ -2081,8 +2079,6 @@ BattleCommand_FailureText:
 	cp EFFECT_MULTI_HIT
 	jr z, .multihit
 	cp EFFECT_DOUBLE_HIT
-	jr z, .multihit
-	cp EFFECT_POISON_MULTI_HIT
 	jr z, .multihit
 	jp EndMoveEffect
 
@@ -2399,8 +2395,6 @@ BattleCommand_CheckFaint:
 	cp EFFECT_MULTI_HIT
 	jr z, .multiple_hit_raise_sub
 	cp EFFECT_DOUBLE_HIT
-	jr z, .multiple_hit_raise_sub
-	cp EFFECT_POISON_MULTI_HIT
 	jr z, .multiple_hit_raise_sub
 	cp EFFECT_TRIPLE_KICK
 	jr z, .multiple_hit_raise_sub
@@ -3530,8 +3524,6 @@ DoSubstituteDamage:
 	cp EFFECT_MULTI_HIT
 	jr z, .ok
 	cp EFFECT_DOUBLE_HIT
-	jr z, .ok
-	cp EFFECT_POISON_MULTI_HIT
 	jr z, .ok
 	cp EFFECT_TRIPLE_KICK
 	jr z, .ok
@@ -5212,8 +5204,6 @@ BattleCommand_EndLoop:
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVarAddr
 	ld a, [hl]
-	cp EFFECT_POISON_MULTI_HIT
-	jr z, .twineedle
 	cp EFFECT_DOUBLE_HIT
 	ld a, 1
 	jr z, .double_hit
@@ -5274,10 +5264,6 @@ BattleCommand_EndLoop:
 	inc a
 	ld [bc], a
 	jr .loop_back_to_critical
-
-.twineedle
-	ld a, 1
-	jr .double_hit
 
 .in_loop
 	ld a, [de]

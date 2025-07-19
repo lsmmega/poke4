@@ -223,7 +223,6 @@ BeedrillEvosAttacks:
 	db 10, FURY_ATTACK
 	db 11, FURY_CUTTER
 	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
 	db 25, RAGE
 	db 30, PURSUIT
 	db 35, PIN_MISSILE
