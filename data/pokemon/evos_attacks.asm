@@ -1522,7 +1522,6 @@ HitmonleeEvosAttacks:
 	db 6, MEDITATE
 	db 11, ROLLING_KICK
 	db 12, ENDURE
-	db 16, JUMP_KICK
 	db 21, FOCUS_ENERGY
 	db 26, HI_JUMP_KICK
 	db 31, MIND_READER
