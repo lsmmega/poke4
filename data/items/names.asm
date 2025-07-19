@@ -245,6 +245,7 @@ ItemNames::
 	li "TM52"
 	li "TM53"
 	li "TM54"
+	li "TM55"
 	assert_list_length NUM_ITEMS + NUM_TMS
 	li "TERU-SAMA"
 	li "TERU-SAMA"
@@ -253,4 +254,4 @@ ItemNames::
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "?"
-	assert_list_length $fb
+	assert_list_length $fc

@@ -1667,6 +1667,7 @@ HorseaEvosAttacks:
 	db 22, WATER_GUN
 	db 29, TWISTER
 	db 36, AGILITY
+	db 40, DRAGON_PULSE
 	db 43, HYDRO_PUMP
 	db 55, RAIN_DANCE
 	db 0 ; no more level-up moves
@@ -1684,6 +1685,7 @@ SeadraEvosAttacks:
 	db 22, WATER_GUN
 	db 29, TWISTER
 	db 40, AGILITY
+	db 44, DRAGON_PULSE
 	db 51, HYDRO_PUMP
 	db 65, RAIN_DANCE
 	db 0 ; no more level-up moves
@@ -2574,6 +2576,7 @@ AmpharosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERPUNCH
 	db 1, ZAP_CANNON
+	db 1, DRAGON_PULSE
 	db 1, FIRE_PUNCH
 	db 1, TACKLE
 	db 1, GROWL
@@ -2584,6 +2587,7 @@ AmpharosEvosAttacks:
 	db 27, COTTON_SPORE
 	db 57, LIGHT_SCREEN
 	db 62, THUNDER
+	db 65, DRAGON_PULSE
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
@@ -3247,6 +3251,7 @@ KingdraEvosAttacks:
 	db 22, WATER_GUN
 	db 29, TWISTER
 	db 40, AGILITY
+	db 44, DRAGON_PULSE
 	db 51, HYDRO_PUMP
 	db 65, RAIN_DANCE
 	db 0 ; no more level-up moves
