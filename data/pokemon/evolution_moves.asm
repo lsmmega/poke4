@@ -106,7 +106,7 @@
 	db NO_MOVE        ;CUBONE
 	db NO_MOVE        ;MAROWAK
 	db NO_MOVE        ;HITMONLEE
-	db NO_MOVE        ;HITMONCHAN
+	db DRAIN_PUNCH    ;HITMONCHAN
 	db NO_MOVE        ;LICKITUNG
 	db NO_MOVE        ;KOFFING
 	db NO_MOVE        ;WEEZING

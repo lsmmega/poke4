@@ -253,6 +253,7 @@ BattleAnimations::
 ;4
 	dw BattleAnim_BugBuzz
 	dw BattleAnim_DragonPulse
+	dw BattleAnim_DrainPunch
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_EnergyBall
 	dw BattleAnim_GigaImpact
@@ -265,7 +266,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $100
+	assert_table_length $101
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -299,6 +300,7 @@ BattleAnim_ShockWave:
 BattleAnim_WaterPulse:
 BattleAnim_BugBuzz:
 BattleAnim_DragonPulse:
+BattleAnim_DrainPunch:
 BattleAnim_FocusBlast:
 BattleAnim_EnergyBall:
 BattleAnim_GigaImpact:

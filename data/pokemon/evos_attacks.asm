@@ -1524,6 +1524,7 @@ HitmonleeEvosAttacks:
 
 HitmonchanEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DRAIN_PUNCH
 	db 7, AGILITY
 	db 12, DETECT
 	db 13, PURSUIT

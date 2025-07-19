@@ -251,6 +251,7 @@ MoveNames::
 ;4
 	li "Bug Buzz"
 	li "Dragon Pulse"
+	li "Drain Punch"
 	li "Focus Blast"
 	li "Energy Ball"
 	li "Giga Impact"

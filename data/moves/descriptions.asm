@@ -252,6 +252,7 @@ MoveDescriptions::
 ;4
 	dw BugBuzzDescription
 	dw DragonPulseDescription
+	dw DrainPunchDescription
 	dw FocusBlastDescription
 	dw EnergyBallDescription
 	dw GigaImpactDescription
@@ -264,7 +265,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $ff
+	assert_table_length $100
 
 RockTombDescription:
 BulletSeedDescription:
@@ -274,6 +275,7 @@ ShockWaveDescription:
 WaterPulseDescription:
 BugBuzzDescription:
 DragonPulseDescription:
+DrainPunchDescription:
 FocusBlastDescription:
 EnergyBallDescription:
 GigaImpactDescription:
