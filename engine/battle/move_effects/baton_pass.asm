@@ -125,17 +125,6 @@ FailedBatonPass:
 ResetBatonPassStatus:
 ; Reset status changes that aren't passed by Baton Pass.
 
-	; Nightmare isn't passed.
-	ld a, BATTLE_VARS_STATUS
-	call GetBattleVar
-	and SLP_MASK
-	jr nz, .ok
-
-	ld a, BATTLE_VARS_SUBSTATUS1
-	call GetBattleVarAddr
-	res SUBSTATUS_NIGHTMARE, [hl]
-.ok
-
 	; Disable isn't passed.
 	call ResetActorDisable
 

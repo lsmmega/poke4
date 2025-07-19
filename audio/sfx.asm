@@ -2383,28 +2383,6 @@ Sfx_MindReader_Ch8:
 	noise_note 18, 10, -7, 24
 	sound_ret
 
-Sfx_Nightmare:
-	channel_count 1
-	channel 5, Sfx_Nightmare_Ch5
-
-Sfx_Nightmare_Ch5:
-	duty_cycle 0
-	pitch_sweep 3, 4
-.loop1:
-	square_note 3, 11, -2, 1585
-	square_note 2, 0, 0, 0
-	square_note 3, 15, 8, 1569
-	square_note 2, 0, 0, 0
-	square_note 3, 15, 8, 1553
-	square_note 2, 0, 0, 0
-	square_note 3, 14, 8, 1537
-	square_note 2, 0, 0, 0
-	square_note 3, 14, 8, 1521
-	square_note 2, 0, 0, 0
-	sound_loop 2, .loop1
-	pitch_sweep 0, 8
-	sound_ret
-
 Sfx_Snore:
 	channel_count 1
 	channel 8, Sfx_Snore_Ch8

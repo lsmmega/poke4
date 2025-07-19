@@ -167,7 +167,6 @@ MoveNames::
 	li "Thief"
 	li "SPIDER WEB"
 	li "MIND READER"
-	li "NIGHTMARE"
 	li "Flame Wheel"
 	li "Snore"
 	li "Curse"

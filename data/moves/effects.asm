@@ -1434,13 +1434,6 @@ MeanLook:
 	arenatrap
 	endmove
 
-Nightmare:
-	checkobedience
-	usedmovetext
-	doturn
-	nightmare
-	endmove
-
 DefrostBurn:
 	checkobedience
 	usedmovetext

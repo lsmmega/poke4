@@ -113,7 +113,7 @@ BattleCommand_CheckTurn:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	assert CANNOT_MOVE == $100
+	assert CANNOT_MOVE == $ff
 	and a ; NO_MOVE?
 	jp z, EndTurn
 
@@ -170,9 +170,6 @@ BattleCommand_CheckTurn:
 	call CallBattleCore
 	ld a, $1
 	ldh [hBGMapMode], a
-	ld hl, wPlayerSubStatus1
-	res SUBSTATUS_NIGHTMARE, [hl]
-	jr .not_asleep
 
 .fast_asleep
 	ld hl, FastAsleepText
@@ -401,9 +398,6 @@ CheckEnemyTurn:
 	call CallBattleCore
 	ld a, $1
 	ldh [hBGMapMode], a
-	ld hl, wEnemySubStatus1
-	res SUBSTATUS_NIGHTMARE, [hl]
-	jr .not_asleep
 
 .fast_asleep
 	; Snore and Sleep Talk bypass sleep.
@@ -6297,8 +6291,6 @@ BattleCommand_ArenaTrap:
 .failed
 	call AnimateFailedMove
 	jp PrintButItFailed
-
-INCLUDE "engine/battle/move_effects/nightmare.asm"
 
 BattleCommand_Defrost:
 ; Thaw the user.

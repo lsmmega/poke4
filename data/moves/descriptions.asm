@@ -168,7 +168,6 @@ MoveDescriptions::
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw MindReaderDescription
-	dw NightmareDescription
 	dw FlameWheelDescription
 	dw SnoreDescription
 	dw CurseDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -944,10 +943,6 @@ SpiderWebDescription:
 MindReaderDescription:
 	db   "Ensures the next"
 	next "attack will hit.@"
-
-NightmareDescription:
-	db   "A sleeper loses"
-	next "1/4 HP every turn.@"
 
 FlameWheelDescription:
 	db   "An attack that may"

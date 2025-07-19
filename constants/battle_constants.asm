@@ -170,7 +170,6 @@ DEF ALL_STATUS EQU (1 << PSN) | (1 << BRN) | (1 << FRZ) | (1 << PAR) | SLP_MASK
 
 ; wPlayerSubStatus1 or wEnemySubStatus1 bit flags
 	const_def
-	const SUBSTATUS_NIGHTMARE
 	const SUBSTATUS_CURSE
 	const SUBSTATUS_PROTECT
 	const SUBSTATUS_IDENTIFIED

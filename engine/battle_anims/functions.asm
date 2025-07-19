@@ -2467,7 +2467,7 @@ BattleAnimFunc_ConfuseRay:
 	ret
 
 BattleAnimFunc_Dizzy:
-; Moves object in a circle where the height is 1/4 the width, with the next frameset from base whether moving left or right. Also used for Nightmare
+; Moves object in a circle where the height is 1/4 the width, with the next frameset from base whether moving left or right.
 ; Obj Param: Defines starting position in the circle (masked with $80). Bit 7 flips it at the start
 	call BattleAnim_AnonJumptable
 .anon_dw
@@ -2490,7 +2490,6 @@ BattleAnimFunc_Dizzy:
 	ld hl, BATTLEANIMSTRUCT_VAR1
 	add hl, bc
 	assert BATTLE_ANIM_FRAMESET_CHICK_1 + 1 ==  BATTLE_ANIM_FRAMESET_CHICK_2
-	assert BATTLE_ANIM_FRAMESET_IMP + 1 == BATTLE_ANIM_FRAMESET_IMP_FLIPPED
 	add [hl]
 	call ReinitBattleAnimFrameset
 	ld hl, BATTLEANIMSTRUCT_PARAM
@@ -2529,7 +2528,6 @@ BattleAnimFunc_Dizzy:
 	add hl, bc
 	ld a, [hl]
 	assert BATTLE_ANIM_FRAMESET_CHICK_1 + 1 ==  BATTLE_ANIM_FRAMESET_CHICK_2
-	assert BATTLE_ANIM_FRAMESET_IMP + 1 == BATTLE_ANIM_FRAMESET_IMP_FLIPPED
 	inc a
 	jr .got_frameset
 
@@ -2582,7 +2580,7 @@ BattleAnimFunc_Amnesia:
 	db $ec, $f8, $00
 
 BattleAnimFunc_FloatUp:
-; Object moves horizontally in a sine wave, while also moving up. Also used by Charm and the Nightmare status
+; Object moves horizontally in a sine wave, while also moving up. Also used by Charm
 	ld hl, BATTLEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]

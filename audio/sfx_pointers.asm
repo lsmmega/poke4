@@ -121,7 +121,6 @@ SFX:
 	dba Sfx_Thief2
 	dba Sfx_SpiderWeb
 	dba Sfx_MindReader
-	dba Sfx_Nightmare
 	dba Sfx_Snore
 	dba Sfx_SweetKiss
 	dba Sfx_SweetKiss2

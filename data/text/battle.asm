@@ -69,11 +69,6 @@ LeechSeedSapsText:
 	line "<USER>!"
 	prompt
 
-HasANightmareText:
-	text "<USER>"
-	line "has a NIGHTMARE!"
-	prompt
-
 HurtByCurseText:
 	text "<USER>'s"
 	line "hurt by the CURSE!"
@@ -954,12 +949,6 @@ StoleText:
 CantEscapeNowText:
 	text "<TARGET>"
 	line "can't escape now!"
-	prompt
-
-StartedNightmareText:
-	text "<TARGET>"
-	line "started to have a"
-	cont "NIGHTMARE!"
 	prompt
 
 WasDefrostedText:

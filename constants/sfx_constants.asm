@@ -120,7 +120,6 @@
 	const SFX_THIEF_2                     ; 77
 	const SFX_SPIDER_WEB                  ; 78
 	const SFX_MIND_READER                 ; 79
-	const SFX_NIGHTMARE                   ; 7a
 	const SFX_SNORE                       ; 7b
 	const SFX_SWEET_KISS                  ; 7c
 	const SFX_SWEET_KISS_2                ; 7d

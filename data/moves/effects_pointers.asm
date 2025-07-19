@@ -107,7 +107,6 @@ MoveEffectsPointers:
 	dw TripleKick
 	dw Thief
 	dw MeanLook
-	dw Nightmare
 	dw DefrostBurn
 	dw Curse
 	dw NormalHit
