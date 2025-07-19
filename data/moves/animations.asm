@@ -103,7 +103,6 @@ BattleAnimations::
 	dw BattleAnim_ConfuseRay
 	dw BattleAnim_Withdraw
 	dw BattleAnim_DefenseCurl
-	dw BattleAnim_Barrier
 	dw BattleAnim_LightScreen
 	dw BattleAnim_Haze
 	dw BattleAnim_Reflect
@@ -266,7 +265,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $101
+	assert_table_length $100
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -2793,19 +2792,6 @@ BattleAnim_BoneClub:
 	anim_sound 0, 1, SFX_BONE_CLUB
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
 	anim_wait 16
-	anim_ret
-
-BattleAnim_Barrier:
-	anim_1gfx BATTLE_ANIM_GFX_REFLECT
-	anim_battlergfx_2row
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_wait 8
-	anim_sound 0, 0, SFX_SHINE
-	anim_obj BATTLE_ANIM_OBJ_SCREEN, 72, 80, $0
-	anim_wait 32
-	anim_sound 0, 0, SFX_SHINE
-	anim_obj BATTLE_ANIM_OBJ_SCREEN, 72, 80, $0
-	anim_wait 32
 	anim_ret
 
 BattleAnim_Waterfall:

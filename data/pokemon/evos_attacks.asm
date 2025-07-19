@@ -1005,7 +1005,6 @@ TentacoolEvosAttacks:
 	db 19, ACID
 	db 25, BUBBLEBEAM
 	db 30, WRAP
-	db 36, BARRIER
 	db 43, SCREECH
 	db 49, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1021,7 +1020,6 @@ TentacruelEvosAttacks:
 	db 19, ACID
 	db 25, BUBBLEBEAM
 	db 30, WRAP
-	db 38, BARRIER
 	db 47, SCREECH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1741,7 +1739,6 @@ StarmieEvosAttacks:
 
 MrMimeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BARRIER
 	db 6, CONFUSION
 	db 11, SUBSTITUTE
 	db 31, ENCORE
@@ -2135,7 +2132,6 @@ MewtwoEvosAttacks:
 	db 1, CONFUSION
 	db 1, DISABLE
 	db 1, SWIFT
-	db 11, BARRIER
 	db 24, SAFEGUARD
 	db 44, FUTURE_SIGHT
 	db 48, PSYCHIC_M

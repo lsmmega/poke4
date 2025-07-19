@@ -101,7 +101,6 @@ MoveNames::
 	li "CONFUSE RAY"
 	li "WITHDRAW"
 	li "Defense Curl"
-	li "BARRIER"
 	li "Light Screen"
 	li "HAZE"
 	li "Reflect"

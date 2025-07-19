@@ -102,7 +102,6 @@ MoveDescriptions::
 	dw ConfuseRayDescription
 	dw WithdrawDescription
 	dw DefenseCurlDescription
-	dw BarrierDescription
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -687,10 +686,6 @@ WithdrawDescription:
 
 DefenseCurlDescription:
 	db   "Heightens the"
-	next "user's DEFENSE.@"
-
-BarrierDescription:
-	db   "Sharply increases"
 	next "user's DEFENSE.@"
 
 LightScreenDescription:

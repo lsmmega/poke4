@@ -107,7 +107,6 @@
 	const CONFUSE_RAY  ; 6d
 	const WITHDRAW     ; 6e
 	const DEFENSE_CURL ; 6f
-	const BARRIER      ; 70
 	const LIGHT_SCREEN ; 71
 	const HAZE         ; 72
 	const REFLECT      ; 73
@@ -270,10 +269,10 @@
 	const STRUGGLE
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $100
+DEF CANNOT_MOVE EQU $ff
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $100
+	const_next $ff
 	const ANIM_SWEET_SCENT_2     ; 100
 	const ANIM_THROW_POKE_BALL   ; 101
 	const ANIM_SEND_OUT_MON      ; 102

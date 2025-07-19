@@ -181,7 +181,6 @@ AbraEggMoves:
 	db ICE_PUNCH
 	db THUNDERPUNCH
 	db ENCORE
-	db BARRIER
 	db -1 ; end
 
 MachopEggMoves:
@@ -260,7 +259,6 @@ GrimerEggMoves:
 ShellderEggMoves:
 	db BUBBLEBEAM
 	db TAKE_DOWN
-	db BARRIER
 	db RAPID_SPIN
 	db SCREECH
 	db -1 ; end
@@ -285,7 +283,6 @@ DrowzeeEggMoves:
 	db FIRE_PUNCH
 	db ICE_PUNCH
 	db THUNDERPUNCH
-	db BARRIER
 	db -1 ; end
 
 KrabbyEggMoves:
@@ -767,7 +764,6 @@ SmoochumEggMoves:
 ElekidEggMoves:
 	db FIRE_PUNCH
 	db ICE_PUNCH
-	db BARRIER
 	db DYNAMICPUNCH
 	db CROSS_CHOP
 	db -1 ; end
@@ -775,7 +771,6 @@ ElekidEggMoves:
 MagbyEggMoves:
 	db MEGA_PUNCH
 	db THUNDERPUNCH
-	db BARRIER
 	db SCREECH
 	db DYNAMICPUNCH
 	db CROSS_CHOP
