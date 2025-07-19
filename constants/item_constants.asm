@@ -254,6 +254,7 @@ DEF TM01 EQU const_value
 	add_tm ATTRACT        ;45
 	add_tm THIEF          ;46
 	add_tm STEEL_WING     ;47
+	add_tm SCALD          ;49
 	add_tm ENDURE         ;58
 	add_tm BUG_BUZZ       ;62
 	add_tm GIGA_IMPACT    ;68

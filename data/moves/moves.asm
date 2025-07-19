@@ -271,6 +271,7 @@ Moves:
 	move GIGA_IMPACT,    EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL,  90,  5,   0
 ;5
 	move LOW_SWEEP,      EFFECT_SPEED_DOWN_HIT,     65, FIGHTING,      PHYSICAL, 100, 20, 100
+	move SCALD,          EFFECT_DEFROST_BURN_HIT,   80, WATER,         SPECIAL,  100, 15,  30
 ;6
 	move DAZZLING_GLEAM, EFFECT_NORMAL_HIT,         80, FAIRY,         SPECIAL,  100, 10,   0
 ;

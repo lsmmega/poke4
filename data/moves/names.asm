@@ -257,6 +257,7 @@ MoveNames::
 	li "Giga Impact"
 ;5
 	li "Low Sweep"
+	li "Scald"
 ;6
 	li "DazzlinGleam"
 ;
