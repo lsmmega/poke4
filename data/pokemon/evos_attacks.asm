@@ -1369,7 +1369,6 @@ DrowzeeEvosAttacks:
 	db 18, CONFUSION
 	db 31, POISON_GAS
 	db 33, PSYCH_UP
-	db 36, MEDITATE
 	db 45, FUTURE_SIGHT
 	db 45, SWAGGER
 	db 49, PSYCHIC_M
@@ -1388,7 +1387,6 @@ HypnoEvosAttacks:
 	db 18, CONFUSION
 	db 33, POISON_GAS
 	db 33, PSYCH_UP
-	db 40, MEDITATE
 	db 45, SWAGGER
 	db 49, PSYCHIC_M
 	db 53, NASTY_PLOT
@@ -1517,7 +1515,6 @@ HitmonleeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
 	db 1, LOW_SWEEP
-	db 6, MEDITATE
 	db 12, ENDURE
 	db 21, FOCUS_ENERGY
 	db 26, HI_JUMP_KICK
@@ -1753,7 +1750,6 @@ MrMimeEvosAttacks:
 	db 1, BARRIER
 	db 6, CONFUSION
 	db 11, SUBSTITUTE
-	db 16, MEDITATE
 	db 31, ENCORE
 	db 36, PSYBEAM
 	db 36, LIGHT_SCREEN

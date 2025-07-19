@@ -88,7 +88,6 @@ MoveDescriptions::
 	dw ConfusionDescription
 	dw PsychicMDescription
 	dw HypnosisDescription
-	dw MeditateDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
 	dw RageDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -630,10 +629,6 @@ PsychicMDescription:
 HypnosisDescription:
 	db   "May put the foe to"
 	next "sleep.@"
-
-MeditateDescription:
-	db   "Raises the user's"
-	next "ATTACK.@"
 
 AgilityDescription:
 	db   "Sharply increases"

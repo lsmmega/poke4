@@ -156,7 +156,6 @@ PsyduckEggMoves:
 MankeyEggMoves:
 	db ROCK_SLIDE
 	db FORESIGHT
-	db MEDITATE
 	db COUNTER
 	db REVERSAL
 	db BEAT_UP
@@ -189,7 +188,6 @@ MachopEggMoves:
 	db FIRE_PUNCH
 	db ICE_PUNCH
 	db THUNDERPUNCH
-	db MEDITATE
 	db ENCORE
 	db -1 ; end
 
@@ -765,14 +763,12 @@ TyrogueEggMoves:
 
 SmoochumEggMoves:
 	db ICE_PUNCH
-	db MEDITATE
 	db -1 ; end
 
 ElekidEggMoves:
 	db FIRE_PUNCH
 	db ICE_PUNCH
 	db BARRIER
-	db MEDITATE
 	db DYNAMICPUNCH
 	db CROSS_CHOP
 	db -1 ; end

@@ -87,7 +87,6 @@ MoveNames::
 	li "CONFUSION"
 	li "Psychic"
 	li "HYPNOSIS"
-	li "MEDITATE"
 	li "AGILITY"
 	li "QUICK ATTACK"
 	li "RAGE"
