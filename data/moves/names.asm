@@ -254,6 +254,7 @@ MoveNames::
 	li "Giga Impact"
 	li "Nasty Plot"
 	li "Shadow Claw"
+	li "Stone Edge"
 ;5
 	li "Low Sweep"
 	li "Scald"

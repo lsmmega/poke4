@@ -267,6 +267,7 @@ DEF TM01 EQU const_value
 	add_tm GIGA_IMPACT    ;68
 	add_tm ROCK_POLISH    ;69
 	add_tm FLASH          ;70
+	add_tm STONE_EDGE     ;71
 	add_tm PSYCH_UP       ;77
 	add_tm SLEEP_TALK     ;82
 	add_tm DREAM_EATER    ;85

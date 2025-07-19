@@ -268,6 +268,7 @@ Moves:
 	move GIGA_IMPACT,    EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL,  90,  5,   0
 	move NASTY_PLOT,     EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0
 	move SHADOW_CLAW,    EFFECT_NORMAL_HIT,         70, GHOST,         PHYSICAL, 100, 15,   0
+	move STONE_EDGE,     EFFECT_NORMAL_HIT,        100, ROCK,          PHYSICAL,  80,  5,   0
 ;5
 	move LOW_SWEEP,      EFFECT_SPEED_DOWN_HIT,     65, FIGHTING,      PHYSICAL, 100, 20, 100
 	move SCALD,          EFFECT_DEFROST_BURN_HIT,   80, WATER,         SPECIAL,  100, 15,  30

@@ -1037,6 +1037,7 @@ GeodudeEvosAttacks:
 	db 26, HARDEN
 	db 34, EARTHQUAKE
 	db 36, EXPLOSION
+	db 42, STONE_EDGE
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
@@ -1054,6 +1055,7 @@ GravelerEvosAttacks:
 	db 27, HARDEN
 	db 40, EARTHQUAKE
 	db 44, EXPLOSION
+	db 54, STONE_EDGE
 	db 0 ; no more level-up moves
 
 GolemEvosAttacks:
@@ -1071,6 +1073,7 @@ GolemEvosAttacks:
 	db 27, HARDEN
 	db 40, EARTHQUAKE
 	db 44, EXPLOSION
+	db 54, STONE_EDGE
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:
@@ -1352,6 +1355,7 @@ OnixEvosAttacks:
 	db 40, SANDSTORM
 	db 44, DIG
 	db 48, IRON_TAIL
+	db 52, STONE_EDGE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -1588,6 +1592,7 @@ RhyhornEvosAttacks:
 	db 37, HORN_DRILL
 	db 45, EARTHQUAKE
 	db 49, TAKE_DOWN
+	db 50, STONE_EDGE
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
@@ -1602,6 +1607,7 @@ RhydonEvosAttacks:
 	db 37, HORN_DRILL
 	db 47, EARTHQUAKE
 	db 54, TAKE_DOWN
+	db 54, STONE_EDGE
 	db 0 ; no more level-up moves
 
 ChanseyEvosAttacks:
@@ -1996,6 +2002,7 @@ KabutoEvosAttacks:
 	db 28, SAND_ATTACK
 	db 46, MEGA_DRAIN
 	db 55, ANCIENTPOWER
+	db 60, STONE_EDGE
 	db 0 ; no more level-up moves
 
 KabutopsEvosAttacks:
@@ -2009,6 +2016,7 @@ KabutopsEvosAttacks:
 	db 40, SLASH
 	db 51, MEGA_DRAIN
 	db 65, ANCIENTPOWER
+	db 70, STONE_EDGE
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:
@@ -2021,6 +2029,7 @@ AerodactylEvosAttacks:
 	db 29, ANCIENTPOWER
 	db 36, SCARY_FACE
 	db 43, TAKE_DOWN
+	db 45, STONE_EDGE
 	db 55, HYPER_BEAM
 	db 60, GIGA_IMPACT
 	db 0 ; no more level-up moves
@@ -2607,6 +2616,7 @@ AzumarillEvosAttacks:
 
 SudowoodoEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, STONE_EDGE
 	db 1, ROCK_THROW
 	db 1, MIMIC
 	db 10, FLAIL
@@ -2934,6 +2944,7 @@ SteelixEvosAttacks:
 	db 44, DIG
 	db 48, IRON_TAIL
 	db 49, CRUNCH
+	db 52, STONE_EDGE
 	db 0 ; no more level-up moves
 
 SnubbullEvosAttacks:
@@ -3001,6 +3012,7 @@ ShuckleEvosAttacks:
 	db 20, SAFEGUARD
 	db 25, REST
 	db 28, BIDE
+	db 60, STONE_EDGE
 	db 0 ; no more level-up moves
 
 HeracrossEvosAttacks:
@@ -3452,6 +3464,7 @@ LarvitarEvosAttacks:
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 31, EARTHQUAKE
+	db 33, STONE_EDGE
 	db 36, SCARY_FACE
 	db 39, SANDSTORM
 	db 42, HYPER_BEAM
@@ -3468,6 +3481,7 @@ PupitarEvosAttacks:
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 33, EARTHQUAKE
+	db 37, STONE_EDGE
 	db 38, SCARY_FACE
 	db 47, CRUNCH
 	db 47, SANDSTORM
@@ -3483,6 +3497,7 @@ TyranitarEvosAttacks:
 	db 22, ROCK_SLIDE
 	db 29, THRASH
 	db 33, EARTHQUAKE
+	db 37, STONE_EDGE
 	db 38, SCARY_FACE
 	db 47, CRUNCH
 	db 47, SANDSTORM
