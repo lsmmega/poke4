@@ -109,7 +109,6 @@ ZubatEggMoves:
 	db -1 ; end
 
 OddishEggMoves:
-	db SWORDS_DANCE
 	db RAZOR_LEAF
 	db FLAIL
 	db SYNTHESIS
@@ -191,7 +190,6 @@ MachopEggMoves:
 	db -1 ; end
 
 BellsproutEggMoves:
-	db SWORDS_DANCE
 	db ENCORE
 	db SYNTHESIS
 	db LEECH_LIFE
@@ -307,7 +305,6 @@ CuboneEggMoves:
 	db SKULL_BASH
 	db PERISH_SONG
 	db DETECT
-	db SWORDS_DANCE
 	db -1 ; end
 
 LickitungEggMoves:
@@ -438,7 +435,6 @@ ChikoritaEggMoves:
 	db COUNTER
 	db ANCIENTPOWER
 	db FLAIL
-	db SWORDS_DANCE
 	db -1 ; end
 
 CyndaquilEggMoves:

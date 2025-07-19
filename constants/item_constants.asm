@@ -269,6 +269,7 @@ DEF TM01 EQU const_value
 	add_tm FLASH          ;70
 	add_tm STONE_EDGE     ;71
 	add_tm THUNDER_WAVE   ;73
+	add_tm SWORDS_DANCE   ;75
 	add_tm PSYCH_UP       ;77
 	add_tm SLEEP_TALK     ;82
 	add_tm DREAM_EATER    ;85

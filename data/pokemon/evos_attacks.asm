@@ -282,6 +282,7 @@ RattataEvosAttacks:
 
 RaticateEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWORDS_DANCE
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 1, QUICK_ATTACK
@@ -394,6 +395,7 @@ SandshrewEvosAttacks:
 	db 23, SLASH
 	db 33, DIG
 	db 37, FURY_SWIPES
+	db 39, SWORDS_DANCE
 	db 42, SANDSTORM
 	db 45, EARTHQUAKE
 	db 0 ; no more level-up moves
@@ -411,6 +413,7 @@ SandslashEvosAttacks:
 	db 24, SLASH
 	db 41, DIG
 	db 42, FURY_SWIPES
+	db 51, SWORDS_DANCE
 	db 56, SANDSTORM
 	db 61, EARTHQUAKE
 	db 0 ; no more level-up moves
@@ -1183,10 +1186,10 @@ FarfetchDEvosAttacks:
 	db 13, LEER
 	db 19, FURY_ATTACK
 	db 20, AERIAL_ACE
-	db 25, SWORDS_DANCE
 	db 31, AGILITY
 	db 37, SLASH
 	db 44, FALSE_SWIPE
+	db 45, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -1198,6 +1201,7 @@ DoduoEvosAttacks:
 	db 13, FURY_ATTACK
 	db 21, TRI_ATTACK
 	db 33, DRILL_PECK
+	db 36, SWORDS_DANCE
 	db 37, AGILITY
 	db 0 ; no more level-up moves
 
@@ -1211,6 +1215,7 @@ DodrioEvosAttacks:
 	db 13, FURY_ATTACK
 	db 21, TRI_ATTACK
 	db 38, DRILL_PECK
+	db 38, SWORDS_DANCE
 	db 47, AGILITY
 	db 0 ; no more level-up moves
 
@@ -1403,6 +1408,7 @@ KrabbyEvosAttacks:
 	db 16, PROTECT
 	db 23, STOMP
 	db 27, GUILLOTINE
+	db 40, SWORDS_DANCE
 	db 41, CRABHAMMER
 	db 0 ; no more level-up moves
 
@@ -1417,6 +1423,7 @@ KinglerEvosAttacks:
 	db 16, PROTECT
 	db 23, STOMP
 	db 27, GUILLOTINE
+	db 48, SWORDS_DANCE
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
@@ -1771,7 +1778,7 @@ ScytherEvosAttacks:
 	db 24, AGILITY
 	db 30, WING_ATTACK
 	db 36, SLASH
-	db 42, SWORDS_DANCE
+	db 48, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 JynxEvosAttacks:
@@ -1831,7 +1838,7 @@ PinsirEvosAttacks:
 	db 25, HARDEN
 	db 31, GUILLOTINE
 	db 37, SUBMISSION
-	db 43, SWORDS_DANCE
+	db 40, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 TaurosEvosAttacks:
@@ -2400,6 +2407,7 @@ SpinarakEvosAttacks:
 
 AriadosEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWORDS_DANCE
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 1, SCARY_FACE
@@ -2926,6 +2934,7 @@ GligarEvosAttacks:
 	db 28, FAINT_ATTACK
 	db 36, SLASH
 	db 44, SCREECH
+	db 50, SWORDS_DANCE
 	db 52, GUILLOTINE
 	db 0 ; no more level-up moves
 
@@ -3000,7 +3009,7 @@ ScizorEvosAttacks:
 	db 24, AGILITY
 	db 30, METAL_CLAW
 	db 36, SLASH
-	db 42, SWORDS_DANCE
+	db 48, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 ShuckleEvosAttacks:
@@ -3026,6 +3035,7 @@ HeracrossEvosAttacks:
 	db 27, COUNTER
 	db 35, TAKE_DOWN
 	db 44, REVERSAL
+	db 50, SWORDS_DANCE
 	db 54, MEGAHORN
 	db 0 ; no more level-up moves
 
