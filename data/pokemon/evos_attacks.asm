@@ -356,8 +356,8 @@ PikachuEvosAttacks:
 	db 1, NASTY_PLOT
 	db 1, THUNDERSHOCK
 	db 1, GROWL
+	db 4, THUNDER_WAVE
 	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
 	db 8, DOUBLE_TEAM
 	db 11, QUICK_ATTACK
 	db 20, SLAM
@@ -371,6 +371,7 @@ RaichuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERPUNCH
 	db 1, NASTY_PLOT
+	db 1, THUNDER_WAVE
 	db 1, DOUBLE_TEAM
 	db 1, THUNDERBOLT
 	db 1, LIGHT_SCREEN
@@ -1151,8 +1152,8 @@ MagnemiteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 6, THUNDERSHOCK
+	db 8, THUNDER_WAVE
 	db 11, SUPERSONIC
-	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
 	db 39, SCREECH
 	db 44, LIGHT_SCREEN
@@ -1164,9 +1165,9 @@ MagnetonEvosAttacks:
 	db 1, TACKLE
 	db 1, THUNDERSHOCK
 	db 1, SUPERSONIC
+	db 1, THUNDER_WAVE
 	db 6, THUNDERSHOCK
 	db 11, SUPERSONIC
-	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
 	db 35, TRI_ATTACK
 	db 43, SCREECH
@@ -1795,6 +1796,7 @@ ElectabuzzEvosAttacks:
 	db 1, LEER
 	db 12, SWIFT
 	db 16, SHOCK_WAVE
+	db 20, THUNDER_WAVE
 	db 28, THUNDERPUNCH
 	db 36, SCREECH
 	db 46, THUNDERBOLT
@@ -1926,10 +1928,10 @@ JolteonEvosAttacks:
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
 	db 16, THUNDERSHOCK
+	db 20, THUNDER_WAVE
 	db 23, QUICK_ATTACK
 	db 30, DOUBLE_KICK
 	db 36, PIN_MISSILE
-	db 42, THUNDER_WAVE
 	db 47, AGILITY
 	db 50, THUNDER
 	db 0 ; no more level-up moves
@@ -2062,9 +2064,9 @@ ArticunoEvosAttacks:
 ZapdosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
+	db 1, THUNDER_WAVE
 	db 1, THUNDERSHOCK
 	db 10, LIGHT_SCREEN
-	db 13, THUNDER_WAVE
 	db 25, AGILITY
 	db 49, DRILL_PECK
 	db 50, RAIN_DANCE
@@ -2090,7 +2092,7 @@ DratiniEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 8, THUNDER_WAVE
+	db 10, THUNDER_WAVE
 	db 15, TWISTER
 	db 29, SLAM
 	db 36, AGILITY
@@ -2105,9 +2107,8 @@ DragonairEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 1, THUNDER_WAVE
 	db 1, TWISTER
-	db 8, THUNDER_WAVE
+	db 1, THUNDER_WAVE
 	db 15, TWISTER
 	db 29, SLAM
 	db 38, AGILITY
@@ -2125,7 +2126,6 @@ DragoniteEvosAttacks:
 	db 1, LEER
 	db 1, TWISTER
 	db 1, THUNDER_WAVE
-	db 8, THUNDER_WAVE
 	db 15, TWISTER
 	db 29, SLAM
 	db 38, AGILITY
@@ -2432,8 +2432,8 @@ ChinchouEvosAttacks:
 	db EVOLVE_LEVEL, 27, LANTURN
 	db 0 ; no more evolutions
 	db 1, BUBBLE
-	db 1, THUNDER_WAVE
 	db 5, SUPERSONIC
+	db 8, THUNDER_WAVE
 	db 13, FLAIL
 	db 17, WATER_GUN
 	db 25, SPARK
@@ -2445,8 +2445,8 @@ ChinchouEvosAttacks:
 LanturnEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
-	db 1, THUNDER_WAVE
 	db 1, SUPERSONIC
+	db 1, THUNDER_WAVE
 	db 5, SUPERSONIC
 	db 13, FLAIL
 	db 17, WATER_GUN
@@ -2462,7 +2462,6 @@ PichuEvosAttacks:
 	db 1, THUNDERSHOCK
 	db 1, CHARM
 	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
 	db 11, SWEET_KISS
 	db 16, NASTY_PLOT
 	db 0 ; no more level-up moves
@@ -2539,8 +2538,8 @@ MareepEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 4, THUNDER_WAVE
 	db 9, THUNDERSHOCK
-	db 16, THUNDER_WAVE
 	db 23, COTTON_SPORE
 	db 43, LIGHT_SCREEN
 	db 46, THUNDER
@@ -2551,9 +2550,10 @@ FlaaffyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 1, THUNDER_WAVE
 	db 1, THUNDERSHOCK
+	db 4, THUNDER_WAVE
 	db 9, THUNDERSHOCK
-	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 52, LIGHT_SCREEN
 	db 56, THUNDER
@@ -2567,10 +2567,10 @@ AmpharosEvosAttacks:
 	db 1, FIRE_PUNCH
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
 	db 1, THUNDER_WAVE
+	db 1, THUNDERSHOCK
+	db 4, THUNDER_WAVE
 	db 9, THUNDERSHOCK
-	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 57, LIGHT_SCREEN
 	db 62, THUNDER
@@ -3360,6 +3360,7 @@ ElekidEvosAttacks:
 	db 1, LEER
 	db 12, SWIFT
 	db 16, SHOCK_WAVE
+	db 20, THUNDER_WAVE
 	db 25, THUNDERPUNCH
 	db 33, SCREECH
 	db 40, THUNDERBOLT

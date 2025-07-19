@@ -77,7 +77,7 @@ MoveNames::
 	li "FIRE SPIN"
 	li "THUNDERSHOCK"
 	li "Thunderbolt"
-	li "THUNDER WAVE"
+	li "Thunder Wave"
 	li "Thunder"
 	li "ROCK THROW"
 	li "Earthquake"
