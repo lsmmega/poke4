@@ -76,7 +76,6 @@ BattleAnimations::
 	dw BattleAnim_SleepPowder
 	dw BattleAnim_PetalDance
 	dw BattleAnim_StringShot
-	dw BattleAnim_DragonRage
 	dw BattleAnim_FireSpin
 	dw BattleAnim_Thundershock
 	dw BattleAnim_Thunderbolt
@@ -266,7 +265,7 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
-	assert_table_length $101
+	assert_table_length $100
 
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
@@ -840,16 +839,6 @@ BattleAnim_FireSpin:
 	anim_wait 2
 	anim_loop 2, .loop
 	anim_wait 96
-	anim_ret
-
-BattleAnim_DragonRage:
-	anim_1gfx BATTLE_ANIM_GFX_FIRE
-.loop
-	anim_sound 6, 2, SFX_EMBER
-	anim_obj BATTLE_ANIM_OBJ_DRAGON_RAGE, 64, 92, $0
-	anim_wait 3
-	anim_loop 16, .loop
-	anim_wait 64
 	anim_ret
 
 BattleAnim_Flamethrower:

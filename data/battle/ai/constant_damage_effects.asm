@@ -4,7 +4,6 @@
 
 ConstantDamageEffects:
 	db EFFECT_SUPER_FANG
-	db EFFECT_STATIC_DAMAGE
 	db EFFECT_LEVEL_DAMAGE
 	db EFFECT_PSYWAVE
 	db -1 ; end

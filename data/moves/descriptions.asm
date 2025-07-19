@@ -75,7 +75,6 @@ MoveDescriptions::
 	dw SleepPowderDescription
 	dw PetalDanceDescription
 	dw StringShotDescription
-	dw DragonRageDescription
 	dw FireSpinDescription
 	dw ThundershockDescription
 	dw ThunderboltDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -577,10 +576,6 @@ PetalDanceDescription:
 StringShotDescription:
 	db   "A move that lowers"
 	next "the foe's SPEED.@"
-
-DragonRageDescription:
-	db   "Always inflicts"
-	next "40HP damage.@"
 
 FireSpinDescription:
 	db   "Traps foe in fire"

@@ -80,7 +80,6 @@
 	const SLEEP_POWDER ; 4f
 	const PETAL_DANCE  ; 50
 	const STRING_SHOT  ; 51
-	const DRAGON_RAGE  ; 52
 	const FIRE_SPIN    ; 53
 	const THUNDERSHOCK ; 54
 	const THUNDERBOLT  ; 55
@@ -270,10 +269,10 @@
 	const STRUGGLE
 DEF NUM_ATTACKS EQU const_value - 1
 
-DEF CANNOT_MOVE EQU $100
+DEF CANNOT_MOVE EQU $ff
 
 ; Battle animations use the same constants as the moves up to this point
-	const_next $100
+	const_next $ff
 	const ANIM_SWEET_SCENT_2     ; 100
 	const ANIM_THROW_POKE_BALL   ; 101
 	const ANIM_SEND_OUT_MON      ; 102

@@ -15,7 +15,6 @@ BattleAnimFrameData:
 	dw .Frameset_PokeBall3           ; BATTLE_ANIM_FRAMESET_POKE_BALL_3
 	dw .Frameset_PokeBall4           ; BATTLE_ANIM_FRAMESET_POKE_BALL_4
 	dw .Frameset_PokeBall5           ; BATTLE_ANIM_FRAMESET_POKE_BALL_5
-	dw .Frameset_DragonRage          ; BATTLE_ANIM_FRAMESET_DRAGON_RAGE
 	dw .Frameset_Flamethrower        ; BATTLE_ANIM_FRAMESET_FLAMETHROWER
 	dw .Frameset_Ember               ; BATTLE_ANIM_FRAMESET_EMBER
 	dw .Frameset_Burned              ; BATTLE_ANIM_FRAMESET_BURNED
@@ -328,10 +327,6 @@ BattleAnimFrameData:
 	oamframe BATTLE_ANIM_OAMSET_0A,  7
 	oamframe BATTLE_ANIM_OAMSET_0B,  7, B_OAM_XFLIP
 	oamframe BATTLE_ANIM_OAMSET_0A,  7
-	oamend
-
-.Frameset_DragonRage:
-	oamframe BATTLE_ANIM_OAMSET_0A,  8
 	oamend
 
 .Frameset_Flamethrower:

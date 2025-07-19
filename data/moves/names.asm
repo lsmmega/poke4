@@ -74,7 +74,6 @@ MoveNames::
 	li "SLEEP POWDER"
 	li "PETAL DANCE"
 	li "STRING SHOT"
-	li "DRAGON RAGE"
 	li "FIRE SPIN"
 	li "THUNDERSHOCK"
 	li "Thunderbolt"

@@ -79,7 +79,6 @@ CharmanderEvosAttacks:
 	db 24, FLAMETHROWER
 	db 25, SCARY_FACE
 	db 37, SLASH
-	db 43, DRAGON_RAGE
 	db 49, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -96,7 +95,6 @@ CharmeleonEvosAttacks:
 	db 27, SCARY_FACE
 	db 30, FLAMETHROWER
 	db 41, SLASH
-	db 48, DRAGON_RAGE
 	db 55, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -115,7 +113,6 @@ CharizardEvosAttacks:
 	db 30, FLAMETHROWER
 	db 36, WING_ATTACK
 	db 44, SLASH
-	db 54, DRAGON_RAGE
 	db 64, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -1861,7 +1858,6 @@ GyaradosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THRASH
 	db 20, BITE
-	db 25, DRAGON_RAGE
 	db 28, RAIN_DANCE
 	db 30, LEER
 	db 35, TWISTER
@@ -2093,7 +2089,6 @@ DratiniEvosAttacks:
 	db 1, LEER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 22, DRAGON_RAGE
 	db 29, SLAM
 	db 36, AGILITY
 	db 40, SAFEGUARD
@@ -2111,7 +2106,6 @@ DragonairEvosAttacks:
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 22, DRAGON_RAGE
 	db 29, SLAM
 	db 38, AGILITY
 	db 46, SAFEGUARD
@@ -2130,7 +2124,6 @@ DragoniteEvosAttacks:
 	db 1, THUNDER_WAVE
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 22, DRAGON_RAGE
 	db 29, SLAM
 	db 38, AGILITY
 	db 46, SAFEGUARD

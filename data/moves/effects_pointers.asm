@@ -41,7 +41,6 @@ MoveEffectsPointers:
 	dw NormalHit
 	dw OHKOHit
 	dw SuperFang
-	dw StaticDamage
 	dw TrapTarget
 	dw NormalHit
 	dw MultiHit
