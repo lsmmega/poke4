@@ -89,7 +89,6 @@ MoveNames::
 	li "HYPNOSIS"
 	li "AGILITY"
 	li "QUICK ATTACK"
-	li "RAGE"
 	li "TELEPORT"
 	li "NIGHT SHADE"
 	li "MIMIC"

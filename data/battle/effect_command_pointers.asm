@@ -22,7 +22,6 @@ BattleCommandPointers:
 	dw BattleCommand_CriticalText
 	dw BattleCommand_SuperEffectiveText
 	dw BattleCommand_CheckFaint
-	dw BattleCommand_BuildOpponentRage
 	dw BattleCommand_PoisonTarget
 	dw BattleCommand_SleepTarget
 	dw BattleCommand_DrainTarget
@@ -152,7 +151,6 @@ BattleCommandPointers:
 	dw BattleCommand_FakeOut
 	dw BattleCommand_BellyDrum
 	dw BattleCommand_PsychUp
-	dw BattleCommand_Rage
 	dw BattleCommand_DoubleFlyingDamage
 	dw BattleCommand_DoubleUndergroundDamage
 	dw BattleCommand_MirrorCoat
@@ -163,7 +161,6 @@ BattleCommandPointers:
 	dw BattleCommand_ThunderAccuracy
 	dw BattleCommand_Teleport
 	dw BattleCommand_BeatUp
-	dw BattleCommand_RageDamage
 	dw BattleCommand_ResetTypeMatchup
 	dw BattleCommand_AllStatsUp
 	dw BattleCommand_BideFailText

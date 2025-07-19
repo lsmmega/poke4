@@ -624,7 +624,6 @@ DunsparceEggMoves:
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE
-	db RAGE
 	db -1 ; end
 
 GligarEggMoves:
@@ -732,7 +731,6 @@ SkarmoryEggMoves:
 
 HoundourEggMoves:
 	db FIRE_SPIN
-	db RAGE
 	db PURSUIT
 	db COUNTER
 	db SPITE

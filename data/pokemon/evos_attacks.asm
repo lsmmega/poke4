@@ -75,7 +75,6 @@ CharmanderEvosAttacks:
 	db 7, EMBER
 	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
-	db 19, RAGE
 	db 24, FLAMETHROWER
 	db 25, SCARY_FACE
 	db 37, SLASH
@@ -91,7 +90,6 @@ CharmeleonEvosAttacks:
 	db 7, EMBER
 	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
-	db 20, RAGE
 	db 27, SCARY_FACE
 	db 30, FLAMETHROWER
 	db 41, SLASH
@@ -108,7 +106,6 @@ CharizardEvosAttacks:
 	db 7, EMBER
 	db 12, DRAGONBREATH
 	db 13, SMOKESCREEN
-	db 20, RAGE
 	db 27, SCARY_FACE
 	db 30, FLAMETHROWER
 	db 36, WING_ATTACK
@@ -220,7 +217,6 @@ BeedrillEvosAttacks:
 	db 10, FURY_ATTACK
 	db 11, FURY_CUTTER
 	db 15, FOCUS_ENERGY
-	db 25, RAGE
 	db 30, PURSUIT
 	db 35, PIN_MISSILE
 	db 40, AGILITY
@@ -803,13 +799,11 @@ PrimeapeEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, LOW_KICK
-	db 1, RAGE
 	db 8, MUD_SLAP
 	db 9, LOW_KICK
 	db 19, SWAGGER
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
-	db 28, RAGE
 	db 36, SEISMIC_TOSS
 	db 45, CROSS_CHOP
 	db 54, SCREECH
@@ -1196,7 +1190,6 @@ DoduoEvosAttacks:
 	db 9, PURSUIT
 	db 13, FURY_ATTACK
 	db 21, TRI_ATTACK
-	db 25, RAGE
 	db 33, DRILL_PECK
 	db 37, AGILITY
 	db 0 ; no more level-up moves
@@ -1210,7 +1203,6 @@ DodrioEvosAttacks:
 	db 9, PURSUIT
 	db 13, FURY_ATTACK
 	db 21, TRI_ATTACK
-	db 25, RAGE
 	db 38, DRILL_PECK
 	db 47, AGILITY
 	db 0 ; no more level-up moves
@@ -1352,7 +1344,6 @@ OnixEvosAttacks:
 	db 14, ROCK_THROW
 	db 16, CURSE
 	db 23, HARDEN
-	db 27, RAGE
 	db 40, SLAM
 	db 40, SANDSTORM
 	db 44, DIG
@@ -1487,7 +1478,6 @@ CuboneEvosAttacks:
 	db 17, LEER
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
-	db 29, RAGE
 	db 33, FALSE_SWIPE
 	db 37, THRASH
 	db 41, BONE_RUSH
@@ -1505,7 +1495,6 @@ MarowakEvosAttacks:
 	db 17, LEER
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
-	db 32, RAGE
 	db 39, FALSE_SWIPE
 	db 46, THRASH
 	db 53, BONE_RUSH
@@ -1648,7 +1637,6 @@ KangaskhanEvosAttacks:
 	db 19, TAIL_WHIP
 	db 24, HEADBUTT
 	db 25, MEGA_PUNCH
-	db 31, RAGE
 	db 40, ENDURE
 	db 43, DIZZY_PUNCH
 	db 49, REVERSAL
@@ -1839,7 +1827,6 @@ TaurosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, TAIL_WHIP
-	db 8, RAGE
 	db 13, HORN_ATTACK
 	db 19, SCARY_FACE
 	db 26, PURSUIT
@@ -2263,7 +2250,6 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, RAGE
 	db 8, MUD_SLAP
 	db 13, WATER_GUN
 	db 20, BITE
@@ -2278,8 +2264,6 @@ CroconawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, RAGE
-	db 7, RAGE
 	db 8, MUD_SLAP
 	db 13, WATER_GUN
 	db 21, BITE
@@ -2293,9 +2277,7 @@ FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, RAGE
 	db 1, WATER_GUN
-	db 7, RAGE
 	db 8, MUD_SLAP
 	db 13, WATER_GUN
 	db 21, BITE
@@ -2912,7 +2894,6 @@ ForretressEvosAttacks:
 DunsparceEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DEFENSE_CURL
-	db 1, RAGE
 	db 4, MUD_SLAP
 	db 8, ROLLOUT
 	db 13, GLARE
@@ -2945,7 +2926,6 @@ SteelixEvosAttacks:
 	db 14, ROCK_THROW
 	db 16, CURSE
 	db 23, HARDEN
-	db 27, RAGE
 	db 40, SLAM
 	db 40, SANDSTORM
 	db 44, DIG
@@ -2964,7 +2944,6 @@ SnubbullEvosAttacks:
 	db 19, LICK
 	db 19, HEADBUTT
 	db 25, ROAR
-	db 34, RAGE
 	db 43, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -2978,7 +2957,6 @@ GranbullEvosAttacks:
 	db 19, LICK
 	db 19, HEADBUTT
 	db 27, ROAR
-	db 38, RAGE
 	db 51, TAKE_DOWN
 	db 0 ; no more level-up moves
 

@@ -616,7 +616,7 @@ ParsePlayerAction:
 .not_encored
 	ld a, [wBattlePlayerAction]
 	cp BATTLEPLAYERACTION_SWITCH
-	jr z, .reset_rage
+	jr z, .reset
 	and a
 	jr nz, .reset_bide
 	ld a, [wPlayerSubStatus3]
@@ -655,15 +655,6 @@ ParsePlayerAction:
 
 .continue_fury_cutter
 	ld a, [wPlayerMoveStruct + MOVE_EFFECT]
-	cp EFFECT_RAGE
-	jr z, .continue_rage
-	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
-	xor a
-	ld [wPlayerRageCounter], a
-
-.continue_rage
-	ld a, [wPlayerMoveStruct + MOVE_EFFECT]
 	cp EFFECT_PROTECT
 	jr z, .continue_protect
 	cp EFFECT_ENDURE
@@ -680,22 +671,16 @@ ParsePlayerAction:
 	xor a
 	ld [wPlayerFuryCutterCount], a
 	ld [wPlayerProtectCount], a
-	ld [wPlayerRageCounter], a
-	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
 
 .continue_protect
 	call ParseEnemyAction
 	xor a
 	ret
 
-.reset_rage
+.reset
 	xor a
 	ld [wPlayerFuryCutterCount], a
 	ld [wPlayerProtectCount], a
-	ld [wPlayerRageCounter], a
-	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
 	xor a
 	ret
 
@@ -3584,7 +3569,6 @@ endr
 	ld [wEnemyDisableCount], a
 	ld [wEnemyFuryCutterCount], a
 	ld [wEnemyProtectCount], a
-	ld [wEnemyRageCounter], a
 	ld [wEnemyDisabledMove], a
 	ld [wEnemyMinimized], a
 	ld [wPlayerWrapCount], a
@@ -4071,7 +4055,6 @@ endr
 	ld [wPlayerDisableCount], a
 	ld [wPlayerFuryCutterCount], a
 	ld [wPlayerProtectCount], a
-	ld [wPlayerRageCounter], a
 	ld [wDisabledMove], a
 	ld [wPlayerMinimized], a
 	ld [wEnemyWrapCount], a
@@ -5220,9 +5203,6 @@ BattleMonEntrance:
 	ld c, 50
 	call DelayFrames
 
-	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
-
 	call SetEnemyTurn
 	call PursuitSwitch
 	jr c, .ok
@@ -5882,15 +5862,6 @@ ParseEnemyAction:
 
 .fury_cutter
 	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
-	cp EFFECT_RAGE
-	jr z, .no_rage
-	ld hl, wEnemySubStatus4
-	res SUBSTATUS_RAGE, [hl]
-	xor a
-	ld [wEnemyRageCounter], a
-
-.no_rage
-	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
 	cp EFFECT_PROTECT
 	ret z
 	cp EFFECT_ENDURE
@@ -5907,9 +5878,6 @@ ResetVarsForSubstatusRage:
 	xor a
 	ld [wEnemyFuryCutterCount], a
 	ld [wEnemyProtectCount], a
-	ld [wEnemyRageCounter], a
-	ld hl, wEnemySubStatus4
-	res SUBSTATUS_RAGE, [hl]
 	ret
 
 CheckEnemyLockedIn:

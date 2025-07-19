@@ -191,7 +191,6 @@ BattleCommand_BeatUp:
 	ret
 
 .beatup_fail
-	ld b, buildopponentrage_command
 	jp SkipToBattleCommand
 
 BattleCommand_BeatUpFailText:

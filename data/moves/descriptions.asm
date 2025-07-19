@@ -90,7 +90,6 @@ MoveDescriptions::
 	dw HypnosisDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
-	dw RageDescription
 	dw TeleportDescription
 	dw NightShadeDescription
 	dw MimicDescription
@@ -265,7 +264,7 @@ MoveDescriptions::
 	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
 	dw Move00Description
-	assert_table_length $100
+	assert_table_length $ff
 
 RockTombDescription:
 BulletSeedDescription:
@@ -639,10 +638,6 @@ AgilityDescription:
 QuickAttackDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
-
-RageDescription:
-	db   "Raises ATTACK if"
-	next "the user is hit.@"
 
 TeleportDescription:
 	db   "A move for fleeing"
