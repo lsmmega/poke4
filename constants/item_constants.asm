@@ -265,6 +265,7 @@ DEF TM01 EQU const_value
 	add_tm EXPLOSION      ;64
 	add_tm GIGA_IMPACT    ;68
 	add_tm PSYCH_UP       ;77
+	add_tm SLEEP_TALK     ;82
 	add_tm DREAM_EATER    ;85
 	add_tm SWAGGER        ;87
 	add_tm CUT          ; f3
